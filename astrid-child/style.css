@@ -1,0 +1,34 @@
+/*
+ Theme Name:   Astrid Child
+ Theme URI:    http://example.com/astrid-child/
+ Description:  Astrid Child Theme
+ Author:       Astrid Doe
+ Author URI:   http://example.com
+ Template:     astrid
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  astrid
+*/
+
+
+
+
+
+body {
+  background-color: #eee;
+}
+
+
+h1.entry-products {
+font-family: "Helvetica Neue", sans-serif;
+}
+
+h4.header-subtext {
+	font-family: "Duru Sans", "Helvetica Neue", sans-serif;
+}
+
+
+
+
