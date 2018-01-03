@@ -21,14 +21,22 @@ body {
 }
 
 
-h1.entry-products {
-font-family: "Helvetica Neue", sans-serif;
+h1.entry-title {
+  font-family: "Helvetica Neue", sans-serif;
 }
 
 h4.header-subtext {
-	font-family: "Duru Sans", "Helvetica Neue", sans-serif;
+  font-family: "Duru Sans", "Helvetica Neue", sans-serif;
 }
 
 
 
-
+.jumbotron {
+  margin-bottom: 0px;
+  background-image: url(https://gigaterausa.com/wp-content/uploads/2018/01/banner-products-1.jpeg);
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: black 0.3em 0.3em 0.3em;
+}
