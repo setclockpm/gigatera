@@ -15,9 +15,9 @@
 	</div><!-- #content -->
 
 	<div class="footer-wrapper">
-		<div class="jumbotron jumbotron-fluid">
+		<div class="jumbotron jumbotron-fluid jumbotron-products">
 		  <div class="container">
-		    <h1 class="display-4">LED Products</h1>
+		    <h1 class="display-4"></h1>
 		    <p class="lead"></p>
 		  </div>
 		</div>

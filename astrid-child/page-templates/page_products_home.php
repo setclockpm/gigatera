@@ -8,8 +8,6 @@ Template Name: Products Landing
 	get_header();
 ?>
 
-
-
 	<div id="primary" class="content-area fullwidth">
 	  <main id="main" class="site-main" role="main">
           
