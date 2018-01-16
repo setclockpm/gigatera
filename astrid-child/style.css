@@ -17,14 +17,90 @@ a.jumbotron-link:hover {
   text-decoration: none;
 }
 
+.applications-title-container {
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(https://gigaterausa.com/wp-content/uploads/2018/01/applications-e1515795075471.png);
+  border-radius: 6px 6px 0px 0px;  
+  padding-top: 32px;
+  padding-bottom: 12px;
+  text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+article {
+  background-color: #fbfbf9;
+}
+
 
 body {
   background-color: #eee;
 }
 
+.control-systems-title-container {
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(https://gigaterausa.com/wp-content/uploads/2018/01/control-systems-bottom-1.png);
+  border-radius: 6px 6px 0px 0px;  
+  padding-top: 32px;
+  padding-bottom: 12px;
+  text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+
+
+
+
+
+
+div.applications-title, div.lighting-title {
+  margin: 0;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: -1px;
+}
+
+div#application-example p {
+  margin-bottom: 5px;
+}
+
+div#bay-lighting-title-container {
+  background-image: url(https://gigaterausa.com/wp-content/uploads/2018/01/bay-lighting-e1515151322707.png);
+}
+div#facade-lighting-title-container {
+  background-image: url(https://gigaterausa.com/wp-content/uploads/2018/01/facade-lighting-e1515150933311.png);
+}
+div#roadway-lighting-title-container {
+  background-image: url(https://gigaterausa.com/wp-content/uploads/2018/01/roadway-lighting-e1515150098334.png);
+}
+div#sports-flood-lighting-title-container {
+  background-image: url(https://gigaterausa.com/wp-content/uploads/2017/11/cropped-gtfront2-e1515051620623.jpg);
+}
+
+
+
 
 h1.entry-title {
+  font-family: "Quantico", sans-serif;
+}
+h1#series-entry-title {
+  padding-bottom: 10px;
+}
+h2.applications-tagline {
   font-family: "Helvetica Neue", sans-serif;
+}
+
+h3 {
+  font-family: "Helvetica Neue", sans-serif;
+}
+h3.header-text {
+  font-family: "Quantico", sans-serif;
+}
+h3.application {
+  margin-top: 40px;
+  margin-bottom: 0px;
 }
 
 h4.header-subtext {
@@ -33,9 +109,15 @@ h4.header-subtext {
 
 
 
+.hentry {
+  border: 0;
+  background-color: #fbfbf9;
+  padding: 30px 40px
+}
 
 
-.jumbtron {
+
+.jumbotron {
   background-position: 0% 25%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -53,6 +135,14 @@ h4.header-subtext {
   padding-top: 10px;
 }
 
+.jumbotron-applications {
+  background-image: url(https://gigaterausa.com/wp-content/uploads/2018/01/media-bottom.png);
+}
+
+.jumbotron-control-systems {
+  background-image: url(https://gigaterausa.com/wp-content/uploads/2018/01/control-systems-bottom.png);
+}
+
 .jumbotron-products {
   background-image: url(https://gigaterausa.com/wp-content/uploads/2018/01/banner-products-1.jpeg);
   color: white;
@@ -60,13 +150,159 @@ h4.header-subtext {
 }
 
 .jumbotron-lighting {
+  background-image: url(https://gigaterausa.com/wp-content/uploads/2018/01/lighting-bottom-e1515048809132.png);
+  color: white;
+  min-height: 220px;
+  margin-bottom: 0px;
+}
+
+.jumbotron-lighting-link {
   background-image: url(https://gigaterausa.com/wp-content/uploads/2017/11/cropped-DSC03412s.jpg);
   color: white;
   min-height: 220px;
 }
 
-.jumbotron-controls {
+.jumbotron-control-systems-link {
   background-image: url(https://gigaterausa.com/wp-content/uploads/2018/01/control-systems-e1514959454665.jpg);
   color: white;
   min-height: 220px;
 }
+
+
+
+
+li.active a:first-child:before { 
+  right: 0;
+  border-top: 1px solid #fcd088;
+  width: 100%;
+}
+
+li.active a {
+  color: #fcd088;
+}
+
+li.active a:first-child:after {
+  left: 0;
+  border-bottom: 1px solid #fcd088;
+  width: 100%;
+}
+
+
+
+.lighting-content {
+  margin-bottom: -1px;
+}
+
+.lighting-menu-container {
+  padding-right: 0px;
+}
+.lighting-menu-container ul li {
+  border-bottom: 1px solid #d8d8d8;
+}
+
+
+
+
+
+.applications-title .entry-title, 
+.lighting-title .entry-title, 
+.entry-title a {
+  color: #f9b92b;
+  font-family: "Quantico", "Helvetica Neue", sans-serif;
+  text-align: center;
+}
+
+.lighting-title-container {
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(https://gigaterausa.com/wp-content/uploads/2018/01/sports-flood-lighting-e1515563927454.png);
+  border-radius: 6px 6px 0px 0px;  
+  padding-top: 32px;
+  padding-bottom: 12px;
+  text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+
+
+
+
+
+.nav-pills a {
+  color: #1d1d1b;
+  font-family: "Lato", sans-serif;
+  font-weight: bolder;
+}
+
+.nav-pills>li>a {
+  border-radius: 4px;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+  background-color: #f9b92b;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+  text-decoration: none;
+  background-color: #eee;
+  color: #f9b92b;
+}
+
+
+p.application {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+p.application-example {
+  margin-bottom: 5px;
+}
+
+.product-tab {
+  margin-bottom: 40px;
+}
+.product-tab ul {
+  border-bottom: 1px solid #4c4945;
+  padding-left: 0px;
+}
+.product-tab ul li {
+  float: left;
+  width: 182px;
+  height: 36px;
+  background: url(https://gigaterausa.com/wp-content/uploads/2018/01/tab_off.png) 0 0 no-repeat;
+  list-style: none;
+  margin-right: -34px;
+}
+.product-tab ul li:first-child {
+  width: 149px;
+  background: url(https://gigaterausa.com/wp-content/uploads/2018/01/tab_off2.png) 0 0 no-repeat;
+}
+.product-tab ul li.active {
+  background: url(https://gigaterausa.com/wp-content/uploads/2018/01/tab_on.png) 0 0 no-repeat;
+}
+.product-tab ul li.active:first-child {
+  background: url(https://gigaterausa.com/wp-content/uploads/2018/01/tab_on2.png) 0 0 no-repeat;
+}
+.product-tab ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 6px 33px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 24px;
+}
+.product-tab ul li:first-child a {
+  padding-left: 10px;
+}
+
+.row {
+  margin-right: 0px;
+}
+
+
+ul.nav {
+  border: 1px solid #F2F2F3;
+}
+
+
