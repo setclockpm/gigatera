@@ -11,7 +11,7 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class("col-md-9"); ?>>
   <header class="entry-header">
-    <h2 id="main-title" itemprop="headline" class="tagline applications-tagline">Professional Experince Worldwide</h2>
+    <h2 id="main-title" itemprop="headline" class="tagline applications-tagline">GigaTera's Worldwide Professional Imprint</h2>
   </header><!-- .entry-header -->
 
   

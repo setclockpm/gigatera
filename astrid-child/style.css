@@ -65,7 +65,29 @@ div.applications-title, div.lighting-title {
 div#application-example p {
   margin-bottom: 5px;
 }
-
+div#content h2.applications-tagline {
+  font-size: 32px;
+  line-height: 1.09375;
+  font-weight: 500;
+  letter-spacing: 0.011em;
+}
+div#content h3 {
+  font-family: "Roboto", "Helvetica Neue", "Arial", sans-serif;
+}
+div#content div p {
+  word-wrap: break-word;
+}
+div#content p {
+  font-size: 17px;
+  line-height: 1.52947;
+  font-weight: 400;
+  letter-spacing: -0.021em;
+  font-family: "Roboto", "Helvetica Neue", "Arial", sans-serif;
+  margin-top: 13px;
+}
+div#content p {
+  margin: 1em 0 0;
+}
 div#bay-lighting-title-container {
   background-image: url(https://gigaterausa.com/wp-content/uploads/2018/01/bay-lighting-e1515151322707.png);
 }
@@ -89,9 +111,24 @@ h1#series-entry-title {
   padding-bottom: 10px;
 }
 h2.applications-tagline {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue", "Roboto", "Arial", sans-serif;
 }
 
+@media only screen and (max-width: 1068px) {
+  div#content h2.applications-tagline {
+    font-size: 28px;
+    line-height: 1.1073;
+    font-weight: 500;
+    letter-spacing: 0.012em;
+  }
+}
+
+
+h2, #main h2 {
+  font-size: 32px;
+  line-height: 1.15;
+  font-weight: 200;
+}
 h3 {
   font-family: "Helvetica Neue", sans-serif;
 }
@@ -230,7 +267,7 @@ li.active a:first-child:after {
 
 .nav-pills a {
   color: #1d1d1b;
-  font-family: "Lato", sans-serif;
+  font-family: "Helvetica Neue", "Roboto", sans-serif;
   font-weight: bolder;
 }
 
@@ -241,8 +278,8 @@ li.active a:first-child:after {
 .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
   background-color: #f9b92b;
   color: #fff;
-  font-family: "Lato", sans-serif;
-}
+  font-family: "Helvetica Neue", "Roboto", sans-serif;
+  }
 
 .nav > li > a:focus, .nav > li > a:hover {
   text-decoration: none;
@@ -299,7 +336,6 @@ p.application-example {
 .row {
   margin-right: 0px;
 }
-
 
 ul.nav {
   border: 1px solid #F2F2F3;

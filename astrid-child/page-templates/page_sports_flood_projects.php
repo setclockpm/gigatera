@@ -2,46 +2,43 @@
 
 /*
 
-Template Name: Applications Main
+Template Name: Sports Flood Lighting Projects
 
 */
 	get_header();
 ?>
 
-	<div id="primary" class="applications">
+	<div id="primary" class="lighting">
 	  <main id="main" class="site-main" role="main">
 
       
       <div class="applications-title-container">
         <div class="applications-title page">
           <header class="entry-header">
-            <h1 id="applications-entry-title" class="entry-title">Applied Projects</h1>
+            <h1 id="applications-entry-title" class="entry-title">Sports / Flood Lighting Projects</h1>
           </header>
         </div>
       </div>
       
       
-      <div id="applications-container" class="applications-content row">
+      <div id="lighting-container" class="lighting-content row">
         <div class="lighting-menu-container col-md-3">
           <ul class="nav nav-pills nav-stacked">
-            <li role="presentation" class="active" data-section="Sports / Flood Lighting Applications">
-              <a href="http://gigatera2.phpweb.co.kr/en/pr/Video.php?category=SportsFloodLighting">Sports / Flood Lighting</a>
+            <li role="presentation" class="active" data-section="Sports / Flood Lighting">
+              <a href="#sports-flood-lighting">Sports / Flood Lighting</a>
             </li>
-            <li role="presentation" data-section="Bay Lighting Applications">
-              <a href="http://gigatera2.phpweb.co.kr/en/pr/Video.php?category=BayLighting">Bay Lighting</a>
+            <li role="presentation" data-section="Bay Lighting">
+              <a href="/applications/bay-lighting">Bay Lighting</a>
             </li>
-            <li role="presentation" data-section="Roadway Lighting Applications">
-              <a href="http://gigatera2.phpweb.co.kr/en/pr/Video.php?category=RoadwayLighting">Roadway Lighting</a>
-            </li>
-            <li role="presentation" data-section="Roadway Lighting Applications">
-              <a href="/applications/facade-lighting">Facade Lighting</a>
+            <li role="presentation" data-section="Roadway Lighting">
+              <a href="/applications/roadway-lighting">Roadway Lighting</a>
             </li>
           </ul>
         </div>
         
   	  	<?php while ( have_posts() ) : the_post(); ?>
           
-  	  		<?php get_template_part( 'template-parts/content', 'applications' ); ?>
+  	  		<?php get_template_part( 'template-parts/content', 'sports-flood-projects' ); ?>
 	  		
   	  	<?php endwhile; // end of the loop. ?>
       </div>
@@ -67,4 +64,3 @@ Template Name: Applications Main
   </script>
 
 <?php get_footer("applications"); ?>
-
