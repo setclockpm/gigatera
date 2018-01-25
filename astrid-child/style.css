@@ -93,7 +93,7 @@ article#post-877 {
 
 
 body {
-  background-color: #eee;
+  background-color: #cfcfcf;
 }
 
 
@@ -224,8 +224,11 @@ div#applications-content p {
 
 
 
-
-
+/*-----------------h2--------------------*/
+h1 {
+   font-family: "Quantico", "Electrolize", "Ropa Sans", "Arial", sans-serif;
+   text-transform: uppercase;
+}
 h1.entry-title {
   font-family: "Quantico", sans-serif;
 }
@@ -233,15 +236,22 @@ h1#series-entry-title {
   padding-bottom: 10px;
 }
 
-
-h2.applications-tagline {
-  font-family: "Helvetica Neue", "Roboto", "Arial", sans-serif;
-}
-
-h2.widget-title {
+/*-----------------h2--------------------*/
+h2 {
+  font-family: "Quantico", "Electrolize", "Helvetica Neue", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
+h2.applications-tagline {
+  font-family: "Quantico", "Electrolize", "Ropa Sans" "Arial", sans-serif;
+}
+
+
+
+/*h2.widget-title {
+  text-transform: uppercase;
+}
+*/
 
 @media only screen and (max-width: 1068px) {
   div#applications-content h2.applications-tagline {
@@ -254,7 +264,8 @@ h2.widget-title {
 
 
 h3 {
-  font-family: "Helvetica Neue", "Roboto", "Arial", sans-serif;
+  font-family: "Quantico", "Electrolize", "Helvetica Neue", "Helvetica", sans-serif;
+  text-transform: uppercase;
 }
 h3.header-text {
   font-family: "Quantico", sans-serif;
@@ -399,7 +410,6 @@ li.active a:first-child:after {
 .lighting-title .entry-title, 
 .entry-title a {
   color: #f9b92b;
-  font-family: "Helvetica Neue", "Roboto", Arial, sans-serif;
   text-align: center;
 }
 

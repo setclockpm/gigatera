@@ -19,7 +19,8 @@ Template Name: Case Study Single
         <div class="applications-title page">
           <header class="entry-header">
             <h1 id="applications-entry-title" class="entry-title case-study-title">
-              <?php the_title( '<h1 id="series-entry-title" class="entry-title">', '</h1>' ); ?></h1>
+              <?php the_title( '<h1 id="series-entry-title" class="entry-title">', '</h1>' ); ?>
+            </h1>
           </header>
         </div>
       </div>
