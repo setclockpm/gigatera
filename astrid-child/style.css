@@ -238,6 +238,10 @@ h2.applications-tagline {
   font-family: "Helvetica Neue", "Roboto", "Arial", sans-serif;
 }
 
+h2.widget-title {
+  text-transform: uppercase;
+}
+
 
 @media only screen and (max-width: 1068px) {
   div#applications-content h2.applications-tagline {
