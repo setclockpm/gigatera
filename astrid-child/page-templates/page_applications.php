@@ -12,7 +12,7 @@ Template Name: Applications Main
 	  <main id="main" class="site-main" role="main">
 
       
-      <div class="applications-title-container">
+      <div class="applications-title-container applications-background">
         <div class="applications-title page">
           <header class="entry-header">
             <h1 id="applications-entry-title" class="entry-title">Applied Projects</h1>
@@ -21,23 +21,25 @@ Template Name: Applications Main
       </div>
       
       
-      <div id="applications-container" class="applications-content row">
-        <div class="lighting-menu-container col-md-3">
-          <ul class="nav nav-pills nav-stacked">
-            <li role="presentation" class="active" data-section="Sports / Flood Lighting Applications">
-              <a href="http://gigatera2.phpweb.co.kr/en/pr/Video.php?category=SportsFloodLighting">Sports / Flood Lighting</a>
+      <div id="applications-container" class="applications-content">
+
+        <nav id="applied-projects" class="navbar navbar-fixed-top section-nav">
+          <ul class="nav nav-pills">
+            <li role="presentation" data-section="Sports / Flood Lighting Projects">
+              <a href="/applications/sports-flood-lighting">Sports / Flood Lighting</a>
             </li>
-            <li role="presentation" data-section="Bay Lighting Applications">
-              <a href="http://gigatera2.phpweb.co.kr/en/pr/Video.php?category=BayLighting">Bay Lighting</a>
+            <li role="presentation" data-section="Bay Lighting Projects">
+              <a href="/applications/bay-lighting">Bay Lighting</a>
             </li>
-            <li role="presentation" data-section="Roadway Lighting Applications">
-              <a href="http://gigatera2.phpweb.co.kr/en/pr/Video.php?category=RoadwayLighting">Roadway Lighting</a>
+            <li role="presentation" data-section="Roadway Lighting Projects">
+              <a href="/applications/roadway-lighting">Roadway Lighting</a>
             </li>
-            <li role="presentation" data-section="Roadway Lighting Applications">
+            <li role="presentation" data-section="Facade Lighting Projects">
               <a href="/applications/facade-lighting">Facade Lighting</a>
             </li>
           </ul>
-        </div>
+        </nav>
+
         
   	  	<?php while ( have_posts() ) : the_post(); ?>
           

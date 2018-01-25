@@ -32,9 +32,9 @@
   
 
 	<?php if ( has_post_thumbnail() ) : ?>
-	<div class="single-thumb">
+	  <div class="single-thumb">
 		<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail('astrid-large-thumb'); ?></a>
-	</div>
+	  </div>
   
 	<?php endif; ?>	
 

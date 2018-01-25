@@ -12,7 +12,7 @@ Template Name: Bay Lighting
 	  <main id="main" class="site-main" role="main">
 
       
-      <div id="bay-lighting-title-container" class="lighting-title-container">
+      <div id="bay-lighting-title-container" class="lighting-title-container bay-background">
         <div class="lighting-title page">
           <header class="entry-header">
             <h1 id="lighting-entry-title" class="entry-title">Bay Lighting</h1>

@@ -12,7 +12,7 @@ Template Name: Sports and Flood Lighting
 	  <main id="main" class="site-main" role="main">
 
       
-      <div id="sports-flood-lighting-title-container" class="lighting-title-container">
+      <div id="sports-flood-lighting-title-container" class="lighting-title-container sports-flood-background">
         <div class="lighting-title page">
           <header class="entry-header">
             <h1 id="lighting-entry-title" class="entry-title">Sports / Flood Lighting</h1>

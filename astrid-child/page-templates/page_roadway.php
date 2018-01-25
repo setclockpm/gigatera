@@ -12,7 +12,7 @@ Template Name: Roadway Lighting
 	  <main id="main" class="site-main" role="main">
 
       
-      <div id="roadway-lighting-title-container" class="lighting-title-container">
+      <div id="roadway-lighting-title-container" class="lighting-title-container roadway-background">
         <div class="lighting-title page">
           <header class="entry-header">
             <h1 id="lighting-entry-title" class="entry-title">Roadway Lighting</h1>

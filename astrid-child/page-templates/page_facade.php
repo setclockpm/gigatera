@@ -11,7 +11,7 @@ Template Name: Facade Lighting
 	<div id="primary" class="lighting">
 	  <main id="main" class="site-main" role="main">
       
-      <div id="facade-lighting-title-container" class="lighting-title-container">
+      <div id="facade-lighting-title-container" class="lighting-title-container facade-background">
         <div class="lighting-title page">
           <header class="entry-header">
             <h1 id="lighting-entry-title" class="entry-title" style="color:#fff;">Facade Lighting</h1>

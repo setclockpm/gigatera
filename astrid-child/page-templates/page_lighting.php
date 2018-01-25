@@ -12,7 +12,7 @@ Template Name: Lighting Main
 	  <main id="main" class="site-main" role="main">
 
       
-      <div class="lighting-title-container">
+      <div class="lighting-title-container lighting-main-background">
         <div class="lighting-title page">
           <header class="entry-header">
             <h1 id="lighting-entry-title" class="entry-title">Lighting</h1>
