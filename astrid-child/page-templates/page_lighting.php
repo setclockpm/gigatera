@@ -5,73 +5,82 @@
 Template Name: Lighting Main
 
 */
-	get_header();
+get_header();
 ?>
+</div><!-- #container -->
 
-
-  </div><!-- #container -->
-  
+<div id="primary" class="lighting">
 
 <?php if (has_post_thumbnail()): ?>
-  <div class="lighting-title-container" style="background-image: url(<?php the_post_thumbnail_url( "full" ) ?>);">
+  <div class="lighting-title-container subsection-title-container" style="background-image: url(<?php the_post_thumbnail_url( "full" ) ?>);">
 <?php else: ?>
-  <div class="lighting-title-container lighting-main-background">
+  <div class="lighting-title-container subsection-title-container lighting-main-background">
 <?php endif ?>
-  <div class="applications-title page">
-    <header class="entry-header">
-      <?php the_title( '<h1 id="lighting-entry-title" class="entry-title product-title">', '</h1>' ); ?>
-    </header>
   </div>
 
 
-  <div class="<?php echo $container; ?>">
-	  <div id="primary" class="lighting">
-	    <main id="main" class="site-main" role="main">
+  <div id="lighting-container" class="<?php echo 'container'; ?>">
+    <main id="main" class="site-main" role="main">
+      <header id="lighting-subsection-bar" class="navbar navbar-fixed-top subsection-bar row">
 
-        <div id="lighting-container" class="lighting-content row">
-          <div class="lighting-menu-container col-md-3">
-            <ul class="nav nav-pills nav-stacked">
-              <li role="presentation" class="active" data-section="Sports / Flood Lighting">
-                <a href="/products/lighting/sports-flood">Sports / Flood Lighting</a>
-              </li>
-              <li role="presentation" data-section="Bay Lighting">
-                <a href="/products/lighting/bay">Bay Lighting</a>
-              </li>
-              <li role="presentation" data-section="Roadway Lighting">
-                <a href="/products/lighting/roadway">Roadway Lighting</a>
-              </li>
-              <li role="presentation" data-section="Facade Lighting">
-                <a href="/products/lighting/facade">Facade Lighting</a>
-              </li>
-            </ul>
+        <div class="<?php echo 'container vertically-centered'; ?>">
+          <div class="subsection-heading text-center col-md-4">
+            <h2 id="lighting-entry-title" class="entry-title product-title">Lighting</h2>
           </div>
-          
-  	    	<?php while ( have_posts() ) : the_post(); ?>
-            
-  	    		<?php get_template_part( 'template-parts/content', 'lighting' ); ?>
-	  	  	
-  	    	<?php endwhile; // end of the loop. ?>
-        </div>
-          
-	    </main><!-- #main -->
-	  </div><!-- #primary -->
-  
-  <script type="text/javascript">
-    jQuery(document).ready(function($){
-      
-      console.log("loaded!");
 
-      $('.lighting-menu-container > ul.nav li a').click(function(e) {
-          var clickedLink = $(this);
-          clickedLink.parent().siblings().removeClass('active').end().addClass('active');
-          clickedLink.parent().data("section");
-          console.log(clickedLink.parent().data("section"));
-          $("h1#lighting-entry-title").text(clickedLink.parent().data("section"));
+          <div id="lighting-nav-container" class="col-md-8">
+            <nav id="lighting-nav" class="section-nav">
+              <ul class="nav nav-pills">
+                <li role="presentation" data-section="Sports / Flood">
+                  <a href="/products/lighting/sports-flood">Sports / Flood</a>
+                </li>
+                <li role="presentation" data-section="Bay">
+                  <a href="/products/lighting/bay">Bay</a>
+                </li>
+                <li role="presentation" data-section="Roadway">
+                  <a href="/products/lighting/roadway">Roadway</a>
+                </li>
+                <li role="presentation" data-section="Facade">
+                  <a href="/products/lighting/facade">Facade</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div><!-- #container --> 
+
+      </header>
+
+      <div class="lighting-content row">
+
+      <?php while ( have_posts() ) : the_post(); ?>
+
+        <?php get_template_part( 'template-parts/content', 'lighting' ); ?>
+
+      <?php endwhile; // end of the loop. ?>
+    </div>
+
+  </main><!-- #main -->
+</div><!-- #primary -->
+
+
+
+
+<script type="text/javascript">
+  jQuery(document).ready(function($){
+
+    console.log("loaded!");
+
+    $('.lighting-menu-container > ul.nav li a').click(function(e) {
+      var clickedLink = $(this);
+      clickedLink.parent().siblings().removeClass('active').end().addClass('active');
+      clickedLink.parent().data("section");
+      console.log(clickedLink.parent().data("section"));
+      $("h1#lighting-entry-title").text(clickedLink.parent().data("section"));
           // e.preventDefault();
-      });
-    });
-    
-  </script>
+        });
+  });
+
+</script>
 
 <?php get_footer("lighting"); ?>
 

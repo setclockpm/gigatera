@@ -52,6 +52,12 @@ a.thumbnail {
 .applications-content {
   position: relative;
 }
+.applications-content nav {
+  display: inline-block;
+  background: #1e2125;
+  min-width: 100px;
+  max-width: 2048px;
+}
 .applications-content .card-block {
   min-height: 390px;
 }
@@ -63,7 +69,6 @@ a.thumbnail {
 .applications-title .entry-title, 
 .applications-title .entry-title a {
   color: #f9b92b;
-  font-family: "Helvetica Neue", "Roboto", "Helvetica", sans-serif;
   font-size: 50px;
   font-weight: bolder;
   margin-bottom: 5px;
@@ -86,7 +91,7 @@ article {
 article p {
   color: #4C5454;
 }
-article#post-877 {
+article#post-877, article#post-2 {
   text-align: center;
 }
 
@@ -214,7 +219,26 @@ div#applications-content p {
   /*margin-top: 13px;*/
   margin: 1em 0 0;
 }
+div#lighting-container {
+  margin-top: -144px;
+}
+div#lighting-nav-container {
+  height: 100%;
+}
+div#primary {
+  position: relative;
+}
 
+
+
+
+
+
+
+
+.entry-title, .entry-title a {
+   color: #f9b92b;
+}
 
 
 
@@ -247,11 +271,6 @@ h2.applications-tagline {
 }
 
 
-
-/*h2.widget-title {
-  text-transform: uppercase;
-}
-*/
 
 @media only screen and (max-width: 1068px) {
   div#applications-content h2.applications-tagline {
@@ -392,9 +411,9 @@ li.active a:first-child:after {
 
 
 
-.lighting-content {
+/*.lighting-content {
   margin-bottom: -1px;
-}
+}*/
 
 .lighting-menu-container {
   padding-right: 0px;
@@ -417,7 +436,7 @@ li.active a:first-child:after {
   background-position: 0% 25%;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 6px 6px 0px 0px;  
+/*  border-radius: 6px 6px 0px 0px;*/
   padding-top: 32px;
   padding-bottom: 12px;
   text-shadow: black 0.3em 0.3em 0.3em;
@@ -441,20 +460,21 @@ li.active a:first-child:after {
 
 
 nav#applied-projects {
-  z-index: 998;
-  text-align: right;
+  
 }
 nav#applied-projects ul.nav {
   border: 1px solid #3B362E;
 }
 
 @media only screen and (max-width: 1024px) {
-  nav#applied-projects {
+  nav.section-nav {
     text-align: center;
   }
 }
 
-
+nav#lighting-menu-container {
+  border-bottom: 0;
+}
 
 .nav-pills a {
   color: #1d1d1b;
@@ -462,15 +482,19 @@ nav#applied-projects ul.nav {
   font-weight: bolder;
 }
 
+
+.nav-pills > li {
+  display: inline-block;
+  float: none;
+}
 .nav-pills>li>a {
   border-radius: 4px;
 }
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
-  background-color: #f9b92b;
-  color: #fff;
-  font-family: "Helvetica Neue", "Roboto", sans-serif;
-}
+  background-color: #22262c;
+/*  color: #fcd088;
+*/}
 
 .nav > li > a:focus, .nav > li > a:hover {
   text-decoration: none;
@@ -540,46 +564,93 @@ p.application-example {
   background-image: url(https://gigaterausa.com/wp-content/uploads/2018/01/roadway-lighting-e1515150098334.png);
 }
 
-.row {
-  margin-right: 0px;
+
+.lighting-subsection-bar {
+  border-bottom: 1px solid #cfcfcf;
+  z-index: 998;
+  padding: 10px 5px;
+  position: absolute;
+  width: 100%;
 }
 
+
+
+
+
+.page-template-page_lighting .site-content,
+.page-template-page_sports_flood .site-content, 
+.page-template-page_facade .site-content, 
+.page-template-page_roadway .site-content, 
+.page-template-page_bay .site-content {
+  margin-top: -128px;
+}
+
+
+
+
+/*--------------------------------------------------- S --------------------------------------------- */
+
+
+
+
+
+
 .section-nav {
-  border-bottom: 1px solid #cfcfcf;
-  padding: 10px 20px;
-  position: absolute;
+  text-align: right;
   width: 100%;
 }
 .section-nav img {
   height: 100%;
   width: auto;
 }
-.applications-content nav {
-  display: inline-block;
-  background: #1e2125;
-  min-width: 100px;
-  max-width: 2048px;
-}
 .section-nav .nav-pills > li > a {
   color: #e0e0e0;
-  font-family: "Duru Sans", "Quantico", "Helvetica Neue", "Arial", sans-serif;
-  font-size: 13px;
+  font-family: "Ropa Sans", "Quantico", "Helvetica Neue", "Arial", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+.section-nav .nav-pills > li.active > a {
+  color: #fcd088;
+  background-color: #22262c;
+  /*text-decoration: underline*/;
 }
 .section-nav .nav-pills > li > a:focus {
   background-color: #22262c;
 }
 .section-nav .nav-pills > li > a:hover {
   background-color: #22262c;
-  color: #fcd088;
-  font-family: "Duru Sans", "Quantico", "Helvetica Neue", "Arial", sans-serif;
-  font-size: 13px;
 }
 
+/*.site-content {
+  margin-top: -128px;
+}*/
 .site-content > .container {
   background-color: #f4f4f4;
-  border-radius: 6px 6px 0px 0px;
-  border-left: 0;
-  border-right: 0
+/*  border-radius: 6px 6px 0px 0px;
+*/  border-left: 0;
+  border-right: 0;
+}
+
+.site-header {
+  border-bottom: 0;
+}
+
+/*--------------------------------------------------- SUBSECTION --------------------------------------------- */
+.subsection-bar {
+  background: #1e2125;
+  height: 66px;
+  top: 112px;
+  position: relative;
+/*  z-index: 990;*/
+}
+.subsection-bar nav {
+  display: inline-block;
+}
+.subsection-heading .entry-title, .subsection-heading .entry-title a {
+   margin: 15px auto;
+}
+.subsection-title-container {
+  height: 384px;
 }
 
 
@@ -589,17 +660,25 @@ p.application-example {
 
 
 
-ul.nav {
+/*ul.nav {
   border: 1px solid #F2F2F3;
-}
+}*/
 ul#primary-menu li a {
   font-family: "Quantico", "Electrolize", "Helvetica Neue", "Arial", sans-serif;
-  letter-spacing: 1.8px;
+  letter-spacing: 0.5px;
   text-transform: uppercase;
+}
+ul#primary-menu ul.sub-menu li a {
+  text-transform: uppercase;
+  font-family: "Ropa Sans", "Quantico", "Helvetica Neue", "Arial", sans-serif;
 }
 
 .under-fixed-nav {
-  padding-top: 90px;
+  padding-top: 130px;
 }
 
+.vertically-centered {
+  display: flex;
+  align-items: center;
+}
 
