@@ -1,7 +1,6 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class("col-md-12 under-fixed-nav"); ?>>
 
-
   <div class="entry-content">
     <?php the_content(); ?>
 

@@ -24,11 +24,11 @@ get_header();
       <header id="lighting-subsection-bar" class="navbar navbar-fixed-top subsection-bar row">
 
         <div class="<?php echo 'container vertically-centered'; ?>">
-          <div class="subsection-heading text-center col-md-4">
+          <div class="subsection-heading text-center col-sm-4">
             <?php the_title( '<h2 id="lighting-entry-title" class="entry-title product-title">', '</h2>' ); ?>
           </div>
 
-          <div id="lighting-nav-container" class="col-md-8">
+          <div id="lighting-nav-container" class="col-sm-8">
             <nav id="lighting-nav" class="section-nav">
               <ul class="nav nav-pills">
                 <li role="presentation" data-section="Sports / Flood">
