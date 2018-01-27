@@ -1,10 +1,4 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class("col-md-12 under-fixed-nav"); ?>>
-  <header class="entry-header">
-    <?php the_title( '<h3 id="lighting-main-heading" class="subsection-title text-center">', '</h3>' ); ?>
-  </header><!-- .entry-header -->
-
-  
-    
   
 
   <div class="entry-content">
