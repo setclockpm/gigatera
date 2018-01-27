@@ -25,7 +25,7 @@ get_header();
 
         <div class="<?php echo 'container vertically-centered'; ?>">
           <div class="subsection-heading text-center col-md-4">
-            <h2 id="lighting-entry-title" class="entry-title product-title">Lighting</h2>
+            <?php the_title( '<h2 id="lighting-entry-title" class="entry-title product-title">', '</h2>' ); ?>
           </div>
 
           <div id="lighting-nav-container" class="col-md-8">
