@@ -37,7 +37,7 @@ Template Name: Bay Lighting (Single)
               <a href="/products/lighting/facade">Facade Lighting</a>
             </li>
             <li>
-              <img class="alignleft" src="https://gigaterausa.com/wp-content/uploads/2018/01/<?php echo get_post_meta($post->ID, 'series', true); ?>-1.png">
+              
             </li>
           </ul>
         </div>
@@ -52,7 +52,7 @@ Template Name: Bay Lighting (Single)
 	</div><!-- #primary -->
   
 
-
+  <img class="alignleft" src="https://gigaterausa.com/wp-content/uploads/2018/01/<?php echo get_post_meta($post->ID, 'series', true); ?>-1.png">
   <script type="text/javascript">
     jQuery(document).ready(function($){
       

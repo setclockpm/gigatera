@@ -2,10 +2,10 @@
 
 /*
 
-Template Name: Facade Lighting
+Template Name: Sports / Flood Lighting (Single)
 
 */
-  get_header();
+	get_header();
 ?>
 
 </div><!-- #container -->
@@ -20,22 +20,21 @@ Template Name: Facade Lighting
     <div class="subsection-heading mobile text-center">
       <?php the_title( '<h1 id="lighting-entry-title" class="entry-title product-title">', '</h1>' ); ?>
     </div>
-  </div>
-
-
-  <div id="lighting-container" class="<?php echo 'container'; ?>">
+  </div>  
+      
+      <div id="lighting-container" class="<?php echo 'container'; ?>">
     <main id="main" class="site-main" role="main">
       <header id="lighting-subsection-bar" class="navbar navbar-fixed-top subsection-bar row">
 
         <div class="<?php echo 'container vertically-centered'; ?>">
           <div class="subsection-heading non-mobile text-center col-sm-4">
-            <h2 id="lighting-entry-title" class="entry-title product-title">Lighting</h2>
+            <?php the_title( '<h2 id="series-entry-title" class="entry-title">', '</h2>' ); ?>
           </div>
 
           <div id="lighting-nav-container" class="col-sm-8">
             <nav id="lighting-nav" class="section-nav">
               <ul class="nav nav-pills">
-                <li role="presentation" data-section="Sports / Flood">
+                <li role="presentation" class="active" data-section="Sports / Flood">
                   <a href="/products/lighting/sports-flood">Sports / Flood</a>
                 </li>
                 <li role="presentation" data-section="Bay">
@@ -44,7 +43,7 @@ Template Name: Facade Lighting
                 <li role="presentation" data-section="Roadway">
                   <a href="/products/lighting/roadway">Roadway</a>
                 </li>
-                <li role="presentation" class="active" data-section="Facade">
+                <li role="presentation" data-section="Facade">
                   <a href="/products/lighting/facade">Facade</a>
                 </li>
               </ul>
@@ -57,22 +56,21 @@ Template Name: Facade Lighting
       <div class="lighting-content row">
 
         <?php while ( have_posts() ) : the_post(); ?>
-          <?php get_template_part( 'template-parts/content', 'facade' ); ?>
+          <?php get_template_part( 'template-parts/content', 'single-sports-flood' ); ?>
         <?php endwhile; // end of the loop. ?>
 
-      </div>
+      </div> 
 
     </main><!-- #main -->
-  </div><!-- #lighting-container -->
+  </div><!-- #container -->
 
+        
   
 
   
   <script type="text/javascript">
     jQuery(document).ready(function($){
       
-      console.log("loaded!");
-
       $('.lighting-menu-container > ul.nav li a').click(function(e) {
           var clickedLink = $(this);
           clickedLink.parent().siblings().removeClass('active').end().addClass('active');

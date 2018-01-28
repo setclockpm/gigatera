@@ -322,7 +322,6 @@ hr.card-divider {
 .hentry {
   border: 0;
   background-color: #fafaf8;
-  padding: 30px 40px
 }
 
 
@@ -446,9 +445,7 @@ li.active a:first-child:after {
 }
 
 
-nav#applied-projects {
-  
-}
+
 nav#applied-projects ul.nav {
   border: 1px solid #3B362E;
 }
@@ -480,7 +477,7 @@ nav#lighting-menu-container {
 }
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
-  background-color: #22262c;
+  background-color: #33373c;
 /*  color: #fcd088;
 */}
 
@@ -564,7 +561,10 @@ p.application-example {
 
 
 
-
+.page-template-page_single_sports_flood .site-content,
+.page-template-page_single_bay .site-content,
+.page-template-page_single_roadway .site-content,
+.page-template-page_single_facade .site-content,
 .page-template-page_lighting .site-content,
 .page-template-page_sports_flood .site-content, 
 .page-template-page_facade .site-content, 
@@ -599,24 +599,22 @@ p.application-example {
 }
 .section-nav .nav-pills > li.active > a {
   color: #fcd088;
-  background-color: #22262c;
+  background-color: #33373c;
   border-left: 1px solid #FBD098;
   border-right: 1px solid #FBD098;
 }
 .section-nav .nav-pills > li > a:focus {
-  background-color: #22262c;
+  background-color: #33373c;
 }
 .section-nav .nav-pills > li > a:hover {
-  background-color: #22262c;
+  background-color: #33373c;
 }
 
-/*.site-content {
-  margin-top: -128px;
-}*/
+
 .site-content > .container {
   background-color: #f4f4f4;
-/*  border-radius: 6px 6px 0px 0px;
-*/  border-left: 0;
+/*  border-radius: 6px 6px 0px 0px;*/
+  border-left: 0;
   border-right: 0;
 }
 
@@ -627,7 +625,7 @@ p.application-example {
 /*--------------------------------------------------- SUBSECTION --------------------------------------------- */
 .subsection-bar {
   background: #1e2125;
-  height: 66px;
+  height: 68px;
   top: 112px;
   position: relative;
 /*  z-index: 990;*/
@@ -697,6 +695,14 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
 }
 
 @media only screen and (max-width: 767px) {
+
+  .nav-pills>li+li {
+    margin-left: 0px;
+  }
+   .nav-pills > li {
+    background-color: #22262c;
+  }
+  
   .subsection-heading.non-mobile {
     display: none;
   }
@@ -725,9 +731,56 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
   }
 }
 
+
+
+
+@media only screen and (min-width: 992px) {
+  
+  .hentry {
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+  }
+
+  .nav-pills > li {
+    min-width: 113px;
+    text-align: center;
+  }
+
+}
+
 @media only screen and (min-width: 768px) {
  .subsection-heading.mobile {
     display: none;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+ .nav-pills > li {
+    min-width: 85px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
+  div#lighting-nav-container {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+  }
+ .subsection-bar {
+    height: 64px
+  }
+  .section-nav .nav-pills > li > a {
+    font-size: 16px;
+    padding: 16px 11px;
+  }
+  .nav-pills > li {
+    min-width: 66px;
+    text-align: center;
   }
 }
 

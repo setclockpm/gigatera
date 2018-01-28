@@ -9,22 +9,22 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class("col-md-9"); ?>>
-	<header class="entry-header">
-		<?php the_title( '<h1 id="series-entry-title" class="entry-title">', '</h1>' ); ?>
+<div id="sports-flood-series" class="col-xs-12 hentry under-fixed-nav">
+  <article id="post-<?php the_ID(); ?>" <?php post_class(""); ?>>
+    <header class="entry-header">
 
-		<?php if (count(get_post_custom_values('variant')) > 0) : ?>
-	      <div class="product-tab">
-            <ul class="clearfix">
-              <li class="<?php echo(get_post_meta($post->ID, 'series', true) == 'maha' ? 'active' : 'inactive'); ?>">
-              	<a href="/products/lighting/sports-flood/maha">MAHA</a>
-              </li>
-              <li class="<?php echo(get_post_meta($post->ID, 'series', true) == 'maha-neo' ? 'active' : 'inactive'); ?>">
-              	<a href="/products/lighting/sports-flood/maha-neo">MAHA-NEO</a>
-              </li>
-            </ul>
-          </div>
-        <?php endif; ?>	
+	  <?php if (count(get_post_custom_values('variant')) > 0) : ?>
+	    <div class="product-tab">
+          <ul class="clearfix">
+            <li class="<?php echo(get_post_meta($post->ID, 'series', true) == 'maha' ? 'active' : 'inactive'); ?>">
+              <a href="/products/lighting/sports-flood/maha">MAHA</a>
+            </li>
+            <li class="<?php echo(get_post_meta($post->ID, 'series', true) == 'maha-neo' ? 'active' : 'inactive'); ?>">
+              <a href="/products/lighting/sports-flood/maha-neo">MAHA-NEO</a>
+            </li>
+          </ul>
+        </div>
+      <?php endif; ?>	
 	</header><!-- .entry-header -->
 
 	
@@ -32,8 +32,8 @@
   
 
 	<?php if ( has_post_thumbnail() ) : ?>
-	  <div class="single-thumb">
-		<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail('astrid-large-thumb'); ?></a>
+	  <div class="product-images-container">
+		<img class="alignleft" src="https://gigaterausa.com/wp-content/uploads/2018/01/<?php echo get_post_meta($post->ID, 'series', true); ?>-1.png">
 	  </div>
   
 	<?php endif; ?>	
@@ -45,4 +45,7 @@
 
 	</div><!-- .entry-content -->
 
-</article><!-- #post-## -->
+  </article><!-- #post-## -->
+
+</div>
+

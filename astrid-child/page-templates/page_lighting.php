@@ -5,7 +5,7 @@
 Template Name: Lighting Main
 
 */
-get_header();
+  get_header();
 ?>
 
 </div><!-- #container -->
@@ -56,35 +56,34 @@ get_header();
 
       <div class="lighting-content row">
 
-      <?php while ( have_posts() ) : the_post(); ?>
+        <?php while ( have_posts() ) : the_post(); ?>
+          <?php get_template_part( 'template-parts/content', 'lighting' ); ?>
+        <?php endwhile; // end of the loop. ?>
 
-        <?php get_template_part( 'template-parts/content', 'lighting' ); ?>
+      </div> 
 
-      <?php endwhile; // end of the loop. ?>
-    </div>
-
-  </main><!-- #main -->
-</div><!-- #primary -->
-
+    </main><!-- #main -->
+  </div><!-- #container -->
 
 
 
-<script type="text/javascript">
-  jQuery(document).ready(function($){
 
-    console.log("loaded!");
-
-    $('.lighting-menu-container > ul.nav li a').click(function(e) {
-      var clickedLink = $(this);
-      clickedLink.parent().siblings().removeClass('active').end().addClass('active');
-      clickedLink.parent().data("section");
-      console.log(clickedLink.parent().data("section"));
-      $("h1#lighting-entry-title").text(clickedLink.parent().data("section"));
-          // e.preventDefault();
-        });
-  });
-
-</script>
+  <script type="text/javascript">
+    jQuery(document).ready(function($){
+  
+      console.log("loaded!");
+  
+      $('.lighting-menu-container > ul.nav li a').click(function(e) {
+          var clickedLink = $(this);
+          clickedLink.parent().siblings().removeClass('active').end().addClass('active');
+          clickedLink.parent().data("section");
+          console.log(clickedLink.parent().data("section"));
+          $("h1#lighting-entry-title").text(clickedLink.parent().data("section"));
+              // e.preventDefault();
+      });
+    });
+  
+  </script>
 
 <?php get_footer("lighting"); ?>
 

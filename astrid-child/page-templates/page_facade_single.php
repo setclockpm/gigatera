@@ -41,7 +41,8 @@ Template Name: Facade Lighting (Single)
             </li>
           </ul>
         </div>
-        
+
+
   	  	<?php while ( have_posts() ) : the_post(); ?>
   	  		<?php get_template_part( 'template-parts/content', 'single-facade' ); ?>
 	  		
@@ -52,7 +53,7 @@ Template Name: Facade Lighting (Single)
 	</div><!-- #primary -->
   
 
-
+  <img class="alignleft" src="https://gigaterausa.com/wp-content/uploads/2018/01/<?php echo get_post_meta($post->ID, 'series', true); ?>-1.png">
   <script type="text/javascript">
     jQuery(document).ready(function($){
       

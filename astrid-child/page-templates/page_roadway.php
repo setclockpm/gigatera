@@ -5,7 +5,7 @@
 Template Name: Roadway Lighting
 
 */
-	get_header();
+  get_header();
 ?>
 
 </div><!-- #container -->
@@ -17,8 +17,10 @@ Template Name: Roadway Lighting
 <?php else: ?>
   <div class="lighting-title-container subsection-title-container lighting-main-background">
 <?php endif ?>
+    <div class="subsection-heading mobile text-center">
+      <?php the_title( '<h1 id="lighting-entry-title" class="entry-title product-title">', '</h1>' ); ?>
+    </div>
   </div>
-
 
 
   <div id="lighting-container" class="<?php echo 'container'; ?>">
@@ -26,7 +28,7 @@ Template Name: Roadway Lighting
       <header id="lighting-subsection-bar" class="navbar navbar-fixed-top subsection-bar row">
 
         <div class="<?php echo 'container vertically-centered'; ?>">
-          <div class="subsection-heading text-center col-sm-4">
+          <div class="subsection-heading non-mobile text-center col-sm-4">
             <h2 id="lighting-entry-title" class="entry-title product-title">Lighting</h2>
           </div>
 
@@ -55,13 +57,16 @@ Template Name: Roadway Lighting
       <div class="lighting-content row">
 
         <?php while ( have_posts() ) : the_post(); ?>
-
           <?php get_template_part( 'template-parts/content', 'roadway' ); ?>
-
         <?php endwhile; // end of the loop. ?>
-      </div> 
+
+      </div>
+
     </main><!-- #main -->
-  </div><!-- #container -->
+  </div><!-- #lighting-container -->
+
+  
+
   
   <script type="text/javascript">
     jQuery(document).ready(function($){

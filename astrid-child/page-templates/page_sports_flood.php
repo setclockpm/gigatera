@@ -2,7 +2,7 @@
 
 /*
 
-Template Name: Sports and Flood Lighting
+Template Name: Sports / Flood Lighting
 
 */
 	get_header();
@@ -28,7 +28,7 @@ Template Name: Sports and Flood Lighting
       <header id="lighting-subsection-bar" class="navbar navbar-fixed-top subsection-bar row">
 
         <div class="<?php echo 'container vertically-centered'; ?>">
-          <div class="subsection-heading text-center col-sm-4">
+          <div class="subsection-heading non-mobile text-center col-sm-4">
             <h2 id="lighting-entry-title" class="entry-title product-title">Lighting</h2>
           </div>
 
@@ -57,15 +57,17 @@ Template Name: Sports and Flood Lighting
       <div class="lighting-content row">
 
         <?php while ( have_posts() ) : the_post(); ?>
-
           <?php get_template_part( 'template-parts/content', 'sports-flood' ); ?>
-
         <?php endwhile; // end of the loop. ?>
+
       </div> 
+
     </main><!-- #main -->
   </div><!-- #container -->
 
   
+
+
   <script type="text/javascript">
     jQuery(document).ready(function($){
       
