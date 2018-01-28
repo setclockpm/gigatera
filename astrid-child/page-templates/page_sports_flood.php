@@ -17,8 +17,10 @@ Template Name: Sports and Flood Lighting
 <?php else: ?>
   <div class="lighting-title-container subsection-title-container lighting-main-background">
 <?php endif ?>
+    <div class="subsection-heading mobile text-center">
+      <?php the_title( '<h1 id="lighting-entry-title" class="entry-title product-title">', '</h1>' ); ?>
+    </div>
   </div>
-
 
 
   <div id="lighting-container" class="<?php echo 'container'; ?>">

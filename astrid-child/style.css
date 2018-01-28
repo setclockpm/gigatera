@@ -224,9 +224,7 @@ div#lighting-container {
 }
 div#lighting-nav-container {
   height: 100%;
-}
-div#primary {
-  position: relative;
+  margin: auto;
 }
 
 
@@ -268,17 +266,6 @@ h2 {
 
 h2.applications-tagline {
   font-family: "Quantico", "Electrolize", "Ropa Sans" "Arial", sans-serif;
-}
-
-
-
-@media only screen and (max-width: 1068px) {
-  div#applications-content h2.applications-tagline {
-    font-size: 28px;
-    line-height: 1.1073;
-    font-weight: 500;
-    letter-spacing: 0.012em;
-  }
 }
 
 
@@ -372,7 +359,7 @@ hr.card-divider {
 }
 
 .jumbotron-lighting {
-  background-image: url(https://gigaterausa.com/wp-content/uploads/2018/01/lighting-bottom-e1515048809132.png);
+  background-image: url(https://gigaterausa.com/wp-content/uploads/2018/01/steampunk-style-gt.png);
   color: white;
   min-height: 220px;
   margin-bottom: 0px;
@@ -487,8 +474,9 @@ nav#lighting-menu-container {
   display: inline-block;
   float: none;
 }
-.nav-pills>li>a {
-  border-radius: 4px;
+
+.nav>li>a {
+  padding: 16px 15px;
 }
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
@@ -612,7 +600,8 @@ p.application-example {
 .section-nav .nav-pills > li.active > a {
   color: #fcd088;
   background-color: #22262c;
-  /*text-decoration: underline*/;
+  border-left: 1px solid #FBD098;
+  border-right: 1px solid #FBD098;
 }
 .section-nav .nav-pills > li > a:focus {
   background-color: #22262c;
@@ -646,6 +635,8 @@ p.application-example {
 .subsection-bar nav {
   display: inline-block;
 }
+
+
 .subsection-heading .entry-title, .subsection-heading .entry-title a {
    margin: 15px auto;
 }
@@ -681,4 +672,66 @@ ul#primary-menu ul.sub-menu li a {
   display: flex;
   align-items: center;
 }
+
+
+
+/*
+RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF
+RESPONSIVE STUFF RESPONSIVE STUFF
+RESPONSIVE STUFF RESPONSIVE STUFF
+RESPONSIVE STUFF ----------------------------------------------------------------------------------------------------  RESPONSIVE STUFF
+RESPONSIVE STUFF RESPONSIVE STUFF 
+RESPONSIVE STUFF RESPONSIVE STUFF
+RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF
+*/
+
+
+
+@media only screen and (max-width: 1068px) {
+  div#applications-content h2.applications-tagline {
+    font-size: 28px;
+    line-height: 1.1073;
+    font-weight: 500;
+    letter-spacing: 0.012em;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .subsection-heading.non-mobile {
+    display: none;
+  }
+  .subsection-heading.mobile {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 146px;
+    z-index: 1;
+  }
+  .subsection-heading.mobile h1 {
+    font-size: 3em;
+  }
+  .subsection-title-container {
+    height: 256px;
+    position: relative;
+  }
+  .subsection-title-container::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(37, 46, 53, 0.6);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+ .subsection-heading.mobile {
+    display: none;
+  }
+}
+
+
+
+
 

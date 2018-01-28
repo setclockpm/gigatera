@@ -7,6 +7,7 @@ Template Name: Lighting Main
 */
 get_header();
 ?>
+
 </div><!-- #container -->
 
 <div id="primary" class="lighting">
@@ -16,6 +17,9 @@ get_header();
 <?php else: ?>
   <div class="lighting-title-container subsection-title-container lighting-main-background">
 <?php endif ?>
+    <div class="subsection-heading mobile text-center">
+      <?php the_title( '<h1 id="lighting-entry-title" class="entry-title product-title">', '</h1>' ); ?>
+    </div>
   </div>
 
 
@@ -24,8 +28,8 @@ get_header();
       <header id="lighting-subsection-bar" class="navbar navbar-fixed-top subsection-bar row">
 
         <div class="<?php echo 'container vertically-centered'; ?>">
-          <div class="subsection-heading text-center col-sm-4">
-            <?php the_title( '<h2 id="lighting-entry-title" class="entry-title product-title">', '</h2>' ); ?>
+          <div class="subsection-heading non-mobile text-center col-sm-4">
+            <h2 id="lighting-entry-title" class="entry-title product-title">Lighting</h2>
           </div>
 
           <div id="lighting-nav-container" class="col-sm-8">
