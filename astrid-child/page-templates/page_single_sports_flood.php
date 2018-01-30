@@ -22,7 +22,8 @@ Template Name: Sports / Flood Lighting (Single)
     </div>
   </div>  
       
-      <div id="lighting-container" class="<?php echo 'container'; ?>">
+      
+  <div id="lighting-container" class="<?php echo 'container'; ?>">
     <main id="main" class="site-main" role="main">
       <header id="lighting-subsection-bar" class="navbar navbar-fixed-top subsection-bar row">
 

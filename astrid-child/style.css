@@ -276,9 +276,9 @@ h3 {
 h3.header-text {
   font-family: "Quantico", sans-serif;
 }
-h3.application {
-  margin-top: 40px;
-  margin-bottom: 0px;
+
+h3.tagline {
+ font-family: "Lato", "Open Sans", sans-serif;
 }
 
 
@@ -397,10 +397,6 @@ li.active a:first-child:after {
 
 
 
-/*.lighting-content {
-  margin-bottom: -1px;
-}*/
-
 .lighting-menu-container {
   padding-right: 0px;
 }
@@ -422,11 +418,19 @@ li.active a:first-child:after {
   background-position: 0% 25%;
   background-size: cover;
   background-repeat: no-repeat;
-/*  border-radius: 6px 6px 0px 0px;*/
   padding-top: 32px;
   padding-bottom: 12px;
   text-shadow: black 0.3em 0.3em 0.3em;
 }
+.lighting-title-container.non-mobile {
+  height: 384px;
+}
+.lighting-title-container.mobile {
+  display: none;
+  height: 256px;
+  position: relative;
+}
+
 .lighting-main-background {
   background-image: url(https://gigaterausa.com/wp-content/uploads/2018/01/sports-flood-lighting-e1515563927454.png);
 }
@@ -544,6 +548,25 @@ p.application-example {
 }
 
 
+.page-template-page_single_sports_flood .site-content,
+.page-template-page_single_bay .site-content,
+.page-template-page_single_roadway .site-content,
+.page-template-page_single_facade .site-content,
+.page-template-page_lighting .site-content,
+.page-template-page_sports_flood .site-content, 
+.page-template-page_facade .site-content, 
+.page-template-page_roadway .site-content, 
+.page-template-page_bay .site-content {
+  margin-top: -128px;
+}
+
+.product-detail .head {
+  border-bottom: 1px solid #d3d3d3;
+}
+.product-detail .body {
+  padding: 23px 0 60px;
+}
+
 
 .roadway-background, .background-roadway {
   background-image: url(https://gigaterausa.com/wp-content/uploads/2018/01/roadway-lighting-e1515150098334.png);
@@ -560,18 +583,6 @@ p.application-example {
 
 
 
-
-.page-template-page_single_sports_flood .site-content,
-.page-template-page_single_bay .site-content,
-.page-template-page_single_roadway .site-content,
-.page-template-page_single_facade .site-content,
-.page-template-page_lighting .site-content,
-.page-template-page_sports_flood .site-content, 
-.page-template-page_facade .site-content, 
-.page-template-page_roadway .site-content, 
-.page-template-page_bay .site-content {
-  margin-top: -128px;
-}
 
 
 
@@ -646,6 +657,76 @@ p.application-example {
 .sports-flood-background, .background-sports-flood {
   background-image: url(https://gigaterausa.com/wp-content/uploads/2017/11/cropped-gtfront2-e1515051620623.jpg);
 }
+
+
+
+
+
+
+/* ----------------------------T-------------------------------------*/
+
+
+
+
+
+
+table.specs {
+  border-collapse: separate;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  font-size: 15px;
+  line-height: 1.5em;
+  color: #767575;
+  word-break: keep-all;
+  margin: 0;
+  padding: 0;
+}
+table.specs p {
+  font-family: Arial;
+  font-size: 12px;
+  margin: 0cm 0cm 0pt;
+  line-height: 1;
+}
+table.specs td {
+  padding: 0cm 5.4pt; 
+}
+tr.column-names {
+  height: 27.35pt;
+}
+tr.column-names td {
+  background-color: #d9d9d9; 
+  border-width: 0px 0.25pt 0.25pt 0px; 
+  border-style: none solid solid none; 
+  border-color: #000000 gray gray rgb(0, 0, 0); 
+  height: 27.35pt; 
+  line-height: 1;
+}
+tr.column-names td p {
+  
+}
+
+tr.specs-top {
+  height: 12.75pt;
+}
+tr.specs-top td {
+  background-color: transparent;
+  border-width: 0px 0px 0.25pt; 
+  border-style: none none solid; 
+  border-color: #000000 rgb(0, 0, 0) gray; 
+  border-image-source: none; 
+  width: 100%; 
+  height: 12.75pt; 
+}
+td.tolerance p {
+   text-align: right; 
+}
+
+
+
+
+
 
 
 
@@ -756,6 +837,12 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
 }
 
 @media only screen and (min-width: 480px) and (max-width: 768px) {
+  .lighting-title-container.mobile {
+    display: block;
+  }
+  .lighting-title-container.non-mobile {
+    display: none;
+  }
  .nav-pills > li {
     min-width: 85px;
     text-align: center;
