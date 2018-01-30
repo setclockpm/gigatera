@@ -690,7 +690,12 @@ table.specs p {
   line-height: 1;
 }
 table.specs td {
-  padding: 0cm 5.4pt; 
+  background-color: transparent;
+  border-image-source: none; 
+  padding: 0cm 5.4pt;
+}
+table.specs td.rightmost {
+  border-right: 0px rgb(0, 0, 0);
 }
 tr.column-names {
   height: 27.35pt;
@@ -702,25 +707,35 @@ tr.column-names td {
   border-color: #000000 gray gray rgb(0, 0, 0); 
   height: 27.35pt; 
   line-height: 1;
+  vertical-align: middle;
 }
-tr.column-names td p {
-  
+tr.specs-first {
+  height: 33.55pt;
+}
+tr.specs-first td {
+  border-width: 0px 0.25pt 0px 0px; 
+  border-style: none solid none none; 
+  border-color: #000000 gray rgb(0, 0, 0) rgb(0, 0, 0);
+  height: 33.55pt;
+  padding-top: 8.8pt;
+  padding-top: 4.3pt;
+  /*width: 9.4%;*/
+  line-height: 1;
+  vertical-align: top;
 }
 
 tr.specs-top {
   height: 12.75pt;
 }
 tr.specs-top td {
-  background-color: transparent;
   border-width: 0px 0px 0.25pt; 
   border-style: none none solid; 
   border-color: #000000 rgb(0, 0, 0) gray; 
-  border-image-source: none; 
   width: 100%; 
   height: 12.75pt; 
 }
 td.tolerance p {
-   text-align: right; 
+  text-align: right; 
 }
 
 

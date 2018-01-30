@@ -65,27 +65,34 @@
             </td>
           </tr>
           <tr class="column-names">
-            <td width="9%">
+            <td width="9%" data-width="9.4%">
               <p class="text-center">Model</p>
             </td>
-            <td width="8%">
+            <td width="8%" data-width="8.62%">
               <p class="text-center">Power</p>
             </td>
-            <td width="11%">
+            <td width="11%" data-width="11.74%">
               <p class="text-center">*Luminous Efficacy</p>
             </td>
-            <td width="10%" style="background-color: #d9d9d9; border-width: 0px 0.25pt 0.25pt 0px; border-style: none solid solid none; border-color: #000000 gray gray rgb(0, 0, 0); padding: 0cm 5.4pt; width: 10.96%; height: 27.35pt; line-height: 1">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">* Luminous Flux</span></p></td>
-<td width="13%" style="background-color: #d9d9d9; border-width: 0px 0.25pt 0.25pt 0px; border-style: none solid solid none; border-color: #000000 gray gray rgb(0, 0, 0); padding: 0cm 5.4pt; width: 13.24%; height: 27.35pt; line-height: 1">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">Color Temperature</span></p></td>
-<td width="8%" style="background-color: #d9d9d9; border-width: 0px 0.25pt 0.25pt 0px; border-style: none solid solid none; border-color: #000000 gray gray rgb(0, 0, 0); padding: 0cm 5.4pt; width: 8.8%; height: 27.35pt; line-height: 1">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">CRI</span></p></td>
-<td width="8%" style="background-color: #d9d9d9; border-width: 0px 0.25pt 0.25pt 0px; border-style: none solid solid none; border-color: #000000 gray gray rgb(0, 0, 0); padding: 0cm 5.4pt; width: 8.78%; height: 27.35pt; line-height: 1">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">Weight</span></p></td>
-<td width="15%" style="background-color: #d9d9d9; border-width: 0px 0.25pt 0.25pt 0px; border-style: none solid solid none; border-color: #000000 gray gray rgb(0, 0, 0); padding: 0cm 5.4pt; width: 15.36%; height: 27.35pt; line-height: 1">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">Input Voltage</span></p></td>
-<td width="13%" style="background-color: #d9d9d9; border-width: 0px 0px 0.25pt; border-style: none none solid; border-color: #000000 rgb(0, 0, 0) gray; padding: 0cm 5.4pt; border-image-source: none; width: 13.1%; height: 27.35pt; line-height: 1">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">Operation Temperature</span></p></td></tr>
+            <td width="10%" data-width="10.96%">
+              <p class="text-center">*Luminous Flux</p>
+            </td>
+            <td width="13%" data-width="13.24%">
+              <p class="text-center">Color Temperature</p>
+            </td>
+            <td width="8%" data-width="8.8%">
+              <p class="text-center">CRI</p>
+            </td> 
+            <td width="8%" data-width="8.78%">
+              <p class="text-center">Weight</p>
+            </td>
+            <td width="15%" data-width="15.36%">
+              <p class="text-center">Input Voltage</p>
+            </td>
+            <td width="13%" data-width="13.1">
+              <p class="text-center">Operation Temperature</p>
+            </td>
+          </tr>
 <tr style="height: 2.8pt">
 <td width="9%" style="border-width: 0px 0.25pt 0px 0px; border-style: none solid none none; border-color: #000000 gray rgb(0, 0, 0) rgb(0, 0, 0); padding: 0cm 5.4pt; border-image-source: none; width: 9.4%; height: 2.8pt; line-height: 1; background-color: transparent">
 <p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><font size="3"><span style="font-family: Arial; font-size: 12px">&nbsp;</span></font></p></td>

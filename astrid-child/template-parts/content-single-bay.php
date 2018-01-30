@@ -33,151 +33,176 @@
     
   
 
-	<?php if ( has_post_thumbnail() ) : ?>
-	  <div class="product-images-container row">
-	  	<div class="col-xs-12 col-md-6">
-	  	  <img class="alignleft" src="https://gigaterausa.com/wp-content/uploads/2018/01/<?php echo get_post_meta($post->ID, 'series', true); ?>-1.png">
-	  	</div>
-		<div class="col-xs-12 col-md-6 desc">
-          <ul>
-           	<li>Glare free from Narrow beam reflector</li>
-           	<li>Flicker free proven upto 1,500 fps ultra slow-motion</li>
-           	<li>High CRI &amp; R9 Content better visibility</li>
-           	<li>Tilt and rotate for easy aiming</li>
-           	<li>Linkage with wired control system even for event light control</li>
-          </ul>
-        </div>
+    <div class="product-images-container row">
+	  <div class="col-xs-12 col-md-6">
+	    <img class="alignleft" src="https://gigaterausa.com/wp-content/uploads/2018/01/<?php echo get_post_meta($post->ID, 'series', true); ?>-1.png">
 	  </div>
-  
-	<?php endif; ?>	
+	  <div class="col-xs-12 col-md-6 desc">
+        <ul>
+          <li>Long life cycle with vertical thermal fin structure</li>
+ 	      <li>High Bay light with high energy saving and reasonable price</li>
+ 	      <li>Wireless or wired dimming control system available</li>
+ 	      <li>Hybrid Sensor Module options available (*Occupancy / Wireless / Daylight)</li>
+        </ul>
+      </div>
+	</div>
 
 	<div class="entry-content product-detail">
 	  <?php the_content(); ?>
 
-
-	  <!-- <table class="specs" border="0" cellspacing="0" cellpadding="0">
+<!-- 
+	  <table class="specs" border="0" cellspacing="0" cellpadding="0">
 	    <tbody>
           <tr class="specs-top">
             <td class="tolerance" colspan="9">
-              <p>
-              	<span>* Tolerance : ±5%</span>
-              </p>
+              <p><span>* Tolerance : ±5%</span></p>
             </td>
           </tr>
           <tr class="column-names">
-            <td width="9%">
+            <td width="9%" data-width="9.4%">
               <p class="text-center">Model</p>
             </td>
-            <td width="8%">
+            <td width="8%" data-width="8.62%">
               <p class="text-center">Power</p>
             </td>
-            <td width="11%">
+            <td width="11%" data-width="11.74%">
               <p class="text-center">*Luminous Efficacy</p>
             </td>
-            <td width="10%" style="background-color: #d9d9d9; border-width: 0px 0.25pt 0.25pt 0px; border-style: none solid solid none; border-color: #000000 gray gray rgb(0, 0, 0); padding: 0cm 5.4pt; width: 10.96%; height: 27.35pt; line-height: 1">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">* Luminous Flux</span></p></td>
-<td width="13%" style="background-color: #d9d9d9; border-width: 0px 0.25pt 0.25pt 0px; border-style: none solid solid none; border-color: #000000 gray gray rgb(0, 0, 0); padding: 0cm 5.4pt; width: 13.24%; height: 27.35pt; line-height: 1">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">Color Temperature</span></p></td>
-<td width="8%" style="background-color: #d9d9d9; border-width: 0px 0.25pt 0.25pt 0px; border-style: none solid solid none; border-color: #000000 gray gray rgb(0, 0, 0); padding: 0cm 5.4pt; width: 8.8%; height: 27.35pt; line-height: 1">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">CRI</span></p></td>
-<td width="8%" style="background-color: #d9d9d9; border-width: 0px 0.25pt 0.25pt 0px; border-style: none solid solid none; border-color: #000000 gray gray rgb(0, 0, 0); padding: 0cm 5.4pt; width: 8.78%; height: 27.35pt; line-height: 1">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">Weight</span></p></td>
-<td width="15%" style="background-color: #d9d9d9; border-width: 0px 0.25pt 0.25pt 0px; border-style: none solid solid none; border-color: #000000 gray gray rgb(0, 0, 0); padding: 0cm 5.4pt; width: 15.36%; height: 27.35pt; line-height: 1">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">Input Voltage</span></p></td>
-<td width="13%" style="background-color: #d9d9d9; border-width: 0px 0px 0.25pt; border-style: none none solid; border-color: #000000 rgb(0, 0, 0) gray; padding: 0cm 5.4pt; border-image-source: none; width: 13.1%; height: 27.35pt; line-height: 1">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">Operation Temperature</span></p></td></tr>
-<tr style="height: 2.8pt">
-<td width="9%" style="border-width: 0px 0.25pt 0px 0px; border-style: none solid none none; border-color: #000000 gray rgb(0, 0, 0) rgb(0, 0, 0); padding: 0cm 5.4pt; border-image-source: none; width: 9.4%; height: 2.8pt; line-height: 1; background-color: transparent">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><font size="3"><span style="font-family: Arial; font-size: 12px">&nbsp;</span></font></p></td>
-<td width="8%" style="border-width: 0px 0.25pt 0px 0px; border-style: none solid none none; border-color: #000000 gray rgb(0, 0, 0) rgb(0, 0, 0); padding: 0cm 5.4pt; border-image-source: none; width: 8.62%; height: 2.8pt; line-height: 1; background-color: transparent">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><font size="3"><span style="font-family: Arial; font-size: 12px">&nbsp;</span></font></p></td>
-<td width="11%" style="border-width: 0px 0.25pt 0px 0px; border-style: none solid none none; border-color: #000000 gray rgb(0, 0, 0) rgb(0, 0, 0); padding: 0cm 5.4pt; border-image-source: none; width: 11.74%; height: 2.8pt; line-height: 1; background-color: transparent">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><font size="3"><span style="font-family: Arial; font-size: 12px">&nbsp;</span></font></p></td>
-<td width="10%" style="border-width: 0px 0.25pt 0px 0px; border-style: none solid none none; border-color: #000000 gray rgb(0, 0, 0) rgb(0, 0, 0); padding: 0cm 5.4pt; border-image-source: none; width: 10.96%; height: 2.8pt; line-height: 1; background-color: transparent">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><font size="3"><span style="font-family: Arial; font-size: 12px">&nbsp;</span></font></p></td>
-<td width="13%" style="border-width: 0px 0.25pt 0px 0px; border-style: none solid none none; border-color: #000000 gray rgb(0, 0, 0) rgb(0, 0, 0); padding: 0cm 5.4pt; border-image-source: none; width: 13.24%; height: 2.8pt; line-height: 1; background-color: transparent">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><font size="3"><span style="font-family: Arial; font-size: 12px">&nbsp;</span></font></p></td>
-<td width="8%" style="border-width: 0px 0.25pt 0px 0px; border-style: none solid none none; border-color: #000000 gray rgb(0, 0, 0) rgb(0, 0, 0); padding: 0cm 5.4pt; border-image-source: none; width: 8.8%; height: 2.8pt; line-height: 1; background-color: transparent">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><font size="3"><span style="font-family: Arial; font-size: 12px">&nbsp;</span></font></p></td>
-<td width="8%" style="border-width: 0px 0.25pt 0px 0px; border-style: none solid none none; border-color: #000000 gray rgb(0, 0, 0) rgb(0, 0, 0); padding: 0cm 5.4pt; border-image-source: none; width: 8.78%; height: 2.8pt; line-height: 1; background-color: transparent">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><font size="3"><span style="font-family: Arial; font-size: 12px">&nbsp;</span></font></p></td>
-<td width="15%" style="border-width: 0px 0.25pt 0px 0px; border-style: none solid none none; border-color: #000000 gray rgb(0, 0, 0) rgb(0, 0, 0); padding: 0cm 5.4pt; border-image-source: none; width: 15.36%; height: 2.8pt; line-height: 1; background-color: transparent">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><font size="3"><span style="font-family: Arial; font-size: 12px">&nbsp;</span></font></p></td>
-<td width="13%" style="padding: 0cm 5.4pt; border: 0px rgb(0, 0, 0); border-image-source: none; width: 13.1%; height: 2.8pt; line-height: 1; background-color: transparent">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><font size="3"><span style="font-family: Arial; font-size: 12px">&nbsp;</span></font></p></td></tr>
-<tr style="height: 33.55pt">
-<td width="9%" valign="top" style="border-width: 0px 0.25pt 0px 0px; border-style: none solid none none; border-color: #000000 gray rgb(0, 0, 0) rgb(0, 0, 0); padding: 0cm 5.4pt; border-image-source: none; width: 9.4%; height: 33.55pt; line-height: 1; background-color: transparent">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">SFA800</span></p></td>
-<td width="8%" valign="top" style="border-width: 0px 0.25pt 0px 0px; border-style: none solid none none; border-color: #000000 gray rgb(0, 0, 0) rgb(0, 0, 0); padding: 0cm 5.4pt; border-image-source: none; width: 8.62%; height: 33.55pt; line-height: 1; background-color: transparent">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">800W</span></p></td>
-<td width="11%" valign="top" style="border-width: 0px 0.25pt 0px 0px; border-style: none solid none none; border-color: #000000 gray rgb(0, 0, 0) rgb(0, 0, 0); padding: 0cm 5.4pt; border-image-source: none; width: 11.74%; height: 33.55pt; line-height: 1; background-color: transparent">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">110 lm/W</span></p>
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">105 lm/W</span></p>
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">100 lm/W</span></p></td>
-<td width="10%" valign="top" style="border-width: 0px 0.25pt 0px 0px; border-style: none solid none none; border-color: #000000 gray rgb(0, 0, 0) rgb(0, 0, 0); padding: 0cm 5.4pt; border-image-source: none; width: 10.96%; height: 33.55pt; line-height: 1; background-color: transparent">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">88,000 lm</span></p>
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">84,000 lm</span></p>
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">80,000 lm</span></p></td>
-<td width="13%" valign="top" style="border-width: 0px 0.25pt 0px 0px; border-style: none solid none none; border-color: #000000 gray rgb(0, 0, 0) rgb(0, 0, 0); padding: 0cm 5.4pt; border-image-source: none; width: 13.24%; height: 33.55pt; line-height: 1; background-color: transparent">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">5000K</span></p>
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">( 5700K / 4000K / 3000K available )</span></p></td>
-<td width="8%" valign="top" style="border-width: 0px 0.25pt 0px 0px; border-style: none solid none none; border-color: #000000 gray rgb(0, 0, 0) rgb(0, 0, 0); padding: 0cm 5.4pt; border-image-source: none; width: 8.8%; height: 33.55pt; line-height: 1; background-color: transparent">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">70 Ra</span></p>
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">80 Ra</span></p>
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">90 Ra</span></p></td>
-<td width="8%" valign="top" style="border-width: 0px 0.25pt 0px 0px; border-style: none solid none none; border-color: #000000 gray rgb(0, 0, 0) rgb(0, 0, 0); padding: 0cm 5.4pt; border-image-source: none; width: 8.78%; height: 33.55pt; line-height: 1; background-color: transparent">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">39.7 lb</span></p>
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">18.0 kg</span></p></td>
-<td width="15%" valign="top" style="border-width: 0px 0.25pt 0px 0px; border-style: none solid none none; border-color: #000000 gray rgb(0, 0, 0) rgb(0, 0, 0); padding: 0cm 5.4pt; border-image-source: none; width: 15.36%; height: 33.55pt; line-height: 1; background-color: transparent">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">200 ~ 277 Vac</span></p>
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">220 ~ 240 Vac</span></p>
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">347 ~ 480 Vac</span></p></td>
-<td width="13%" valign="top" style="padding: 0cm 5.4pt; border: 0px rgb(0, 0, 0); border-image-source: none; width: 13.1%; height: 33.55pt; line-height: 1; background-color: transparent">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">-22°F ~ 131°F</span></p>
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">-30°C ~ 55°C</span></p></td></tr>
-<tr style="height: 3pt">
+            <td width="10%" data-width="10.96%">
+              <p class="text-center">*Luminous Flux</p>
+            </td>
+            <td width="13%" data-width="13.24%">
+              <p class="text-center">Color (Temp)</p>
+            </td>
+            <td width="8%" data-width="8.8%">
+              <p class="text-center">CRI</p>
+            </td> 
+            <td width="8%" data-width="8.78%">
+              <p class="text-center">Weight</p>
+            </td>
+            <td width="15%" data-width="15.36%">
+              <p class="text-center">Input Voltage</p>
+            </td>
+            <td class="rightmost" width="13%" data-width="13.1">
+              <p class="text-center">Operation Temperature</p>
+            </td>
+          </tr>
+          <tr class="specs-first">
+            <td width="9%" data-width="9.4%">
+              <p class="text-center">SE080</p>
+              <p class="text-center">&nbsp;</p>
+              <p class="text-center">&nbsp;</p>
+            </td>
+            <td width="8%" data-width="8.62%">
+              <p class="text-center">80W</p>
+              <p class="text-center">&nbsp;</p>
+              <p class="text-center">&nbsp;</p>
+            </td>
+            <td width="11%" data-width="11.74%">
+              <p class="text-center">145 lm/W</p>
+              <p class="text-center">135 lm/W</p>
+              <p class="text-center">&nbsp;</p>
+            </td>
+            <td width="10%" data-width="10.96%">
+              <p class="text-center">11,600 lm</p>
+              <p class="text-center">10,800 lm</p>
+              <p class="text-center">&nbsp;</p>
+            </td>
+            <td width="13%" data-width="13.24%">
+              <p class="text-center">5000K</p>
+              <p class="text-center">optional: </p>
+              <p class="text-center">6500K / 5700K / 4000K / 3000K </p>
+            </td>
+            <td width="8%" data-width="8.8%">
+              <p class="text-center">80 ra</p>
+              <p class="text-center">&nbsp;</p>
+              <p class="text-center">&nbsp;</p>
+            </td>
+            <td width="8%" data-width="8.78%">
+              <p class="text-center">9.7 lb</p>
+              <p class="text-center">4.4 kg</p>
+              <p class="text-center">&nbsp;</p>
+            </td>
+            <td width="15%" data-width="15.36%">
+              <p class="text-center">100 ~ 277 Vac</p>
+              <p class="text-center">&nbsp;</p>
+              <p class="text-center">&nbsp;</p>
+            </td>
+            <td class="rightmost" width="13%" data-width="13.1%">
+              <p class="text-center">-22°F ~ 140°F</p>
+              <p class="text-center">-30°C ~ 60°C</p>
+              <p class="text-center">&nbsp;</p>
+            </td>
+          </tr>
+          <tr style="height: 3pt">
 <td width="9%" valign="top" style="border-width: 0px 0.25pt 0.25pt 0px; border-style: none solid solid none; border-color: #000000 gray gray rgb(0, 0, 0); padding: 0cm 5.4pt; width: 9.4%; height: 3pt; line-height: 1; background-color: transparent">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><font size="3"><span style="font-family: Arial; font-size: 12px">&nbsp;</span></font></p></td>
+<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">&nbsp;</span></p></td>
 <td width="8%" valign="top" style="border-width: 0px 0.25pt 0.25pt 0px; border-style: none solid solid none; border-color: #000000 gray gray rgb(0, 0, 0); padding: 0cm 5.4pt; width: 8.62%; height: 3pt; line-height: 1; background-color: transparent">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><font size="3"><span style="font-family: Arial; font-size: 12px">&nbsp;</span></font></p></td>
+<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">&nbsp;</span></p></td>
 <td width="11%" valign="top" style="border-width: 0px 0.25pt 0.25pt 0px; border-style: none solid solid none; border-color: #000000 gray gray rgb(0, 0, 0); padding: 0cm 5.4pt; width: 11.74%; height: 3pt; line-height: 1; background-color: transparent">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><font size="3"><span style="font-family: Arial; font-size: 12px">&nbsp;</span></font></p></td>
+<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">&nbsp;</span></p></td>
 <td width="10%" valign="top" style="border-width: 0px 0.25pt 0.25pt 0px; border-style: none solid solid none; border-color: #000000 gray gray rgb(0, 0, 0); padding: 0cm 5.4pt; width: 10.96%; height: 3pt; line-height: 1; background-color: transparent">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><font size="3"><span style="font-family: Arial; font-size: 12px">&nbsp;</span></font></p></td>
+<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">&nbsp;</span></p></td>
 <td width="13%" valign="top" style="border-width: 0px 0.25pt 0.25pt 0px; border-style: none solid solid none; border-color: #000000 gray gray rgb(0, 0, 0); padding: 0cm 5.4pt; width: 13.24%; height: 3pt; line-height: 1; background-color: transparent">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><font size="3"><span style="font-family: Arial; font-size: 12px">&nbsp;</span></font></p></td>
+<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">&nbsp;</span></p></td>
 <td width="8%" valign="top" style="border-width: 0px 0.25pt 0.25pt 0px; border-style: none solid solid none; border-color: #000000 gray gray rgb(0, 0, 0); padding: 0cm 5.4pt; width: 8.8%; height: 3pt; line-height: 1; background-color: transparent">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><font size="3"><span style="font-family: Arial; font-size: 12px">&nbsp;</span></font></p></td>
+<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">&nbsp;</span></p></td>
 <td width="8%" valign="top" style="border-width: 0px 0.25pt 0.25pt 0px; border-style: none solid solid none; border-color: #000000 gray gray rgb(0, 0, 0); padding: 0cm 5.4pt; width: 8.78%; height: 3pt; line-height: 1; background-color: transparent">
-<p style="margin: 0cm 0cm 0pt; line-height: 1"><font size="3"><span style="font-family: Arial; font-size: 12px">&nbsp;</span></font></p></td>
+<p style="margin: 0cm 0cm 0pt; line-height: 1"><span style="font-family: Arial; font-size: 12px">&nbsp;</span></p></td>
 <td width="15%" valign="top" style="border-width: 0px 0.25pt 0.25pt 0px; border-style: none solid solid none; border-color: #000000 gray gray rgb(0, 0, 0); padding: 0cm 5.4pt; width: 15.36%; height: 3pt; line-height: 1; background-color: transparent">
-<p style="margin: 0cm 0cm 0pt; line-height: 1"><font size="3"><span style="font-family: Arial; font-size: 12px">&nbsp;</span></font></p></td>
+<p style="margin: 0cm 0cm 0pt; line-height: 1"><span style="font-family: Arial; font-size: 12px">&nbsp;</span></p></td>
 <td width="13%" valign="top" style="border-width: 0px 0px 0.25pt; border-style: none none solid; border-color: #000000 rgb(0, 0, 0) gray; padding: 0cm 5.4pt; border-image-source: none; width: 13.1%; height: 3pt; line-height: 1; background-color: transparent">
-<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><font size="3"><span style="font-family: Arial; font-size: 12px">&nbsp;</span></font></p></td></tr>
+<p class="text-center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 1"><span style="font-family: Arial; font-size: 12px">&nbsp;</span></p></td></tr>
 <tr style="height: 12.75pt">
 <td width="62%" style="padding: 0cm 5.4pt; border: 0px rgb(0, 0, 0); border-image-source: none; width: 62.76%; height: 12.75pt; line-height: 1; background-color: transparent" colspan="6">
-<p style="margin: 0cm 0cm 0pt; text-align: justify; line-height: 1"><font size="3"><span style="font-family: Arial; font-size: 12px">&nbsp;</span></font></p></td>
+<p style="margin: 0cm 0cm 0pt; text-align: justify; line-height: 1"><span style="font-family: Arial; font-size: 12px">&nbsp;</span></p></td>
 <td width="37%" style="padding: 0cm 5.4pt; border: 0px rgb(0, 0, 0); border-image-source: none; width: 37.24%; height: 12.75pt; line-height: 1; background-color: transparent" colspan="3">
-<p style="margin: 0cm 0cm 0pt; text-align: justify; line-height: 1"><font size="3"><span style="font-family: Arial; font-size: 12px">&nbsp;</span></font></p></td></tr>
-<tr style="height: 12.75pt">
-<td width="53%" style="padding: 0cm 5.4pt; border: #000000; border-image-source: none; width: 53.96%; height: 12.75pt; line-height: 1; background-color: transparent" colspan="5">
-<p style="margin: 0cm 0cm 0pt; text-align: justify; line-height: 1"><span style="font-family: Arial; font-size: 12px">■</span><span style="font-family: Arial; font-size: 12px"> Body : Cast Aluminum</span></p></td>
-<td width="46%" style="padding: 0cm 5.4pt; border: #000000; border-image-source: none; width: 46.04%; height: 12.75pt; line-height: 1; background-color: transparent" colspan="4">
-<p style="margin: 0cm 0cm 0pt; text-align: justify; line-height: 1"><span style="font-family: Arial; font-size: 12px">■</span><span style="font-family: Arial; font-size: 12px"> Light Distribution : 15</span><span style="font-family: Arial; font-size: 12px">º</span><span style="font-family: Arial; font-size: 12px"> / 30</span><span style="font-family: Arial; font-size: 12px">º</span><span style="font-family: Arial; font-size: 12px"> / 45</span><span style="font-family: Arial; font-size: 12px">º</span></p></td></tr>
-<tr style="height: 12.75pt">
-<td width="53%" style="padding: 0cm 5.4pt; border: #000000; border-image-source: none; width: 53.96%; height: 12.75pt; line-height: 1; background-color: transparent" colspan="5">
-<p style="margin: 0cm 0cm 0pt; text-align: justify; line-height: 1"><span style="font-family: Arial; font-size: 12px">■</span><span style="font-family: Arial; font-size: 12px"> Cover : Tempered Glass  3.2T(Clear)</span></p></td>
-<td width="46%" style="padding: 0cm 5.4pt; border: #000000; border-image-source: none; width: 46.04%; height: 12.75pt; line-height: 1; background-color: transparent" colspan="4">
-<p style="margin: 0cm 0cm 0pt; text-align: justify; line-height: 1"><span style="font-family: Arial; font-size: 12px">■</span><span style="font-family: Arial; font-size: 12px"> Control System : Wired  (RS-485)</span></p></td></tr>
-<tr style="height: 12.75pt">
-<td width="53%" style="padding: 0cm 5.4pt; border: #000000; border-image-source: none; width: 53.96%; height: 12.75pt; line-height: 1; background-color: transparent" colspan="5">
-<p style="margin: 0cm 0cm 0pt; text-align: justify; line-height: 1"><span style="font-family: Arial; font-size: 12px">■</span><span style="font-family: Arial; font-size: 12px"> Finish : Powder Coating</span></p></td>
-<td width="46%" style="padding: 0cm 5.4pt; border: #000000; border-image-source: none; width: 46.04%; height: 12.75pt; background-color: transparent" colspan="4">
-<p style="margin: 0cm 0cm 0pt; text-align: justify"><font size="3"><span style="font-size: 12px">&nbsp;</span></font></p></td></tr>
-      </tbody>
-    </table> -->
+<p style="margin: 0cm 0cm 0pt; text-align: justify; line-height: 1"><span style="font-family: Arial; font-size: 12px">&nbsp;</span></p></td></tr>
+          <tr style="height: 12.75pt">
+            <td width="53%" style="padding: 0cm 5.4pt; border: #000000; border-image-source: none; width: 53.96%; height: 12.75pt; line-height: 1; background-color: transparent" colspan="5">
+              <p style="margin: 0cm 0cm 0pt; text-align: justify; line-height: 1">
+	            <span style="font-family: Arial; font-size: 12px">■ Body: Cast Aluminum</span>
+              </p>
+            </td>
+            <td width="46%" style="padding: 0cm 5.4pt; border: #000000; border-image-source: none; width: 46.04%; height: 12.75pt; line-height: 1; background-color: transparent" colspan="4">
+              <p style="margin: 0cm 0cm 0pt; text-align: justify; line-height: 1">
+              	<span style="font-family: Arial; font-size: 12px">■ Light Distribution:</span>
+              	<span style="font-family: Arial; font-size: 12px">SE080:80º/100º, SE100: 80º/110º, SE130/SE160: 90º/130º</span>
+              </p>
+            </td>
+          </tr>
+          <tr style="height: 12.75pt">
+            <td width="53%" style="padding: 0cm 5.4pt; border: #000000; border-image-source: none; width: 53.96%; height: 12.75pt; line-height: 1;background-color: transparent" colspan="5">
+              <p style="margin: 0cm 0cm 0pt; text-align: justify; line-height: 1">
+                <span style="font-family: Arial; font-size: 12px">■ Cover: Tempered Glass 3.2T(Clear / Frosted)</span>
+              </p>
+            </td>
+            <td width="46%" style="padding: 0cm 5.4pt; border: #000000; border-image-source: none; width: 46.04%; height: 12.75pt; line-height: 1; background-color: transparent" colspan="4">
+              <p style="margin: 0cm 0cm 0pt; text-align: justify; line-height: 1">
+              	<span style="font-family: Arial; font-size: 12px">■ Control System:</span>
+              </p>
+              <p style="margin: 0cm 0cm 0pt; text-align: justify; line-height: 1">
+              	<span style="font-family: Arial; font-size: 12px">Wireless (ZigBee) / Wired (1-10V)</span>
+              </p>
+              <p style="margin: 0cm 0cm 0pt; text-align: justify; line-height: 1">
+              	<span style="font-family: Arial; font-size: 12px">Sensor(ZigBee + Occupancy + Daylight)</span>
+              </p>              
+            </td>
+          </tr>
+          <tr style="height: 12.75pt">
+            <td width="53%" style="padding: 0cm 5.4pt; border: #000000; border-image-source: none; width: 53.96%; height: 12.75pt;   line-height: 1; background-color: transparent" colspan="5">
+              <p style="margin: 0cm 0cm 0pt; text-align: justify; line-height: 1">
+                <span style="font-family: Arial; font-size: 12px">■ Finish: Powder Coating</span>
+              </p>
+            </td>
+            <td width="46%" style="padding: 0cm 5.4pt; border: #000000; border-image-source: none; width: 46.04%; height: 12.75pt;   background-color: transparent" colspan="4">
+              <p style="margin: 0cm 0cm 0pt; text-align: justify">■ Mounting Option: Ceiling Bracket (Pipe, Chain)</p>
+            </td>
+          </tr>
+        </tbody>
+      </table> -->
 
-	</div><!-- .entry-content -->
+    </div><!-- .entry-content -->
 
 
 
