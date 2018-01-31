@@ -10,7 +10,7 @@
 ?>
 
 <div id="roadway-series" class="col-xs-12 hentry under-fixed-nav">
-  <article id="post-<?php the_ID(); ?>" <?php post_class(""); ?>>
+  <article id="post-<?php the_ID(); ?>" <?php post_class("product-detail"); ?>>
     <header class="entry-header">
 
 	  <?php if (count(get_post_custom_values('variant')) > 0) : ?>
@@ -25,7 +25,7 @@
           </ul>
         </div>
       <?php endif; ?>
-      <h3 class="tagline text-center"><?php echo(get_post_meta($post->ID, 'tagline', true)); ?></h3>
+      <h2 class="tagline text-center"><?php echo(get_post_meta($post->ID, 'tagline', true)); ?></h2>
 
 	</header><!-- .entry-header -->
 
@@ -39,16 +39,25 @@
 	  </div>
 	  <div class="col-xs-12 col-md-6 desc">
         <ul>
-          <li>Silver Reflector with 97% Reflection Ratio</li>
- 	      <li>Wireless Lighting Control</li>
- 	      <li>Built-in 20kV surge protection Device</li>
- 	      <li>Linear Tilt Bracket</li>
-          <li>High Efficiency 135 lm/W</li>
+          <li><?php echo(get_post_meta($post->ID, 'highlight1', true)); ?></li>
+ 	      <li><?php echo(get_post_meta($post->ID, 'highlight2', true)); ?></li>
+ 	      <li><?php echo(get_post_meta($post->ID, 'highlight3', true)); ?></li>
+ 	      <li><?php echo(get_post_meta($post->ID, 'highlight4', true)); ?></li>
         </ul>
       </div>
 	</div>
 
-	<div class="entry-content product-detail">
+	<div class="entry-content">
+      <section class="applications">
+      	<span class="head"><h3>Typical Applications</h3></span>
+      	<?php echo(get_post_meta($post->ID, 'Application', true)); ?>
+      </section>
+      <section class="certifications">
+      	<span class="head"><h3>Certifications</h3></span>
+      	 <?php echo(get_post_meta($post->ID, 'Certifications', true)); ?>
+      </section>
+
+
 	  <?php the_content(); ?>
 
 
@@ -90,26 +99,26 @@
           </tr>
           <tr class="specs-first">
             <td width="9%" data-width="9.4%">
-              <p class="text-center">SE080</p>
-              <p class="text-center">&nbsp;</p>
+              <p class="text-center">MT100</p>
+              <p class="text-center">MTL100</p>
               <p class="text-center">&nbsp;</p>
             </td>
             <td width="8%" data-width="8.62%">
-              <p class="text-center">80W</p>
+              <p class="text-center">100W</p>
               <p class="text-center">&nbsp;</p>
               <p class="text-center">&nbsp;</p>
             </td>
-            <td width="11%" data-width="11.74%">
-              <p class="text-center">145 lm/W</p>
-              <p class="text-center">135 lm/W</p>
+            <td class="rowspan" rowspan=4 width="11%" data-width="11.74%">
+              <p class="text-center">140 lm/W</p>
+              <p class="text-center">&nbsp;</p>
               <p class="text-center">&nbsp;</p>
             </td>
             <td width="10%" data-width="10.96%">
-              <p class="text-center">11,600 lm</p>
-              <p class="text-center">10,800 lm</p>
+              <p class="text-center">14000 lm</p>
+              <p class="text-center">&nbsp;</p>
               <p class="text-center">&nbsp;</p>
             </td>
-            <td width="13%" data-width="13.24%">
+            <td class="rowspan" rowspan=4 width="13%" data-width="13.24%">
               <p class="text-center">5000K</p>
               <p class="text-center">optional: </p>
               <p class="text-center">6500K / 5700K / 4000K / 3000K </p>

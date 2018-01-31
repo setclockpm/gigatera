@@ -99,7 +99,9 @@ article#post-877, article#post-2 {
 
 body {
   background-color: #cfcfcf;
+  font-family: 'Lato', 'Open Sans', sans-serif;
 }
+
 
 
 
@@ -277,7 +279,7 @@ h3.header-text {
   font-family: "Quantico", sans-serif;
 }
 
-h3.tagline {
+h2.tagline {
  font-family: "Lato", "Open Sans", sans-serif;
 }
 
@@ -564,7 +566,20 @@ p.application-example {
   border-bottom: 1px solid #d3d3d3;
 }
 .product-detail .body {
-  padding: 23px 0 60px;
+  padding: 10px 0 60px;
+}
+.product-detail h3 {
+  font-family: "Lato", "Open Sans", sans-serif;
+}
+.product-detail .head h3 {
+  margin-bottom: -1px;
+  margin-top: 30px;
+  padding-bottom: 5px;
+  vertical-align: top;
+  color: #ffb300;
+  font-size: 18px;
+  line-height: 1.1em;
+  border-bottom: 2px solid #373635;
 }
 
 
@@ -723,6 +738,9 @@ tr.specs-first td {
   line-height: 1;
   vertical-align: top;
 }
+tr.specs-first td.rowspan {
+  vertical-align: middle;
+}
 
 tr.specs-top {
   height: 12.75pt;
@@ -734,9 +752,11 @@ tr.specs-top td {
   width: 100%; 
   height: 12.75pt; 
 }
+
 td.tolerance p {
   text-align: right; 
 }
+
 
 
 

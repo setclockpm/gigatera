@@ -2,10 +2,10 @@
 
 /*
 
-Template Name: Roadway Lighting (Single)
+Template Name: Facade Lighting (Single)
 
 */
-  get_header();
+	get_header();
 ?>
 
 </div><!-- #container -->
@@ -41,10 +41,10 @@ Template Name: Roadway Lighting (Single)
                 <li role="presentation" data-section="Bay">
                   <a href="/products/lighting/bay">Bay</a>
                 </li>
-                <li role="presentation" class="active" data-section="Roadway">
+                <li role="presentation" data-section="Roadway">
                   <a href="/products/lighting/roadway">Roadway</a>
                 </li>
-                <li role="presentation" data-section="Facade">
+                <li role="presentation" class="active" data-section="Facade">
                   <a href="/products/lighting/facade">Facade</a>
                 </li>
               </ul>
@@ -57,7 +57,7 @@ Template Name: Roadway Lighting (Single)
       <div class="lighting-content row">
 
         <?php while ( have_posts() ) : the_post(); ?>
-          <?php get_template_part( 'template-parts/content', 'single-roadway' ); ?>
+          <?php get_template_part( 'template-parts/content', 'single-facade' ); ?>
         <?php endwhile; // end of the loop. ?>
 
       </div> 
