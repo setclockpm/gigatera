@@ -67,8 +67,8 @@
 
       
       $(window).on("scroll", function(e) {
-        console.log($(this).scrollTop());
-        if ($(this).scrollTop() > 147) {
+        if ($(this).scrollTop() > 240.0) {
+          console.log("fix-subsection-bar");
           $("div#page").addClass("fix-subsection-bar");
         } else {
           $("div#page").removeClass("fix-subsection-bar");
@@ -78,12 +78,4 @@
 
     });
     
-
-    // jQuery(document).ready(function($){
-    //   $( window ).on("scroll", function(e) {
-    //     console.log("window:" + $(this));
-    //     console.log(this.scrollTop);
-    //   });
-
-    // });
   </script>
