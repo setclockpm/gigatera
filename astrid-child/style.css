@@ -406,6 +406,13 @@ li.active a:first-child:after {
   border-bottom: 1px solid #d8d8d8;
 }
 
+/*.lighting-subsection-bar {
+  border-bottom: 1px solid #cfcfcf;
+  z-index: 998;
+  padding: 10px 5px;
+  position: absolute;
+  width: 100%;
+}*/
 
 
 
@@ -562,6 +569,19 @@ p.application-example {
   margin-top: -128px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 .product-detail .head {
   border-bottom: 1px solid #d3d3d3;
 }
@@ -585,15 +605,6 @@ p.application-example {
 
 .roadway-background, .background-roadway {
   background-image: url(https://gigaterausa.com/wp-content/uploads/2018/01/roadway-lighting-e1515150098334.png);
-}
-
-
-.lighting-subsection-bar {
-  border-bottom: 1px solid #cfcfcf;
-  z-index: 998;
-  padding: 10px 5px;
-  position: absolute;
-  width: 100%;
 }
 
 
@@ -649,12 +660,22 @@ p.application-example {
 }
 
 /*--------------------------------------------------- SUBSECTION --------------------------------------------- */
+
+div#page {
+  overflow: auto;
+  position: relative;
+}
+.fix-subsection-bar .subsection-bar {
+  position: fixed;
+  top: 12px;
+}
+
+
 .subsection-bar {
   background: #1e2125;
   height: 68px;
   top: 112px;
   position: relative;
-/*  z-index: 990;*/
 }
 .subsection-bar nav {
   display: inline-block;
