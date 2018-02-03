@@ -12,7 +12,7 @@
   <div class="middle col-md-4">
     <div id="sega" class="col-xs-12">
       <a href="/products/lighting/bay/sega">
-        <img src="https://gigaterausa.com/wp-content/uploads/2018/01/sega.png" alt="sega">
+        <img src="https://gigaterausa.com/wp-content/uploads/2018/02/sega.png" alt="sega">
       </a>
     </div>
     <div id="sora" class="col-xs-12"></div>
