@@ -11,11 +11,16 @@
 
 ?>
    
-   		</div>
+   		  </div>
    	  </div><!-- #content -->
    
    	  <div class="footer-wrapper">
-   	  	<div class="jumbotron jumbotron-fluid jumbotron-lighting">
+      <?php if (get_post_meta($post->ID, 'footer-photo-url', true)): ?>
+        <div class="jumbotron jumbotron-fluid jumbotron-lighting" 
+             style="background-image:url(<?php echo(get_post_meta($post->ID, 'footer-photo-url', true)) ?>)">
+      <?php else: ?>
+        <div class="jumbotron jumbotron-fluid jumbotron-lighting">
+   	  <?php endif; ?>
    	  	  <div class="container">
    	  	    <h1 class="display-4"></h1>
    	  	    <p class="lead"></p>
@@ -50,6 +55,8 @@
 
   </body>
 </html>
+
+
 
 <script type="text/javascript">
     jQuery(document).ready(function($){

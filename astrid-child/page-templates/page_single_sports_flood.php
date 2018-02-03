@@ -13,7 +13,7 @@ Template Name: Sports / Flood Lighting (Single)
 <div id="primary" class="lighting">
 
 <?php if (has_post_thumbnail()): ?>
-  <div class="lighting-title-container subsection-title-container" style="background-image: url(<?php the_post_thumbnail_url( "full" ) ?>);">
+  <div class="lighting-title-container subsection-title-container" style="background-image:url(<?php the_post_thumbnail_url( "full" ) ?>);">
 <?php else: ?>
   <div class="lighting-title-container subsection-title-container lighting-main-background">
 <?php endif ?>

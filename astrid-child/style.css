@@ -328,11 +328,20 @@ hr.card-divider {
 
 
 
-
 .hentry {
   border: 0;
   background-color: #fafaf8;
 }
+
+
+
+
+img.tile {
+  width: 100%;
+}
+
+
+
 
 
 
@@ -736,6 +745,15 @@ table.specs td {
 }
 table.specs td.rightmost {
   border-right: 0px rgb(0, 0, 0);
+}
+tr.bottom-specs td {
+  border: #000000;
+  padding: 10pt 5.4pt;
+  width: 53.96%; 
+  height: 12.75pt;
+}
+tr.bottom-specs.first td {
+  padding-top: 19pt;
 }
 tr.column-names {
   height: 27.35pt;
