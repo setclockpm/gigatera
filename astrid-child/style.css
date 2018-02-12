@@ -34,7 +34,8 @@ a.button.case-study {
   color: #fff;
 }
 a.button.header-button {
-  font-family: "Helvetica Neue", "Roboto", "Helvetica", sans-serif;
+  font-family: 'PT Sans Caption', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+  text-transform: unset;
 }
 
 a.case-study {
@@ -48,6 +49,8 @@ a.thumbnail {
   border: 0;
   margin-bottom: 0px;
 }
+
+
 
 .applications-content {
   position: relative;
@@ -94,16 +97,19 @@ article p {
 article#post-877, article#post-2 {
   text-align: center;
 }
-
+article.gess section#intro .entry-content {
+  margin-bottom: 55px;
+}
 
 
 body {
   background-color: #cfcfcf;
   font-family: 'PT Sans', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+  letter-spacing: normal;
 }
 
 .button {
-  font-family: Helvetica Neue, 'PT Sans Caption', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+  font-family: 'PT Sans Caption', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
   font-weight: bold;
   letter-spacing: 1px;
 }
@@ -121,6 +127,14 @@ body {
 }
 
 
+ /*------------------------------------------------ C -----------------------------------------------------------------*/
+
+.case-study hr.card-divider {
+  border: 1px solid #fcd088;
+  margin-top: 10px;
+}
+
+
 .control-systems-title-container {
   background-position: 0% 25%;
   background-size: cover;
@@ -133,7 +147,21 @@ body {
 }
 
 
-
+.component a {
+   display: block;
+   padding: 1em;
+}
+.component a:hover {
+  color: transparent;
+  -moz-box-shadow: 1px 1px 5px #999;
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 1px 1px 5px #999;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+.component hr.caption-border {
+  border: .5px solid #0098C5; 
+}
 
 
 .description {
@@ -229,8 +257,38 @@ div#applications-content p {
   font-family: 'PT Sans', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
   margin: 1em 0 0;
 }
+div.headline-container {
+  /*border-bottom: 3px solid #777879;*/
+}
+div#control-systems-container,
+div#gess-container,
+div#single-gess-container,
 div#lighting-container {
   margin-top: -144px;
+}
+div#control-systems-container h2.headline {
+  border-top: 1px solid #777879;
+  border-bottom: 1px solid #777879;
+  color: #0098C5;
+  /*font-family: 'PT Sans Caption', 'Myriad Pro', 'Lato', 'Arial', sans-serif;*/
+  font-family: 'Quantico', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+  font-size: 2.0em;
+  letter-spacing: -1.5px;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  padding: 5px;
+}
+div#single-gess-container h2.headline {
+  border-top: 1px solid #777879;
+  border-bottom: 1px solid #777879;
+  color: #0098C5;
+  font-family: 'Quantico', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+  font-size: 2.0em;
+  letter-spacing: -1.5px;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  padding: 5px;
+  text-transform: none;
 }
 div#lighting-nav-container {
   height: 100%;
@@ -270,14 +328,26 @@ h1#series-entry-title {
 
 /*-----------------h2--------------------*/
 h2 {
-  font-family: "Quantico", "Helvetica Neue", "Arial", sans-serif;
+  font-family: "PT Sans Caption", "Helvetica Neue", "Arial", sans-serif;
   text-transform: uppercase;
 }
-
+h2.headline {
+  color: #f9b92b;
+  font-family: 'PT Sans Caption', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+  font-size: 2.4em;
+  margin-bottom: 10px;
+}
 h2.applications-tagline {
   font-family: "Quantico", "Ropa Sans" "Arial", sans-serif;
 }
-
+h2.tagline {
+ font-family: 'PT Sans Caption', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+}
+h2.widget-title {
+   font-family: 'Quantico', 'PT Sans Caption', 'Helvetica Neue', 'Arial', sans-serif;
+   letter-spacing: 2px;
+   font-weight: bold;
+}
 
 h3 {
   font-family: "Quantico", "Helvetica Neue", "Helvetica", sans-serif;
@@ -286,13 +356,38 @@ h3 {
 h3.header-text {
   font-family: "Quantico", sans-serif;
 }
-
-h2.tagline {
- font-family: 'PT Sans Caption', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+h3.headline {
+  color: #173F66;
+  letter-spacing: 0px;
+  font-family: 'PT Sans Caption', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+  text-transform: none;
+}
+h3.service-title {
+  letter-spacing: normal;
+  letter-spacing: 0px;
+  font-size: 1.6em; 
+}
+h3.ordered-section {
+  color: #0098C5;
+  border-bottom: .5px solid #777879;
+  font-family: 'PT Sans Narrow', 'Helvetica Neue', 'Arial', sans-serif;
+  margin-top: 60px;
+}
+.product-detail h3.ordered-section {
+  font-family: 'PT Sans Narrow', 'Helvetica Neue', 'Arial', sans-serif;
 }
 
 
 
+h4.caption {
+  font-family: 'PT Sans', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+  letter-spacing: normal;
+}
+h4.caption a {
+  color: #173F66;
+  font-family: 'PT Sans', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+  text-transform: none;
+}
 h4.header-subtext {
   font-family: 'PT Sans Narrow', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
 }
@@ -301,7 +396,7 @@ h4.case-study-single-top {
   color: #1e2125;
   margin-top: 50px;
   margin-bottom: 8px;
-  font-family: "Duru Sans", 'PT Sans', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+  font-family: 'PT Sans Narrow', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
   font-weight: bold;
   text-decoration: underline;
 }
@@ -310,27 +405,35 @@ h4.case-study-single-btm {
   font-family: 'PT Sans', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
 }
 
+h5 {
+  font-family: 'PT Sans', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  margin-bottom: 6px;
+}
+
+
+h6 {
+  font-family: 'PT Sans', 'Myriad Pro', 'Lato', 'Arial', sans-serif; 
+}
+
 
 hr.card-divider {
   border: 1px solid rgba(186, 190, 191,0.9);
   padding: 0px 10%;
-  /*border: 1px solid rgba(32,37,41,0.9);*/
   margin-top: 0px;
   margin-bottom: 18px;
 }
 
-
-
-.case-study hr.card-divider {
-  border: 1px solid #fcd088;
-  margin-top: 10px;
+hr.caption-border {
+  border: 1px solid #fcd088; 
 }
 
 
 
-.hentry {
-  border: 0;
-  background-color: #fafaf8;
+
+div#control-systems-container .hentry {
+  background-color: #fff;
 }
 
 
@@ -377,9 +480,9 @@ img.tile {
 }
 
 .jumbotron-lighting {
-  background-image: url(https://gigaterausa.com/wp-content/uploads/2018/01/steampunk-style-gt.png);
+  background-image: url(https://gigaterausa.com/wp-content/uploads/2018/02/tech_body_design-e1517788287306.png);
   color: white;
-  min-height: 220px;
+  min-height: 256px;
   margin-bottom: 0px;
 }
 
@@ -412,6 +515,12 @@ li.active a:first-child:after {
   left: 0;
   border-bottom: 1px solid #fcd088;
   width: 100%;
+}
+li.label-only {
+  color: #fcd088;
+  font-family: 'PT Sans Narrow', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+  font-size: 18px;
+  padding-right:0;
 }
 
 
@@ -462,9 +571,15 @@ li.active a:first-child:after {
 }
 
 
-#main h2 {
+main h2 {
   font-size: 32px;
   line-height: 1.15;
+}
+main .subsection-heading.non-mobile h2 {
+  font-size: 2em;
+}
+main .subsection-heading.non-mobile h2.bay {
+  font-size: 1.9em;
 }
 
 .main-navigation li a::before {
@@ -525,6 +640,49 @@ nav#lighting-menu-container {
 
 
 
+
+
+
+ol.feature-list {
+    list-style-type: none;
+    list-style-type: decimal !ie;
+    margin: 0;
+    margin-left: 3em;
+    padding: 0;
+    counter-reset: li-counter;
+}
+ol.feature-list h5 {
+  color: #0098C5;
+}
+ol.feature-list > li {
+    position: relative;
+    margin-bottom: 35px;
+    padding-left: 0.5em;
+    min-height: 3em;
+    border-left: 2px solid #444546;
+}
+ol.feature-list > li:before {
+  color: #0098C5;
+  content: counter(li-counter);
+  counter-increment: li-counter;
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 1;
+  text-align: right;
+  position: absolute;
+  top: 0;
+  left: -1em;
+  width: 0.8em;
+}
+
+
+
+
+
+
+
+
+
 p {
   color: #495151;
 }
@@ -574,20 +732,33 @@ p.application-example {
 }
 
 
+
 .page-template-page_single_sports_flood .site-content,
 .page-template-page_single_bay .site-content,
 .page-template-page_single_roadway .site-content,
 .page-template-page_single_facade .site-content,
 .page-template-page_lighting .site-content,
 .page-template-page_sports_flood .site-content, 
-.page-template-page_facade .site-content, 
-.page-template-page_roadway .site-content, 
-.page-template-page_bay .site-content {
+.page-template-page_facade .site-content {
   margin-top: -128px;
+  margin-bottom: 40px;
 }
 
 
+.page-template-page_equipment .site-content,
+.page-template-page_bay .site-content,
+.page-template-page_roadway .site-content,
+.page-template-page_gess .site-content,
+.page-template-page_single_gess .site-content,
+.page-template-page_control_systems .site-content {
+  margin-top: -128px;
+  margin-bottom: -128px;
+}
 
+
+.point8em {
+  font-size: .8em;
+}
 
 
 
@@ -635,7 +806,25 @@ p.application-example {
 
 
 
-
+section.blurb {
+  /*margin-top: 3%;*/
+}
+section#components {
+  font-size: 1em;
+}
+section#components h3 {
+  font-family: 'PT Sans Narrow', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+  /*font-family: 'Quantico', 'PT Sans Caption' 'Myriad Pro', 'Lato', 'Arial', sans-serif;*/
+  font-size: 1.6em;
+  letter-spacing: 2px;
+}
+section#features-list {
+  padding-top: 7%;
+}
+section#intro p,
+section#main-blurb p {
+  font-size: 1.1em;
+}
 
 .section-nav {
   text-align: right;
@@ -649,7 +838,6 @@ p.application-example {
   color: #e0e0e0;
   font-family: 'PT Sans Narrow', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
   font-size: 18px;
-  /*letter-spacing: 0.5px;*/
 }
 .section-nav .nav-pills > li.active > a {
   color: #fcd088;
@@ -667,7 +855,6 @@ p.application-example {
 
 .site-content > .container {
   background-color: #f4f4f4;
-/*  border-radius: 6px 6px 0px 0px;*/
   border-left: 0;
   border-right: 0;
 }
@@ -675,6 +862,15 @@ p.application-example {
 .site-header {
   border-bottom: 0;
 }
+
+
+span.fine-print {
+  font-size: 0.7em;
+  color: #0098c5;
+  text-align: right;
+}
+
+
 
 /*--------------------------------------------------- SUBSECTION --------------------------------------------- */
 
@@ -703,12 +899,33 @@ div#page {
 }
 
 
+
 .sports-flood-background, .background-sports-flood {
   background-image: url(https://gigaterausa.com/wp-content/uploads/2017/11/cropped-gtfront2-e1515051620623.jpg);
 }
 
 
+.specs .list {
+ padding-top: 1em;
+}
+.specs .list p {
+  font-size: 1.1em;
+  margin: 0cm 0cm 0pt;
+  line-height: 1;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
 
+.specs .list p.nest {
+  margin-left: .5em;
+  font-size: 0.9em;
+}
+.gess-product .specs p {
+  font-size: 1em;
+}
+.gess-product .specs .list p {
+  font-size: 1.2em;
+}
 
 
 
@@ -732,7 +949,7 @@ table.specs {
   margin: 0;
   padding: 0;
 }
-table.specs p {
+.specs p {
   font-family: 'PT Sans Narrow', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
   font-size: 12px;
   margin: 0cm 0cm 0pt;
@@ -754,6 +971,11 @@ tr.bottom-specs td {
 }
 tr.bottom-specs.first td {
   padding-top: 19pt;
+}
+tr.bottom-specs p {
+  margin: 0cm 0cm 0pt;
+  text-align: justify;
+  line-height: 1;
 }
 tr.column-names {
   height: 27.35pt;
@@ -811,7 +1033,10 @@ td.tolerance p {
 
 
 
-
+ul.highlights {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
 
 ul#primary-menu li a {
   font-family: "Quantico", "Helvetica Neue", "Arial", sans-serif;
@@ -846,7 +1071,7 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
 
 
 
-@media only screen and (max-width: 1068px) {
+@media only screen and (max-width: 1067px) {
   div#applications-content h2.applications-tagline {
     font-size: 28px;
     line-height: 1.1073;
@@ -860,12 +1085,60 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
   .nav-pills>li+li {
     margin-left: 0px;
   }
-   .nav-pills > li {
+  .nav-pills > li {
     background-color: #22262c;
   }
   
   .subsection-heading.non-mobile {
     display: none;
+  }
+  .subsection-nav nav.tablet.section-nav {
+    display: none;
+  }
+
+}
+
+
+@media only screen and (min-width: 1024px) {
+  
+  .fix-subsection-bar .subsection-bar {
+    background-color: rgba(32,37,41,0.8);
+    position: fixed;
+    top: 92px;
+    z-index: 998;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  
+  .hentry {
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+  }
+
+  .nav-pills > li {
+    min-width: 113px;
+    text-align: center;
+  }
+
+  .subsection-nav nav.tablet.section-nav {
+    display: none;
+  }
+   .subsection-heading.mobile {
+    display: none;
+  }
+
+}
+
+
+@media only screen and (max-width: 991px) {
+  
+  .subsection-nav nav.regular.section-nav {
+    display: none;
+  }
+  .subsection-nav nav.tablet.section-nav {
+    display: block;
   }
   .subsection-heading.mobile {
     display: block;
@@ -875,7 +1148,11 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
     z-index: 1;
   }
   .subsection-heading.mobile h1 {
-    font-size: 3em;
+    font-size: 2.6em;
+  }
+  .subsection-heading.mobile h1.gess {
+    text-transform:none;
+    letter-spacing:-3px;
   }
   .subsection-title-container {
     height: 256px;
@@ -893,34 +1170,20 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
 }
 
 
-@media only screen and (min-width: 1024px) {
-  
-  .fix-subsection-bar .subsection-bar {
-    background-color: rgba(32,37,41,0.8);
-    position: fixed;
-    top: 92px;
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  main .subsection-heading.non-mobile h2 {
+    font-size: 1.4em;
   }
 }
 
-@media only screen and (min-width: 992px) {
-  
-  .hentry {
-    padding-right: 40px;
-    padding-bottom: 30px;
-    padding-left: 40px;
-  }
 
-  .nav-pills > li {
-    min-width: 113px;
-    text-align: center;
-  }
 
-}
 
 @media only screen and (min-width: 768px) {
- .subsection-heading.mobile {
-    display: none;
-  }
+
 }
 
 @media only screen and (min-width: 480px) and (max-width: 768px) {
@@ -930,9 +1193,18 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
   .lighting-title-container.non-mobile {
     display: none;
   }
- .nav-pills > li {
-    min-width: 85px;
+  .nav-pills > li {
+    min-width: 83px;
     text-align: center;
+  }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+  .tablet .label-only {
+    display: none;
   }
 }
 
@@ -945,7 +1217,7 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
     margin-right: 0px;
     width: 100%;
   }
- .subsection-bar {
+  .subsection-bar {
     height: 64px
   }
   .section-nav .nav-pills > li > a {
@@ -953,10 +1225,12 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
     padding: 16px 11px;
   }
   .nav-pills > li {
-    min-width: 66px;
+    min-width: 60px;
     text-align: center;
   }
+
 }
+
 
 
 

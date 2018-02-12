@@ -11,26 +11,18 @@
 
 <div id="roadway-series" class="col-xs-12 hentry under-fixed-nav">
   <article id="post-<?php the_ID(); ?>" <?php post_class("product-detail"); ?>>
+
     <header class="entry-header">
 
-	  <?php if (count(get_post_custom_values('variant')) > 0) : ?>
-	    <div class="product-tab">
-          <ul class="clearfix">
-            <li class="<?php echo(get_post_meta($post->ID, 'series', true) == 'maha' ? 'active' : 'inactive'); ?>">
-              <a href="/products/lighting/bay/maha">MAHA</a>
-            </li>
-            <li class="<?php echo(get_post_meta($post->ID, 'series', true) == 'maha-neo' ? 'active' : 'inactive'); ?>">
-              <a href="/products/lighting/bay/maha-neo">MAHA-NEO</a>
-            </li>
-          </ul>
+	    <?php if (count(get_post_custom_values('version')) > 0) : ?>
+        <div class="product-tab">
+          <ul class="clearfix"></ul>
         </div>
       <?php endif; ?>
       <h2 class="tagline text-center"><?php echo(get_post_meta($post->ID, 'tagline', true)); ?></h2>
 
-	</header><!-- .entry-header -->
+	  </header><!-- .entry-header -->
 
-	
-    
   
 
     <div class="product-images-container row">
@@ -38,7 +30,7 @@
 	      <img src="<?php echo get_post_meta($post->ID, 'photo-url', true); ?>">
 	    </div>
 	    <div class="col-xs-12 col-md-6 desc">
-        <ul>
+        <ul class="highlights">
           <li><?php echo(get_post_meta($post->ID, 'highlight1', true)); ?></li>
           <li><?php echo(get_post_meta($post->ID, 'highlight2', true)); ?></li>
           <li><?php echo(get_post_meta($post->ID, 'highlight3', true)); ?></li>
@@ -49,29 +41,68 @@
             <li><?php echo(get_post_meta($post->ID, 'highlight5', true)); ?></li>
           <?php endif; ?> 
         </ul>
+
+        <section class="applications">
+          <span class="head"><h3>Typical Applications</h3></span>
+          <?php echo(get_post_meta($post->ID, 'Application', true)); ?>
+        </section>
+
+        <?php if (get_post_custom_values('Certifications')) : ?>
+          <section class="certifications">
+            <span class="head"><h3>Certifications</h3></span>
+            <?php echo(get_post_meta($post->ID, 'Certifications', true)); ?>
+          </section>
+        <?php endif; ?> 
       </div>
 	  </div>
 
 	  <div class="entry-content">
-      <section class="applications">
-      	<span class="head"><h3>Typical Applications</h3></span>
-      	<?php echo(get_post_meta($post->ID, 'Application', true)); ?>
+      <section class="specs">
+        <div class="head" style="margin-top:40px;">
+          <h3>Specifications</h3>
+        </div>
+        <div class="list">
+          <p>Body: &nbsp;<?php echo(get_post_meta($post->ID, 'Body', true)); ?></p>
+          
+          <p>Cover: &nbsp;<?php echo(get_post_meta($post->ID, 'Cover', true)); ?></p>
+          <p>Finish: &nbsp;<?php echo(get_post_meta($post->ID, 'Finish', true)); ?></p>
+          <?php if (count(get_post_custom_values('Junction Box')) > 0) : ?>
+            <p>Junction Box: &nbsp;<?php echo(get_post_meta($post->ID, 'Junction Box', true)); ?></p>
+          <?php endif; ?>
+          <?php if (count(get_post_custom_values('Light Distribution')) > 0) : ?>
+            <p>Light Distribution: &nbsp;<?php echo(get_post_meta($post->ID, 'Light Distribution', true)); ?></p>
+          <?php endif; ?>
+          <?php if (count(get_post_custom_values('Mounting Options')) > 0) : ?>
+            <p>Mounting Option: <?php echo(get_post_meta($post->ID, 'Mounting Options', true)); ?></p>
+          <?php endif; ?>
+          <p>
+            <span class="text-underline">Control System </span>
+            <?php if (count(get_post_custom_values('control-system-wired')) > 0) : ?>
+              <p class="nest">Wired: &nbsp;<?php echo(get_post_meta($post->ID, 'control-system-wired', true)); ?></p>
+            <?php endif; ?>
+            <?php if (count(get_post_custom_values('control-system-wireless')) > 0) : ?>
+              <p class="nest">Wireless: &nbsp;<?php echo(get_post_meta($post->ID, 'control-system-wireless', true)); ?></p>
+            <?php endif; ?>
+          </p>
+          
+          
+          <?php if (count(get_post_custom_values('available-colors')) > 0) : ?>
+            <p>Colors (Temp): &nbsp;<?php echo(get_post_meta($post->ID, 'available-colors', true)); ?></p>
+          <?php endif; ?>
+        </div>
       </section>
-      <section class="certifications">
-      	<span class="head"><h3>Certifications</h3></span>
-      	 <?php echo(get_post_meta($post->ID, 'Certifications', true)); ?>
-      </section>
+
+	    <?php the_content(); ?>
+
+    </div><!-- .entry-content -->
+  </article><!-- #post-## -->
+</div>
 
 
-	  <?php the_content(); ?>
-
- 
-      <table class="specs" border="0" cellspacing="0" cellpadding="0">
+<table class="specs" border="0" cellspacing="0" cellpadding="0">
         <tbody>
           <tr class="specs-top">
-            <td class="tolerance" colspan="9">
-              <p>* Tolerance : ±5%</p>
-            </td>
+            <td class="tolerance" colspan="9"><p>* Tolerance: ±5%</p></td>
           </tr>
 
           <tr class="column-names">
@@ -86,9 +117,6 @@
             </td>
             <td width="10%" data-width="10.96%">
               <p class="text-center">*Luminous Flux</p>
-            </td>
-            <td width="13%" data-width="13.24%">
-              <p class="text-center">Color (Temp)</p>
             </td>
             <td width="8%" data-width="8.8%">
               <p class="text-center">CRI</p>
@@ -106,46 +134,39 @@
 
           <tr class="specs-first">
             <td width="9%" data-width="9.4%">
-              <p class="text-center">SET060</p>
               <p class="text-center">&nbsp;</p>
-              <p class="text-center">STL060</p>
+              <p class="text-center">WP100-GREEN</p>
+              <p class="text-center">&nbsp;</p>
             </td>
             <td width="8%" data-width="8.62%">
               <p class="text-center">&nbsp;</p>
-              <p class="text-center">60W</p>
+              <p class="text-center">100W</p>
               <p class="text-center">&nbsp;</p>
             </td>
-            <td width="11%" data-width="11.74%">
+            <td class="rowspan" rowspan=4 width="11%" data-width="11.74%">
               <p class="text-center">&nbsp;</p>
-              <p class="text-center">130W</p>
+              <p class="text-center">50 lm/W</p>
               <p class="text-center">&nbsp;</p>
             </td>
             <td width="10%" data-width="10.96%">
-               <p class="text-center">&nbsp;</p>
-              <p class="text-center">7800lm</p>
+              <p class="text-center">&nbsp;</p>
+              <p class="text-center">5000lm</p>
               <p class="text-center">&nbsp;</p>
             </td>
-            <td class="rowspan" rowspan=3 width="13%" data-width="13.24%">
-              <p class="text-center">standard:</p>
-              <p class="text-center">5000K</p>
-              <p class="text-center">&nbsp;</p>
-              <p class="text-center">options: </p>
-              <p class="text-center">5700K, 4000K, 3000K</p>
-            </td>
-            <td class="rowspan" rowspan=3 width="8%" data-width="8.8%">
+            <!-- <td width="8%" data-width="8.8%">
               <p class="text-center">&nbsp;</p>
               <p class="text-center">80 ra</p>
               <p class="text-center">&nbsp;</p>
-            </td>
-            <td width="8%" data-width="8.78%">
-              <p class="text-center">8.2lbs</p>
+            </td> -->
+            <td class="rowspan" rowspan=4 width="8%" data-width="8.78%">
+              <p class="text-center">9.3lbs</p>
               <p class="text-center">&nbsp;</p>
-              <p class="text-center">3.7kg</p>
+              <p class="text-center">4.2kg</p>
             </td>
-            <td class="rowspan" rowspan=3 width="15%" data-width="15.36%">
-              <p class="text-center">100~240 Vac</p>
+            <td class="rowspan" rowspan=4 width="15%" data-width="15.36%">
               <p class="text-center">&nbsp;</p>
               <p class="text-center">100~277 Vac</p>
+              <p class="text-center">&nbsp;</p>
             </td>
             <td class="rightmost rowspan" rowspan=3 width="13%" data-width="13.1%">
               <p class="text-center">-22°F ~ 140°F</p>
@@ -154,67 +175,72 @@
             </td>
           </tr>
 
-          <tr class="specs specs-last">
+          <tr class="specs">
             <td width="9%" data-width="9.4%">
+              <p class="text-center">MT130</p>
               <p class="text-center">&nbsp;</p>
-              <p class="text-center">EFL130</p>
-              <p class="text-center">&nbsp;</p>
+              <p class="text-center">MTL130</p>
             </td>
             <td width="8%" data-width="8.62%">
               <p class="text-center">&nbsp;</p>
               <p class="text-center">130W</p>
               <p class="text-center">&nbsp;</p>
             </td>
-            <td width="11%" data-width="11.74%">
-              <p class="text-center">*F: 140lm/W</p>
-              <p class="text-center">&nbsp;</p>
-              <p class="text-center">*C: 150lm/W</p>
-            </td>
+            <!-- cell -->
             <td width="10%" data-width="10.96%">
+              <p class="text-center">&nbsp;</p>
               <p class="text-center">18200lm</p>
               <p class="text-center">&nbsp;</p>
-              <p class="text-center">19500lm</p>
             </td>
             <!-- cell -->
             <!-- cell -->
-            <td width="8%" data-width="8.78%">
-              <p class="text-center">10.8lbs</p>
-              <p class="text-center">&nbsp;</p>
-              <p class="text-center">4.9kg</p>
-            </td>
             <!-- cell -->
             <!-- cell -->
           </tr>
 
           <tr class="specs">
             <td width="9%" data-width="9.4%">
+              <p class="text-center">MT150</p>
               <p class="text-center">&nbsp;</p>
-              <p class="text-center">NA600</p>
-              <p class="text-center">&nbsp;</p>
+              <p class="text-center">MTL150</p>
             </td>
             <td width="8%" data-width="8.62%">
               <p class="text-center">&nbsp;</p>
-              <p class="text-center">600W</p>
+              <p class="text-center">150W</p>
               <p class="text-center">&nbsp;</p>
             </td>
             <!-- cell -->
             <td width="10%" data-width="10.96%">
               <p class="text-center">&nbsp;</p>
-              <p class="text-center">63000lm</p>
+              <p class="text-center">21000lm</p>
               <p class="text-center">&nbsp;</p>
             </td>
             <!-- cell -->
             <!-- cell -->
-            <td width="8%" data-width="8.78%">
-              <p class="text-center">66.1lbs</p>
+            <!-- cell -->
+            <!-- cell -->
+          </tr>
+
+          <tr class="specs specs-last">
+            <td width="9%" data-width="9.4%">
+              <p class="text-center">MT180</p>
               <p class="text-center">&nbsp;</p>
-              <p class="text-center">30.0kg</p>
+              <p class="text-center">MTL180</p>
             </td>
-            <td width="15%" data-width="15.36%">
+            <td width="8%" data-width="8.62%">
               <p class="text-center">&nbsp;</p>
-              <p class="text-center">347~480 Vac</p>
+              <p class="text-center">180W</p>
               <p class="text-center">&nbsp;</p>
             </td>
+            <!-- cell -->
+            <td width="10%" data-width="10.96%">
+              <p class="text-center">&nbsp;</p>
+              <p class="text-center">25200lm</p>
+              <p class="text-center">&nbsp;</p>
+            </td>
+            <!-- cell -->
+            <!-- cell -->
+            <!-- cell -->
             <!-- cell -->
           </tr>
 
@@ -283,9 +309,9 @@
               <p class="text-center">90 ra</p>
             </td>
             <td width="8%" data-width="8.78%">
-              <p class="text-center">70.6lbs</p>
+              <p class="text-center">14.5lbs</p>
               <p class="text-center">&nbsp;</p>
-              <p class="text-center">32.0kg</p>
+              <p class="text-center">6.6kg</p>
             </td>
             <td width="15%" data-width="15.36%">
               <p class="text-center">200 ~ 227 Vac</p>
@@ -379,40 +405,48 @@
             </td>
             <td width="46%" colspan="4">
               <p style="margin: 0cm 0cm 0pt; text-align: justify; line-height: 1">
-                ■ Mounting Option : Ceiling Bracket (Pipe and Chain)
+                ■ Mounting Option : Horizontal Tenon Mount
               </p>
             </td>
           </tr>
           <tr class="bottom-specs">
             <td width="53%" colspan="5">
               <p style="margin: 0cm 0cm 0pt; text-align: justify; line-height: 1">
-                ■ Cover: Glass or Polycarbonate (Diffuser)
-              </p>
-            </td>
-            <td width="46%" colspan="4">
-              <p style="margin: 0cm 0cm 0pt; text-align: justify; line-height: 1">
-                ■ Light Distribution : 120º
-              </p>
-            </td>
-          </tr>
-          <tr class="bottom-specs">
-            <td width="53%" colspan="5">
-              <p style="margin: 0cm 0cm 0pt; text-align: justify; line-height: 1">
-                ■ Finish : Anodized
+                ■ Cover: Polycarbonate 4T (Clear)
               </p>
             </td>
             <td width="46%" colspan="4">
               <p style="margin: 0cm 0cm 0pt; text-align: justify">
-                ■ Control System : Wired (1-10V)
+                ■ Mount Hole : Ø2.38 in.(Ø60.5mm)
+              </p>
+            </td>
+          </tr>
+          <tr class="bottom-specs">
+            <td width="53%" colspan="5">
+              <p style="margin: 0cm 0cm 0pt; text-align: justify; line-height: 1">
+                ■ Finish : Powder Coating
+              </p>
+            </td>
+            <td width="46%" colspan="4">
+              <p style="margin: 0cm 0cm 0pt; text-align: justify">
+                ■ Control System : Wireless (ZigBee) / Sensor (Daylight) / Whistle
+              </p>
+            </td>
+          </tr>
+          <tr class="bottom-specs">
+            <td width="53%" colspan="5">
+              <p style="margin: 0cm 0cm 0pt; text-align: justify; line-height: 1">
+                
+              </p>
+            </td>
+            <td width="46%" colspan="4">
+              <p style="margin: 0cm 0cm 0pt; text-align: justify; line-height: 1">
+                ■ Light Distribution : Type II-S
               </p>
             </td>
           </tr>
         </tbody>
       </table>
-	
 
-    </div><!-- .entry-content -->
-  </article><!-- #post-## -->
-</div>
 
 

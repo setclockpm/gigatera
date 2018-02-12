@@ -21,7 +21,7 @@ Template Name: Bay Lighting (Single)
     <div class="subsection-heading mobile text-center">
       <?php the_title( '<h1 id="lighting-entry-title" class="entry-title product-title">', '</h1>' ); ?>
     </div>
-  </div>  
+  </div>
       
       
   <div id="lighting-container" class="<?php echo 'container'; ?>">
@@ -30,7 +30,7 @@ Template Name: Bay Lighting (Single)
 
         <div class="<?php echo 'container vertically-centered'; ?>">
           <div class="subsection-heading non-mobile text-center col-sm-5">
-            <?php the_title( '<h2 id="series-entry-title" class="entry-title">', '</h2>' ); ?>
+            <?php the_title( '<h2 id="series-entry-title" class="entry-title bay">', '</h2>' ); ?>
           </div>
 
           <div id="lighting-nav-container" class="col-sm-7">

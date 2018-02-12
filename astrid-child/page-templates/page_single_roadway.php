@@ -65,20 +65,5 @@ Template Name: Roadway Lighting (Single)
     </main><!-- #main -->
   </div><!-- #container -->
 
-  
-  <script type="text/javascript">
-    jQuery(document).ready(function($){
-      
-      $('.lighting-menu-container > ul.nav li a').click(function(e) {
-          var clickedLink = $(this);
-          clickedLink.parent().siblings().removeClass('active').end().addClass('active');
-          clickedLink.parent().data("section");
-          console.log(clickedLink.parent().data("section"));
-          $("h1#lighting-entry-title").text(clickedLink.parent().data("section"));
-          // e.preventDefault();
-      });
-    });
-    
-  </script>
 
 <?php get_footer("lighting"); ?>

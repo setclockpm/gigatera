@@ -13,7 +13,7 @@ Template Name: Lighting Main
 <div id="primary" class="lighting">
 
 <?php if (has_post_thumbnail()): ?>
-  <div class="lighting-title-container subsection-title-container" style="background-image: url(<?php the_post_thumbnail_url( "full" ) ?>);">
+  <div class="lighting-title-container subsection-title-container" style="background-image:url(<?php the_post_thumbnail_url( "full" ) ?>);">
 <?php else: ?>
   <div class="lighting-title-container subsection-title-container lighting-main-background">
 <?php endif ?>
@@ -51,7 +51,6 @@ Template Name: Lighting Main
             </nav>
           </div>
         </div><!-- #container --> 
-
       </header>
 
       <div class="lighting-content row">
@@ -64,26 +63,6 @@ Template Name: Lighting Main
 
     </main><!-- #main -->
   </div><!-- #container -->
-
-
-
-
-  <script type="text/javascript">
-    jQuery(document).ready(function($){
-  
-      console.log("loaded!");
-  
-      $('.lighting-menu-container > ul.nav li a').click(function(e) {
-          var clickedLink = $(this);
-          clickedLink.parent().siblings().removeClass('active').end().addClass('active');
-          clickedLink.parent().data("section");
-          console.log(clickedLink.parent().data("section"));
-          $("h1#lighting-entry-title").text(clickedLink.parent().data("section"));
-              // e.preventDefault();
-      });
-    });
-  
-  </script>
 
 <?php get_footer("lighting"); ?>
 
