@@ -13,13 +13,12 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class("col-md-12 under-fixed-nav"); ?>>
   
   <header class="entry-header">
-  	<?php if ( has_post_thumbnail() ) : ?>
-      <div class="col-xs-12 text-center">
-        <a href="/products/control-systems/gess/" title="<?php the_title(); ?>">
-    	    <img src="https://gigaterausa.com/wp-content/uploads/2018/02/GeSS-S-e1517803921528.png" alt="GigaTera ecology Service System" />
-  	    </a>
-      </div>
-    <?php endif; ?> 
+    <div class="col-xs-12 text-center">
+      <a href="/products/control-systems/gess/" title="<?php the_title(); ?>">
+        <img src="https://gigaterausa.com/wp-content/uploads/2018/02/GeSS-S-e1517803921528.png" alt="GigaTera ecology Service System" />
+        <!-- <img src="https://gigaterausa.com/wp-content/uploads/2018/02/GeSS-W.png" alt="GigaTera ecology Service System" /> -->
+  	  </a>
+    </div>
     <h2 class="headline text-center"></h2>
   </header><!-- .entry-header -->
 

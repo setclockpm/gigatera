@@ -27,11 +27,11 @@ Template Name: Control Systems Main
       
       <header id="lighting-subsection-bar" class="navbar navbar-fixed-top subsection-bar row">
         <div class="<?php echo 'container vertically-centered'; ?>">
-          <div class="subsection-heading non-mobile text-center col-sm-6">
+          <div class="subsection-heading non-mobile text-center col-sm-5">
             <h2 id="control-systems-entry-title" class="entry-title product-title">Control System</h2>
           </div>
 
-          <div id="lighting-nav-container" class="col-sm-6">
+          <div id="lighting-nav-container" class="col-sm-7">
             <nav id="lighting-nav" class="section-nav">
               <ul class="nav nav-pills">
                 <li role="presentation" data-section="GeSS">

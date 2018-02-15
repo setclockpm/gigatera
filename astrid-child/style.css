@@ -349,6 +349,19 @@ h2.widget-title {
    font-weight: bold;
 }
 
+
+h3#control-system-header-bg {
+  background-image: url(https://gigaterausa.com/wp-content/uploads/2018/02/controls-design1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  line-height: 36.5px;
+  min-height: 152px;
+}
+h3#control-system-header-bg div {
+  font-family: 'PT Sans', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+  margin-top: 20px;
+}
 h3 {
   font-family: "Quantico", "Helvetica Neue", "Helvetica", sans-serif;
   text-transform: uppercase;
@@ -531,15 +544,6 @@ li.label-only {
 .lighting-menu-container ul li {
   border-bottom: 1px solid #d8d8d8;
 }
-
-/*.lighting-subsection-bar {
-  border-bottom: 1px solid #cfcfcf;
-  z-index: 998;
-  padding: 10px 5px;
-  position: absolute;
-  width: 100%;
-}*/
-
 
 
 
@@ -807,14 +811,12 @@ p.application-example {
 
 
 section.blurb {
-  /*margin-top: 3%;*/
 }
-section#components {
-  font-size: 1em;
+section.opening-paragraph {
+  font-size: 1.3em;
 }
 section#components h3 {
   font-family: 'PT Sans Narrow', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
-  /*font-family: 'Quantico', 'PT Sans Caption' 'Myriad Pro', 'Lato', 'Arial', sans-serif;*/
   font-size: 1.6em;
   letter-spacing: 2px;
 }
@@ -1171,6 +1173,13 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
 
 
 
+@media only screen and (max-width: 1199px) {
+  h3#control-system-header-bg {
+    font-size: 1.33em;
+    min-height: 170px;
+  }
+}
+
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
@@ -1181,10 +1190,14 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
 
 
 
-
-@media only screen and (min-width: 768px) {
-
+@media only screen and (max-width: 768px) {
+  h3#control-system-header-bg {
+    font-size: 1.3em;
+    min-height: 196px;
+  }
 }
+
+
 
 @media only screen and (min-width: 480px) and (max-width: 768px) {
   .lighting-title-container.mobile {
@@ -1208,6 +1221,15 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
   }
 }
 
+@media only screen and (max-width: 570px) {
+
+  h3#control-system-header-bg {
+    font-size: 1.22em;
+    min-height: 302px;
+  }
+}
+
+
 @media only screen and (max-width: 480px) {
 
   div#lighting-nav-container {
@@ -1217,6 +1239,12 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
     margin-right: 0px;
     width: 100%;
   }
+
+  h3#control-system-header-bg {
+    font-size: 1.18em;
+    min-height: 370px;
+  }
+
   .subsection-bar {
     height: 64px
   }

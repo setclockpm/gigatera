@@ -13,23 +13,25 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class("col-md-12 under-fixed-nav"); ?>>
   
   <header class="entry-header">
-    <div class="col-xs-12 text-center">
-      <a href="/products/control-systems/gess/" title="<?php the_title(); ?>">
-        <img src="https://gigaterausa.com/wp-content/uploads/2018/02/GeSS-S-e1517803921528.png" alt="GigaTera ecology Service System" />
-      </a>
+    
+    <div class="col-xs-10 col-xs-offset-1">
+      <img src="https://gigaterausa.com/wp-content/uploads/2018/02/GeSS-W.png" alt="GeSS™" />
     </div>
-    <div class="col-xs-10 col-xs-offset-1 headline-container">
-      <h2 class="headline text-center" style="border-top:0; ">
-      	<?php echo(get_post_meta($post->ID, 'headline', true)); ?>
-      </h2>
-    </div> 
-    <!-- <h3 class="headline text-center"></h3> -->
+    <div class="col-xs-12 row">
+      <h3 id="control-system-header-bg" class="headline">
+        <div class="col-xs-10 col-xs-offset-1 text-left">
+          <?php echo(get_post_meta($post->ID, 'headline', true)); ?>
+        </div>
+      </h3>
+    </div>
+    
+    
   </header><!-- .entry-header -->
 
 
   <div class="entry-content">
 
-  	<section id="components" class="components col-xs-10 col-xs-offset-1 blurb">
+  	<section class="opening-paragraph col-xs-10 col-xs-offset-1 blurb">
   	  <?php the_content(); ?>
   	</section>
 
