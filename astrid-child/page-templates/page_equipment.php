@@ -40,13 +40,13 @@ Template Name: Equipment Main
                   <a href="/products/control-systems/equipment/master-unit/">Master Unit</a>
                 </li>
                 <li role="presentation" data-section="AIR" class="<?php echo(get_post_meta($post->ID, 'series', true) == 'AIR' ? 'active' : 'inactive'); ?>">
-                  <a href="/products/control-systems/gess/air/">USB Converter</a>
+                  <a href="/products/control-systems/equipment/usb-converter/">USB Converter</a>
                 </li>
                 <li role="presentation" data-section="SENSE" class="<?php echo(get_post_meta($post->ID, 'series', true) == 'SENSE' ? 'active' : 'inactive'); ?>">
-                  <a href="/products/control-systems/gess/sense/">Gateway / GeSS-Server</a>
+                  <a href="/products/control-systems/equipment/server/">Gateway / GeSS-Server</a>
                 </li>
                 <li role="presentation" data-section="ROAD" class="<?php echo(get_post_meta($post->ID, 'series', true) == 'ROAD' ? 'active' : 'inactive'); ?>">
-                  <a href="/products/control-systems/gess/road/">IPC Switch</a>
+                  <a href="/products/control-systems/equipment/ipc-switch/">IPC Switch</a>
                 </li>
               </ul>
             </nav>
@@ -57,13 +57,13 @@ Template Name: Equipment Main
                   <a href="/products/control-systems/equipment/master-unit/">Master Unit</a>
                 </li>
                 <li role="presentation" data-section="AIR" class="<?php echo(get_post_meta($post->ID, 'series', true) == 'AIR' ? 'active' : 'inactive'); ?>">
-                  <a href="/products/control-systems/gess/air/">USB Converter</a>
+                  <a href="/products/control-systems/equipment/usb-converter/">USB Converter</a>
                 </li>
                 <li role="presentation" data-section="SENSE" class="<?php echo(get_post_meta($post->ID, 'series', true) == 'SENSE' ? 'active' : 'inactive'); ?>">
-                  <a href="/products/control-systems/gess/sense/">Server</a>
+                  <a href="/products/control-systems/equipment/server/">Server</a>
                 </li>
                 <li role="presentation" data-section="ROAD" class="<?php echo(get_post_meta($post->ID, 'series', true) == 'ROAD' ? 'active' : 'inactive'); ?>">
-                  <a href="/products/control-systems/gess/road/">IPC</a>
+                  <a href="/products/control-systems/equipment/ipc-switch/">IPC</a>
                 </li>
               </ul>
             </nav>

@@ -257,8 +257,11 @@ div#applications-content p {
   font-family: 'PT Sans', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
   margin: 1em 0 0;
 }
-div.headline-container {
-  /*border-bottom: 3px solid #777879;*/
+div.footer-wrapper .jumbotron-fluid {
+  background-image: url(https://gigaterausa.com/wp-content/uploads/2018/02/tech_body_design-e1517788287306.png);
+  color: white;
+  min-height: 256px;
+  margin-bottom: 0px;
 }
 div#control-systems-container,
 div#gess-container,
@@ -478,10 +481,6 @@ img.tile {
   padding-top: 10px;
 }
 
-.jumbotron-applications {
-  background-image: url(https://gigaterausa.com/wp-content/uploads/2018/01/media-bottom.png);
-}
-
 .jumbotron-control-systems {
   background-image: url(https://gigaterausa.com/wp-content/uploads/2018/01/control-systems-bottom.png);
 }
@@ -490,13 +489,6 @@ img.tile {
   background-image: url(https://gigaterausa.com/wp-content/uploads/2018/01/banner-products-1.jpeg);
   color: white;
   min-height: 200px;
-}
-
-.jumbotron-lighting {
-  background-image: url(https://gigaterausa.com/wp-content/uploads/2018/02/tech_body_design-e1517788287306.png);
-  color: white;
-  min-height: 256px;
-  margin-bottom: 0px;
 }
 
 .jumbotron-lighting-link {

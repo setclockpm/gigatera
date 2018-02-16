@@ -2,20 +2,35 @@
 
 /*
 
-Template Name: Applications Main
+Template Name: Case Studies Main
 
 */
 	get_header();
 ?>
 
-	<div id="primary" class="applications">
+</div><!-- #container -->
+
+<div id="primary" class="lighting case-studies">
+
+<?php if (has_post_thumbnail()): ?>
+  <neader class="jumbo-with-bg subsection-title-container" style="background-image:url(<?php the_post_thumbnail_url( "full" ) ?>)">
+<?php else: ?>
+  <neader class="jumbo-with-bg subsection-title-container lighting-main-background">
+<?php endif ?>
+    <div class="subsection-heading mobile text-center">
+      <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+    </div>
+  </header>
+
+
+
 	  <main id="main" class="site-main" role="main">
 
       
       <div class="applications-title-container applications-background">
         <div class="applications-title page">
           <header class="entry-header">
-            <h1 id="applications-entry-title" class="entry-title">Applied Projects</h1>
+            <h1 id="applications-entry-title" class="entry-title">Case Studies</h1>
           </header>
         </div>
       </div>
