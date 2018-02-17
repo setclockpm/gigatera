@@ -83,5 +83,5 @@ Template Name: Case Studies Main
     
   </script>
 
-<?php get_footer("applications"); ?>
+<?php get_footer("case-studies"); ?>
 
