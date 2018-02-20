@@ -1,11 +1,28 @@
 <div id="sports-flood-series" class="under-fixed-nav">
+  <ul>
+    <li>
+      <iframe width="190" src="https://youtube.com/embed/A4Z-NAzi5MQ" frameborder="0" allow="autoplay;encrypted-media" allowfullscreen>
+      </iframe>
+    </li>
+    <li>
+      <span class="case-study">
+        <i class="fa fa-area-chart" aria-hidden="true"></i>
+      </span>
+      <span class="installation-site">Akcansa Port</span>
+      <span class="location"></span>
+    </li>
+  </ul>
+</div>
 
+
+
+<!-- <div id="sports-flood-series" class="under-fixed-nav">`
   <div class="left col-md-4 col-sm-6 col-xs-12">
 
     <div id="ackansa-port" class="col-xs-12 card">
       <div class="card-block">
         <div class="thumbnail-top">
-          <iframe width="280" src="https://www.youtube.com/embed/A4Z-NAzi5MQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <iframe width="260" src="https://www.youtube.com/embed/A4Z-NAzi5MQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           <img class="card-img-bottom" src="https://gigaterausa.com/wp-content/uploads/2018/01/giga-divider.jpg" alt="Card Bottom Border">
           <h3 class="title">Akcansa Port</h3>
         </div>
@@ -129,9 +146,7 @@
       <img class="card-img-bottom" src="https://gigaterausa.com/wp-content/uploads/2018/01/giga-divider.jpg" alt="Card Bottom Border">
     </div>
 
-  </div>
-
-
+  </div> -->
 
 
 
@@ -143,8 +158,7 @@
 
 
 
-
-  <div class="middle col-md-4 col-sm-6 col-xs-12">
+  <!-- <div class="middle col-md-4 col-sm-6 col-xs-12">
 
     <div id="dongung-palace" class="col-xs-12 card">
       <div class="card-block">
@@ -255,7 +269,7 @@
       <img class="card-img-bottom" src="https://gigaterausa.com/wp-content/uploads/2018/01/giga-divider.jpg" alt="Card Bottom Border">
     </div>
 
-      <div id="olympic-park" class="col-xs-12 card case-study">
+    <div id="olympic-park" class="col-xs-12 card case-study">
       <div class="card-block">
         <div class="thumbnail-top">
           <a class="thumbnail" href="/applications/sports-flood-lighting/olympic-park-tennis-center">
@@ -280,10 +294,9 @@
       </div>
       <img class="card-img-bottom" src="https://gigaterausa.com/wp-content/uploads/2018/01/giga-divider.jpg" alt="Card Bottom Border">
     </div>
-
-    
+  
   </div>
-
+ -->
 
 
 
@@ -291,8 +304,9 @@
 
 
 
-
+<!-- 
   <div class="right col-md-4 col-sm-6 col-xs-12">
+
     <div id="dongnae-tennis-courts" class="col-xs-12 card case-study">
       <div class="card-block">
         <div class="card-top">
@@ -343,7 +357,6 @@
       <img class="card-img-bottom" src="https://gigaterausa.com/wp-content/uploads/2018/01/giga-divider.jpg" alt="Card Bottom Border">
     </div>
 
-
     <div id="gangneung-curling-center" class="col-xs-12 card case-study">
       <div class="card-block">
         <div class="thumbnail-top">
@@ -371,7 +384,7 @@
       <img class="card-img-bottom" src="https://gigaterausa.com/wp-content/uploads/2018/01/giga-divider.jpg" alt="Card Bottom Border">
     </div>
 
-     <div id="gangneung-oval" class="col-xs-12 card case-study">
+    <div id="gangneung-oval" class="col-xs-12 card case-study">
       <div class="card-block">
         <div class="thumbnail-top">
           <a class="thumbnail" href="/applications/sports-flood-lighting/2018-olympic-skating-stadium/">
@@ -423,10 +436,5 @@
       <img class="card-img-bottom" src="https://gigaterausa.com/wp-content/uploads/2018/01/giga-divider.jpg" alt="Card Bottom Border">
     </div>
 
-   
-
   </div>
-
-</div>
-<!-- 
- -->
+</div> -->

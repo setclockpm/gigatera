@@ -26,7 +26,7 @@ Template Name: Bay Lighting Projects
         <nav id="applied-projects" class="navbar navbar-fixed-top section-nav">
           <ul class="nav nav-pills">
             <li role="presentation" data-section="Applied Projects">
-              <a href="/applications" class="active"> Applications Home</a>
+              <a href="/applications"> Applications Home</a>
             </li>
             <li role="presentation" data-section="Sports / Flood Lighting Projects">
               <a href="/applications/sports-flood-lighting">Sports / Flood Lighting</a>

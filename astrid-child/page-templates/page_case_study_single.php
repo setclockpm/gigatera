@@ -30,17 +30,17 @@ Template Name: Case Study Single
 
         <nav id="applied-projects" class="navbar navbar-fixed-top section-nav">
           <ul class="nav nav-pills">
-            <li role="presentation" data-section="Sports / Flood Projects">
-              <a href="/applications/sports-flood-lighting">Sports / Flood Lighting</a>
+            <li role="presentation" data-section="Sports / Flood">
+              <a href="/case-studies/sports-flood">Sports / Flood</a>
             </li>
-            <li role="presentation" data-section="Bay Lighting Projects">
-              <a href="/applications/bay-lighting">Bay Lighting</a>
+            <li role="presentation" data-section="Bay">
+              <a href="/case-studies/bay">Bay</a>
             </li>
-            <li role="presentation" data-section="Roadway Lighting Projects">
-              <a href="/applications/roadway-lighting">Roadway Lighting</a>
+            <li role="presentation" data-section="Roadway">
+              <a href="/case-studies/roadway">Roadway</a>
             </li>
-            <li role="presentation" data-section="Facade Lighting Projects">
-              <a href="/applications/facade-lighting">Facade Lighting</a>
+            <li role="presentation" data-section="Facade">
+              <a href="/case-studies/facade">Facade</a>
             </li>
           </ul>
         </nav>
@@ -54,22 +54,5 @@ Template Name: Case Study Single
           
 	  </main><!-- #main -->
 	</div><!-- #primary -->
-  
-  <script type="text/javascript">
-    jQuery(document).ready(function($){
-      
-      console.log("loaded!");
-
-      $('.section-nav > ul.nav li a').click(function(e) {
-          var clickedLink = $(this);
-          clickedLink.parent().siblings().removeClass('active').end().addClass('active');
-          clickedLink.parent().data("section");
-          console.log(clickedLink.parent().data("section"));
-          $("h1#applications-entry-title").text(clickedLink.parent().data("section"));
-          // e.preventDefault();
-      });
-    });
-    
-  </script>
 
 <?php get_footer("applications"); ?>

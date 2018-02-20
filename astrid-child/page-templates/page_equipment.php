@@ -39,13 +39,13 @@ Template Name: Equipment Main
                 <li role="presentation" data-section="Master Unit" class="<?php echo(get_post_meta($post->ID, 'series', true) == 'Master Unit' ? 'active' : 'inactive'); ?>">
                   <a href="/products/control-systems/equipment/master-unit/">Master Unit</a>
                 </li>
-                <li role="presentation" data-section="AIR" class="<?php echo(get_post_meta($post->ID, 'series', true) == 'AIR' ? 'active' : 'inactive'); ?>">
+                <li role="presentation" data-section="USB Converter" class="<?php echo(get_post_meta($post->ID, 'series', true) == 'USB Converter' ? 'active' : 'inactive'); ?>">
                   <a href="/products/control-systems/equipment/usb-converter/">USB Converter</a>
                 </li>
-                <li role="presentation" data-section="SENSE" class="<?php echo(get_post_meta($post->ID, 'series', true) == 'SENSE' ? 'active' : 'inactive'); ?>">
+                <li role="presentation" data-section="Server" class="<?php echo(get_post_meta($post->ID, 'series', true) == 'Server' ? 'active' : 'inactive'); ?>">
                   <a href="/products/control-systems/equipment/server/">Gateway / GeSS-Server</a>
                 </li>
-                <li role="presentation" data-section="ROAD" class="<?php echo(get_post_meta($post->ID, 'series', true) == 'ROAD' ? 'active' : 'inactive'); ?>">
+                <li role="presentation" data-section="IPC Switch" class="<?php echo(get_post_meta($post->ID, 'series', true) == 'IPC Switch' ? 'active' : 'inactive'); ?>">
                   <a href="/products/control-systems/equipment/ipc-switch/">IPC Switch</a>
                 </li>
               </ul>
@@ -56,13 +56,13 @@ Template Name: Equipment Main
                 <li role="presentation" data-section="Master Unit" class="<?php echo(get_post_meta($post->ID, 'series', true) == 'Master Unit' ? 'active' : 'inactive'); ?>">
                   <a href="/products/control-systems/equipment/master-unit/">Master Unit</a>
                 </li>
-                <li role="presentation" data-section="AIR" class="<?php echo(get_post_meta($post->ID, 'series', true) == 'AIR' ? 'active' : 'inactive'); ?>">
+                <li role="presentation" data-section="USB Converter" class="<?php echo(get_post_meta($post->ID, 'series', true) == 'USB Converter' ? 'active' : 'inactive'); ?>">
                   <a href="/products/control-systems/equipment/usb-converter/">USB Converter</a>
                 </li>
-                <li role="presentation" data-section="SENSE" class="<?php echo(get_post_meta($post->ID, 'series', true) == 'SENSE' ? 'active' : 'inactive'); ?>">
+                <li role="presentation" data-section="Server" class="<?php echo(get_post_meta($post->ID, 'series', true) == 'Server' ? 'active' : 'inactive'); ?>">
                   <a href="/products/control-systems/equipment/server/">Server</a>
                 </li>
-                <li role="presentation" data-section="ROAD" class="<?php echo(get_post_meta($post->ID, 'series', true) == 'ROAD' ? 'active' : 'inactive'); ?>">
+                <li role="presentation" data-section="IPC Switch" class="<?php echo(get_post_meta($post->ID, 'series', true) == 'IPC Switch' ? 'active' : 'inactive'); ?>">
                   <a href="/products/control-systems/equipment/ipc-switch/">IPC</a>
                 </li>
               </ul>
