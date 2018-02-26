@@ -18,7 +18,7 @@ Template Name: Case Studies: Sports Flood
   <div class="jumbotron with-bg subsection-title-container">
 <?php endif ?>
     <div class="subsection-heading mobile text-center">
-      <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+      <h1 class="entry-title">Case Studies</h1>
     </div>
   </div>
 

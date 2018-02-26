@@ -1,164 +1,322 @@
-<div id="sports-flood-series" class="under-fixed-nav">
-  <ul>
-    <li>
-      <iframe width="190" src="https://youtube.com/embed/A4Z-NAzi5MQ" frameborder="0" allow="autoplay;encrypted-media" allowfullscreen>
-      </iframe>
+
+<?php
+/**
+ * Template part for displaying page content in page_sports_flood_projects.php.
+ *
+ * @link https://codex.wordpress.org/Template_Hierarchy
+ *
+ * @package Astrid
+ */
+
+?>
+
+
+<header class="entry-header">
+  <h3 id="main-title" itemprop="headline" class="tagline applications-tagline">
+    <?php echo(get_post_meta($post->ID, 'headline', true)); ?>
+  </h3>
+</header><!-- .entry-header -->
+ 
+
+<div class="entry-content">
+  <div class="intro">
+    <p><?php echo(get_post_meta($post->ID, 'headline-blurb', true)); ?></p>
+  </div>
+  
+  <div id="sports-flood-series" class="under-fixed-nav">
+    <ul class="horiz-card-list">
+
+      <li id="gangneung-oval" class="card">
+        <div class="row">
+          <div class="card-media col-xs-5 col-sm-3 col-md-3">
+            <iframe width="190" src="https://www.youtube.com/embed/L7ca8gsLGYA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+          <div class="small-label col-xs-6 col-sm-3 col-md-3 text-center non-mobile">
+            <span class="case-study exists">
+              <a href="/case-studies/sports-flood/gangneung-oval/">
+                <i class="fa fa-area-chart fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-search-plus" aria-hidden="true"></i><br>
+                <span style="font-size:0.7em;"">Case Study</span>
+              </a>
+            </span>
+          </div>
+          <div class="card-stacked col-xs-12 col-sm-6 col-md-6">
+            <span class="installation-site">Gangneung Oval</span>
+            <span class="location">
+              <a href="https://goo.gl/maps/EYMyqJNjsur">Gangneung, Gangwon-do, South Korea</a>
+            </span>
+          </div>
+        </div>
+      </li>
+
+      <li id="alpensia-sports-park" class="card">
+        <div class="row">
+          <div class="card-media col-xs-5 col-sm-3 col-md-3">
+            <iframe width="190" src="https://www.youtube.com/embed/B6e53RKsVZE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+          <div class="small-label col-xs-6 col-sm-3 col-md-3 text-center non-mobile">
+            <span class="case-study exists">
+              <a href="/case-studies/sports-flood/alpensia-sports-park/">
+                <i class="fa fa-area-chart fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-search-plus" aria-hidden="true"></i><br>
+                <span style="font-size:0.7em;"">Case Study</span>
+              </a>
+            </span>
+          </div>
+          <div class="card-stacked col-xs-12 col-sm-6 col-md-6">
+            <span class="installation-site">Alpensia Sports Park & Resort</span>
+            <span class="location">
+              <a href="https://goo.gl/maps/medMCMCjXXt">Pyeongchang, South Korea</a>
+            </span>
+          </div>
+        </div>
+      </li>
+
+      <li id="gangneung-curling-center" class="card">
+        <div class="row">
+          <div class="card-media col-xs-5 col-sm-3 col-md-3">
+            <iframe width="190" src="https://www.youtube.com/embed/pJppuno-J4w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+          <div class="small-label col-xs-6 col-sm-3 col-md-3 text-center non-mobile">
+            <span class="case-study exists">
+              <a href="/case-studies/sports-flood/gangneung-curling-center/">
+                <i class="fa fa-area-chart fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-search-plus" aria-hidden="true"></i><br>
+                <span style="font-size:0.7em;"">Case Study</span>
+              </a>
+            </span>
+          </div>
+          <div class="card-stacked col-xs-12 col-sm-6 col-md-6">
+            <span class="installation-site">Gangneung Curling Center</span>
+            <span class="location">
+              <a href="https://goo.gl/maps/AteJ9V12DD42">Gangneung, Gangwon-do, South Korea</a>
+            </span>
+          </div>
+        </div>
+      </li>
+
+      <li id="yankee-stadium" class="card">
+        <div class="row">
+          <div class="card-media col-xs-5 col-sm-3 col-md-3">
+            <iframe width="190" src="https://www.youtube.com/embed/n0Jj9YMnCbI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+          <div class="small-label col-xs-6 col-sm-3 col-md-3 text-center non-mobile">
+            <span class="case-study exists">
+              <a href="/case-studies/sports-flood/yankee-stadium/">
+                <i class="fa fa-area-chart fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-search-plus" aria-hidden="true"></i><br>
+                <span style="font-size:0.7em;"">Case Study</span>
+              </a>
+            </span>
+          </div>
+          <div class="card-stacked col-xs-12 col-sm-6 col-md-6">
+            <span class="installation-site">Yankee Stadium</span>
+            <span class="location">
+              <a href="https://goo.gl/maps/Fg7HKdBSPSQ2">New York, NY, USA</a>
+            </span>
+          </div>
+        </div>
+      </li>
+
+      <li id="safeco-field" class="card">
+        <div class="row">
+          <div class="card-media col-xs-5 col-sm-3 col-md-3">
+            <iframe width="190" src="https://www.youtube.com/embed/FVDTjEE5-pU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+          <div class="small-label col-xs-6 col-sm-3 col-md-3 text-center non-mobile">
+            <span class="case-study exists">
+              <a href="/safeco-field/">
+                <i class="fa fa-area-chart fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-search-plus" aria-hidden="true"></i><br>
+                <span style="font-size:0.7em;"">Case Study</span>
+              </a>
+            </span>
+          </div>
+          <div class="card-stacked col-xs-12 col-sm-6 col-md-6">
+            <span class="installation-site">Safeco Field</span>
+            <span class="location">
+              <a href="https://goo.gl/maps/medMCMCjXXt">Seattle, WA, USA</a>
+            </span>
+          </div>
+        </div>
+      </li>
+
+      <li id="ackansa-port" class="card">
+        <div class="row">
+          <div class="card-media col-xs-6 col-sm-3 col-md-3">
+            <iframe width="190" src="https://youtube.com/embed/A4Z-NAzi5MQ" frameborder="0" allow="autoplay;  encrypted-media" allowfullscreen></iframe>
+          </div>
+          <div class="small-label col-xs-6 col-sm-3 col-md-3 text-center non-mobile">
+            <span class="case-study">
+              <i class="fa fa-area-chart fa-2x" aria-hidden="true"></i>
+              <i class="fa fa-search-plus" aria-hidden="true"></i><br>
+              <span style="font-size:0.7em;">Case Study</span>
+            </span>
+          </div>
+          <div class="card-stacked col-xs-12 col-sm-6 col-md-6">
+            <span class="installation-site">Akcansa Port</span>
+            <span class="location">
+              <a href="https://goo.gl/maps/Rb3nKWiX5yD2">Avcılar/Istanbul, Turkey</a>
+            </span>
+          </div>
+        </div>
+      </li>
+
+      <li id="dream-ballpark" class="card">
+        <div class="row">
+          <div class="card-media col-xs-5 col-sm-3 col-md-3">
+            <iframe width="190" src="https://www.youtube.com/embed/yV66-DZdp5o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+          <div class="small-label col-xs-6 col-sm-3 col-md-3 text-center non-mobile">
+            <span class="case-study exists">
+              <a href="https://gigaterausa.com/dream-ballpark/">
+                <i class="fa fa-area-chart fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-search-plus" aria-hidden="true"></i><br>
+                <span style="font-size:0.7em;"">Case Study</span>
+              </a>
+            </span>
+          </div>
+          <div class="card-stacked col-xs-12 col-sm-6 col-md-6">
+            <span class="installation-site" style="font-size: 0.8em;">
+              Gijang-Hyundai Motor Dream Ballpark
+            </span>
+            <span class="location">
+              <a href="https://goo.gl/maps/BiCGxshtgR12">Busan, South Korea</a>
+            </span>
+          </div>
+        </div>
+      </li>
+
+      <li id="changwon-gymnasium" class="card">
+        <div class="row">
+          <div class="card-media col-xs-5 col-sm-3 col-md-3">
+            <iframe width="190" src="https://www.youtube.com/embed/oyVZG8c5cLw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+          <div class="small-label col-xs-6 col-sm-3 col-md-3 text-center non-mobile">
+            <span class="case-study exists">
+              <a href="https://gigaterausa.com/changwon-gymnasium/">
+                <i class="fa fa-area-chart fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-search-plus" aria-hidden="true"></i><br>
+                <span style="font-size:0.7em;"">Case Study</span>
+              </a>
+            </span>
+          </div>
+          <div class="card-stacked col-xs-12 col-sm-6 col-md-6">
+            <span class="installation-site">Changwon Gymnasium</span>
+            <span class="location">
+              <a href="https://goo.gl/maps/medMCMCjXXt"> Gyeongsangnam-do, South Korea</a>
+            </span>
+          </div>
+        </div>
+      </li>
+
+      <li id="monbetsu-track" class="card">
+        <div class="row">
+          <div class="card-media col-xs-5 col-sm-3 col-md-3">
+            <iframe width="190" src="https://www.youtube.com/embed/-8NcMwsAd0g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+          <div class="small-label col-xs-6 col-sm-3 col-md-3 text-center non-mobile">
+            <span class="case-study exists">
+              <a href="/case-studies/sports-flood/monbetsu-horse-track/">
+                <i class="fa fa-area-chart fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-search-plus" aria-hidden="true"></i><br>
+                <span style="font-size:0.7em;"">Case Study</span>
+              </a>
+            </span>
+          </div>
+          <div class="card-stacked col-xs-12 col-sm-6 col-md-6">
+            <span class="installation-site">Monbetsu Racecourse</span>
+            <span class="location">
+              <a href="https://goo.gl/maps/5A6DzeSjFNH2">Monbetsu, Hokkaido, Japan</a>
+            </span>
+          </div>
+        </div>
+      </li>
+
+      <?php the_content(); ?>
+    </ul>
+  </div> 
+</div><!-- .entry-content -->
+
+
+
+   
+
+
+
+
+<!--
+
+    <li id="alpensia-sports-park" class="card">
+      <div class="row">
+        <div class="card-media col-xs-5 col-sm-3 col-md-3">
+          <iframe width="190" src="https://www.youtube.com/embed/B6e53RKsVZE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="small-label col-xs-6 col-sm-3 col-md-3 text-center non-mobile">
+          <span class="case-study exists">
+            <a href="/case-studies/sports-flood/alpensia-sports-park/">
+              <i class="fa fa-area-chart fa-2x" aria-hidden="true"></i>
+              <i class="fa fa-search-plus" aria-hidden="true"></i><br>
+              <span style="font-size:0.7em;"">Case Study</span>
+            </a>
+          </span>
+        </div>
+        <div class="card-stacked col-xs-12 col-sm-6 col-md-6">
+          <span class="installation-site">Alpensia Sports Park & Resort</span>
+          <span class="location">
+            <a href="https://goo.gl/maps/medMCMCjXXt">Pyeongchang, South Korea</a>
+          </span>
+        </div>
+      </div>
     </li>
-    <li>
-      <span class="case-study">
-        <i class="fa fa-area-chart" aria-hidden="true"></i>
-      </span>
-      <span class="installation-site">Akcansa Port</span>
-      <span class="location"></span>
+
+    <li id="alpensia-sports-park" class="card">
+      <div class="row">
+        <div class="card-media col-xs-5 col-sm-3 col-md-3">
+          <iframe width="190" src="https://www.youtube.com/embed/B6e53RKsVZE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="small-label col-xs-6 col-sm-3 col-md-3 text-center non-mobile">
+          <span class="case-study exists">
+            <a href="/case-studies/sports-flood/alpensia-sports-park/">
+              <i class="fa fa-area-chart fa-2x" aria-hidden="true"></i>
+              <i class="fa fa-search-plus" aria-hidden="true"></i><br>
+              <span style="font-size:0.7em;"">Case Study</span>
+            </a>
+          </span>
+        </div>
+        <div class="card-stacked col-xs-12 col-sm-6 col-md-6">
+          <span class="installation-site">Alpensia Sports Park & Resort</span>
+          <span class="location">
+            <a href="https://goo.gl/maps/medMCMCjXXt">Pyeongchang, South Korea</a>
+          </span>
+        </div>
+      </div>
     </li>
-  </ul>
-</div>
 
-
-
-<!-- <div id="sports-flood-series" class="under-fixed-nav">`
-  <div class="left col-md-4 col-sm-6 col-xs-12">
-
-    <div id="ackansa-port" class="col-xs-12 card">
-      <div class="card-block">
-        <div class="thumbnail-top">
-          <iframe width="260" src="https://www.youtube.com/embed/A4Z-NAzi5MQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          <img class="card-img-bottom" src="https://gigaterausa.com/wp-content/uploads/2018/01/giga-divider.jpg" alt="Card Bottom Border">
-          <h3 class="title">Akcansa Port</h3>
+    <li id="olympic-park" class="card">
+      <div class="row">
+        <div class="card-media col-xs-5 col-sm-3 col-md-3">
+          <iframe width="190" src="https://www.youtube.com/embed/B6e53RKsVZE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
-        <div class="horizontal-divider">
-          <hr class="card-divider">
+        <div class="small-label col-xs-6 col-sm-3 col-md-3 text-center non-mobile">
+          <span class="case-study exists">
+            <a href="/case-studies/sports-flood/olympic-park-tennis-center/">
+              <i class="fa fa-area-chart fa-2x" aria-hidden="true"></i>
+              <i class="fa fa-search-plus" aria-hidden="true"></i><br>
+              <span style="font-size:0.7em;"">Case Study</span>
+            </a>
+          </span>
         </div>
-        <div class="card-text bottom">
-          <p class="description">
-            SUFA- Series, Akcansa Port Highmast Lighting Reference Video, Korea
-          </p>
+        <div class="card-stacked col-xs-12 col-sm-6 col-md-6">
+          <span class="installation-site">Olympic Park Tennis Centre</span>
+          <span class="location">
+            <a href="https://goo.gl/maps/M8w7QZ1WXxk">Sydney, Australia</a>
+          </span>
         </div>
       </div>
-      <img class="card-img-bottom" src="https://gigaterausa.com/wp-content/uploads/2018/01/giga-divider.jpg" alt="Card Bottom Border">
-    </div>
+    </li>
 
-    <div id="solbat-beach" class="col-xs-12 card">
-      <div class="card-block">
-        <div class="thumbnail-top">
-          <iframe width="280" src="https://www.youtube.com/embed/QRU2AMs5TFo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          <img class="card-img-bottom" src="https://gigaterausa.com/wp-content/uploads/2018/01/giga-divider.jpg" alt="Card Bottom Border">
-          <h3 class="title">Gwanseong Solbat Beach</h3>
-        </div>
-        <div class="horizontal-divider">
-          <hr class="card-divider">
-        </div>
-        <div class="card-text bottom">
-          <p class="description">
-            MAHA 400W / Seagull, Gwanseong Solbat Beach Highmast Installaion, Korea
-          </p>
-        </div>
-      </div>
-      <img class="card-img-bottom" src="https://gigaterausa.com/wp-content/uploads/2018/01/giga-divider.jpg" alt="Card Bottom Border">
-    </div>
-
-    <div id="dream-ballpark" class="col-xs-12 card">
-      <div class="card-block">
-        <div class="thumbnail-top">
-          <iframe width="280" src="https://www.youtube.com/embed/yV66-DZdp5o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          <h3 class="title">Dream Ball Park</h3>
-        </div>
-        <div class="horizontal-divider">
-          <img class="card-img-bottom" src="https://gigaterausa.com/wp-content/uploads/2018/01/giga-divider.jpg" alt="Card Bottom Border">
-        </div>
-        <div class="card-text bottom">
-          <p class="description">
-            SUFA-X 1kW / 500W, Dream Ball Park Installation Case, Busan, Korea
-          </p>
-        </div>
-      </div>
-      <img class="card-img-bottom" src="https://gigaterausa.com/wp-content/uploads/2018/01/giga-divider.jpg" alt="Card Bottom Border">
-    </div>
-
-    <div id="changwon-basketball" class="col-xs-12 card video">
-      <div class="card-block">
-        <div class="thumbnail-top">
-          <iframe width="280" src="https://www.youtube.com/embed/oyVZG8c5cLw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-           <h3 class="title">Changwon Basketball</h3>
-        </div>
-        <div class="horizontal-divider">
-          <hr class="card-divider">
-          <img class="card-img-bottom" src="https://gigaterausa.com/wp-content/uploads/2018/01/giga-divider.jpg" alt="Card Bottom Border">
-        </div>
-        <div class="card-text bottom">
-          <p class="description">
-            SUFA 400W Installation, Basketball Gymnasium Reference Video, Changwon, Korea
-          </p>
-        </div>
-      </div>
-      <img class="card-img-bottom" src="https://gigaterausa.com/wp-content/uploads/2018/01/giga-divider.jpg" alt="Card Bottom Border">
-    </div>
-
-    <div id="2018-olympic-games" class="col-xs-12 card case-study">
-      <div class="card-block">
-        <div class="thumbnail-top">
-          <a class="thumbnail" href="/applications/sports-flood-lighting/2018-olympic-games/">
-            <img src="https://gigaterausa.com/wp-content/uploads/2018/01/2018-Olympics-CS3.png">
-          </a>
-          <h3 class="title">Alpensia Sports Park & Resort</h3>
-        </div>
-        <div class="horizontal-divider">
-          <hr class="card-divider">
-        </div>
-        <div class="card-text bottom">
-          <p class="description">
-            Light Source: SFA1K2 <br>  
-            2018 Olympic Winter Games <br>
-          </p>
-        </div>
-        <div class="btn-container">
-          <a class="case-study" href="/applications/sports-flood-lighting/2018-olympic-games/">
-            Case Study >>
-          </a>
-        </div>
-      </div>
-      <img class="card-img-bottom" src="https://gigaterausa.com/wp-content/uploads/2018/01/giga-divider.jpg" alt="Card Bottom Border">
-    </div>
-
-    <div id="monbetsu-track" class="col-xs-12 card case-study">
-      <div class="card-block">
-        <div class="thumbnail-top">
-          <a class="thumbnail" href="/applications/sports-flood-lighting/monbetsu-horse-track">
-            <img src="https://gigaterausa.com/wp-content/uploads/2018/01/monbetsu-track-cst.png">
-          </a>
-          <h3 class="title">Monbetsu Horse Track</h3>
-        </div>
-        <div class="horizontal-divider">
-          <hr class="card-divider">
-        </div>
-        <div class="card-text bottom">
-          <p class="description">
-            Light Source: SUFA-A 1K0 <br>  
-            Horse Racing Track <br>
-          </p>
-        </div>
-        <div class="btn-container">
-          <a class="case-study" href="/applications/sports-flood-lighting/monbetsu-horse-track">
-            Case Study >>
-          </a>
-        </div>
-      </div>
-      <img class="card-img-bottom" src="https://gigaterausa.com/wp-content/uploads/2018/01/giga-divider.jpg" alt="Card Bottom Border">
-    </div>
-
-  </div> -->
-
-
-
-
-
-<!-- MIDDLE -->
-
-
-
-
-
-  <!-- <div class="middle col-md-4 col-sm-6 col-xs-12">
+  <div class="middle col-md-4 col-sm-6 col-xs-12">
 
     <div id="dongung-palace" class="col-xs-12 card">
       <div class="card-block">
@@ -242,58 +400,6 @@
       </div>
       <img class="card-img-bottom" src="https://gigaterausa.com/wp-content/uploads/2018/01/giga-divider.jpg" alt="Card Bottom Border">
     </div>
-
-    <div id="yankee-stadium" class="col-xs-12 card case-study">
-      <div class="card-block">
-        <div class="thumbnail-top">
-          <a class="thumbnail" href="/applications/sports-flood-lighting/yankee-stadium/">
-            <img src="https://gigaterausa.com/wp-content/uploads/2018/01/yankee-stadium-cs1.png">
-          </a>
-          <h3 class="title">Yankee Stadium</h3>
-        </div>
-        <div class="horizontal-divider">
-          <hr class="card-divider">
-        </div>
-        <div class="card-text bottom">
-          <p class="description">
-            Light Source: SUFA-A 1K0 <br>  
-            Major League Baseball Stadium <br>
-          </p>
-        </div>
-        <div class="btn-container">
-          <a class="case-study" href="/applications/sports-flood-lighting/yankee-stadium/">
-            Case Study >>
-          </a>
-        </div>
-      </div>
-      <img class="card-img-bottom" src="https://gigaterausa.com/wp-content/uploads/2018/01/giga-divider.jpg" alt="Card Bottom Border">
-    </div>
-
-    <div id="olympic-park" class="col-xs-12 card case-study">
-      <div class="card-block">
-        <div class="thumbnail-top">
-          <a class="thumbnail" href="/applications/sports-flood-lighting/olympic-park-tennis-center">
-            <img src="https://gigaterausa.com/wp-content/uploads/2018/01/olympic-park-cst.png">
-          </a>
-          <h3 class="title">Olympic Park Tennis Center</h3>
-        </div>
-        <div class="horizontal-divider">
-          <hr class="card-divider">
-        </div>
-        <div class="card-text bottom">
-          <p class="description">
-            Light Source: SUFA 400 <br>  
-            Olympic Tennis Center<br>
-          </p>
-        </div>
-        <div class="btn-container">
-          <a class="case-study" href="/applications/sports-flood-lighting/olympic-park-tennis-center">
-            Case Study >>
-          </a>
-        </div>
-      </div>
-      <img class="card-img-bottom" src="https://gigaterausa.com/wp-content/uploads/2018/01/giga-divider.jpg" alt="Card Bottom Border">
-    </div>
   
   </div>
  -->
@@ -357,58 +463,8 @@
       <img class="card-img-bottom" src="https://gigaterausa.com/wp-content/uploads/2018/01/giga-divider.jpg" alt="Card Bottom Border">
     </div>
 
-    <div id="gangneung-curling-center" class="col-xs-12 card case-study">
-      <div class="card-block">
-        <div class="thumbnail-top">
-          <a class="thumbnail" href="/applications/sports-flood-lighting/2018-olympic-curling-center/">
-            <img src="https://gigaterausa.com/wp-content/uploads/2018/01/gangneung-curling-CS1.png">
-          </a>
-          <a class="case-study" href="/applications/sports-flood-lighting/2018-olympic-curling-center/">
-            Case Study >>
-          </a>
-        </div>
-        <h3 class="title">Gangneung Curling Center</h3>
-        <div class="horizontal-divider">
-          <hr class="card-divider">
-        </div>
-        <div class="card-text bottom">
-          <p class="description">
-            Light Source: SFA1K2 <br>  
-            2018 Olympic Curling Center <br>
-          </p>
-        </div>
-        <div class="btn-container">
-          
-        </div>
-      </div>
-      <img class="card-img-bottom" src="https://gigaterausa.com/wp-content/uploads/2018/01/giga-divider.jpg" alt="Card Bottom Border">
-    </div>
+    
 
-    <div id="gangneung-oval" class="col-xs-12 card case-study">
-      <div class="card-block">
-        <div class="thumbnail-top">
-          <a class="thumbnail" href="/applications/sports-flood-lighting/2018-olympic-skating-stadium/">
-            <img src="https://gigaterausa.com/wp-content/uploads/2018/01/gangneung-oval-cs1.png">
-          </a>
-          <h3 class="title">Gangneung Oval</h3>
-        </div>
-        <div class="horizontal-divider">
-          <hr class="card-divider">
-        </div>
-        <div class="card-text bottom">
-          <p class="description">
-            Light Source: SFA1K2 <br>  
-            2018 Olympic Speed Skating Stadium <br>
-          </p>
-        </div>
-        <div class="btn-container">
-          <a class="case-study" href="/applications/sports-flood-lighting/2018-olympic-skating-stadium/">
-            Case Study >>
-          </a>
-        </div>
-      </div>
-      <img class="card-img-bottom" src="https://gigaterausa.com/wp-content/uploads/2018/01/giga-divider.jpg" alt="Card Bottom Border">
-    </div>
   
     <div id="residential-area" class="col-xs-12 card case-study">
       <div class="card-block">

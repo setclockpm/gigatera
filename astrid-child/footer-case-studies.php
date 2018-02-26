@@ -71,7 +71,7 @@
      
      $(window).on("scroll", function(e) {
        if ($(this).scrollTop() > 240.0) {
-         console.log("fix-subsection-bar");
+         // console.log("fix-subsection-bar");
          $("div#page").addClass("fix-subsection-bar");
        } else {
          $("div#page").removeClass("fix-subsection-bar");
