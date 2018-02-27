@@ -33,7 +33,7 @@
           </div>
           <div class="small-label col-xs-6 col-sm-3 col-md-3 text-center non-mobile">
             <span class="case-study exists">
-              <a href="/trail-blazers-training/">
+              <a href="/round-rock-smart-led/">
                 <i class="fa fa-area-chart fa-2x" aria-hidden="true"></i>
                 <i class="fa fa-search-plus" aria-hidden="true"></i><br>
                 <span style="font-size:0.7em;"">Case Study</span>
@@ -41,22 +41,22 @@
             </span>
           </div>
           <div class="card-stacked col-xs-12 col-sm-6 col-md-6">
-            <span class="installation-site">Blazer Training Facility</span>
+            <span class="installation-site">Smart LED City</span>
             <span class="location">
-              <a href="https://goo.gl/maps/f5hSkf6k1gu">Portland, OR, USA</a>
+              <a href="https://goo.gl/maps/XispNsTD6e82">Round Rock, TX, USA</a>
             </span>
           </div>
         </div>
       </li>
 
-      <li id="leicester-riders" class="card">
+      <li id="lekas-hwy" class="card">
         <div class="row">
           <div class="card-media col-xs-5 col-sm-3 col-md-3">
             <iframe width="190" src="https://www.youtube.com/embed/n7_RGtDZfl4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
           <div class="small-label col-xs-6 col-sm-3 col-md-3 text-center non-mobile">
             <span class="case-study exists">
-              <a href="https://gigaterausa.com/leicester-arena/">
+              <a href="/lekas-highway/">
                 <i class="fa fa-area-chart fa-2x" aria-hidden="true"></i>
                 <i class="fa fa-search-plus" aria-hidden="true"></i><br>
                 <span style="font-size:0.7em;"">Case Study</span>
@@ -64,9 +64,9 @@
             </span>
           </div>
           <div class="card-stacked col-xs-12 col-sm-6 col-md-6">
-            <span class="installation-site">Leicester Arena</span>
+            <span class="installation-site">Malaysia LEKAS Highway</span>
             <span class="location">
-              <a href="https://goo.gl/maps/twUjuHCsw662">Leicester, United Kingdom</a>
+              <a href="https://goo.gl/maps/XnyjWbLFvQA2">Kuala Lumpur, Malaysia</a>
             </span>
           </div>
         </div>
@@ -94,7 +94,7 @@
           <img src="https://gigaterausa.com/wp-content/uploads/2018/01/divider.png">
         </div>
         <div class="card-text bottom">
-          <h3 class="title">Malaysia LEKAS Highway</h3>
+          <h3 class="title"></h3>
           <p class="description">
             META 180W, LEKAS Highway, Malaysia
           </p>
