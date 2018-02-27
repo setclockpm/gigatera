@@ -803,8 +803,8 @@ p.application-example {
 .page-template-page_single_roadway .site-content,
 .page-template-page_single_facade .site-content,
 .page-template-page_lighting .site-content,
-.page-template-page_sports_flood .site-content, 
-.page-template-page_facade .site-content {
+.page-template-page_sports_flood_projects .site-content,
+.page-template-page_bay_projects .site-content {
   margin-top: -112px;
   margin-bottom: 40px;
 }
@@ -812,18 +812,14 @@ p.application-example {
 .page-template-page_case_studies .site-content,
 .page-template-page_equipment .site-content,
 .page-template-page_bay .site-content,
+.page-template-page_sports_flood .site-content, 
 .page-template-page_roadway .site-content,
 .page-template-page_gess .site-content,
 .page-template-page_single_gess .site-content,
+.page-template-page_facade .site-content,
 .page-template-page_control_systems .site-content {
   margin-top: -112px;
   margin-bottom: -128px;
-}
-
-.page-template-page_sports_flood_projects .site-content,
-.page-template-page_bay_projects .site-content {
-  margin-top: -112px;
-  margin-bottom: 40px;
 }
 
 

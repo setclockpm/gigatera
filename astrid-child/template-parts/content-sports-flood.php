@@ -9,7 +9,7 @@
 
 ?>
 
-<div id="sports-flood-series" class="hentry under-fixed-nav row">
+<div id="sports-flood-series" class="col-xs-12 hentry under-fixed-nav">
 
   <div class="left col-md-4 col-xs-12">
     <div id="sufa-a" class="text-center">
