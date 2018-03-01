@@ -16,13 +16,27 @@
 	    <?php if (count(get_post_custom_values('version')) > 0) : ?>
 	      <div class="product-tab">
           <ul class="clearfix">
-            
+            <?php if (get_post_meta($post->ID, 'family', true) == 'SUFA') : ?>
+              <li class="<?php echo(get_post_meta($post->ID, 'series', true) == 'SUFA-A' ? 'active' : 'inactive'); ?>">
+                <a href="/products/lighting/sports-flood/sufa-a">SUFA-A</a>
+              </li>
+              <li class="<?php echo(get_post_meta($post->ID, 'series', true) == 'SUFA-H' ? 'active' : 'inactive'); ?>">
+                <a href="/products/lighting/sports-flood/sufa-h">SUFA-H</a>
+              </li>
+              <li class="<?php echo(get_post_meta($post->ID, 'series', true) == 'SUFA-M' ? 'active' : 'inactive'); ?>">
+                <a href="/products/lighting/sports-flood/sufa-m">SUFA-M</a>
+              </li>
+              <li class="<?php echo(get_post_meta($post->ID, 'series', true) == 'SUFA-X' ? 'active' : 'inactive'); ?>">
+                <a href="/products/lighting/sports-flood/sufa-x">SUFA-X</a>
+              </li>
+            <?php else : ?>
               <li class="<?php echo(get_post_meta($post->ID, 'series', true) == 'MAHA' ? 'active' : 'inactive'); ?>">
                 <a href="/products/lighting/sports-flood/maha">MAHA</a>
               </li>
               <li class="<?php echo(get_post_meta($post->ID, 'series', true) == 'MAHA-NEO' ? 'active' : 'inactive'); ?>">
                 <a href="/products/lighting/sports-flood/maha-neo">MAHA-NEO</a>
               </li>
+            <?php endif; ?>
           </ul>
         </div>
       <?php endif; ?>
