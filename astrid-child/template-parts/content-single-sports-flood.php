@@ -75,6 +75,14 @@
             <?php echo(get_post_meta($post->ID, 'Certifications', true)); ?>
           </section>
         <?php endif; ?> 
+
+        <?php if (get_post_custom_values('spec-sheet-dl')) : ?>
+          <section class="downloads">
+            <span class="head"><h3>Download</h3></span>
+            <a href="<?php echo(get_post_meta($post->ID, 'spec-sheet-dl', true)); ?>" class="spec-sheet" title="spec-sheet.pdf">Spec Sheet (pdf)</a>
+          </section>
+        <?php endif; ?> 
+
       </div>
 
     </div>

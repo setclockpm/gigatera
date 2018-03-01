@@ -321,7 +321,7 @@ div#applications-content p {
 div.footer-wrapper .jumbotron-fluid {
   background-image: url(https://gigaterausa.com/wp-content/uploads/2018/02/tech_body_design-e1517788287306.png);
   color: white;
-  min-height: 256px;
+  min-height: 288px;
   margin-bottom: 0px;
 }
 div#control-systems-container,
@@ -798,7 +798,7 @@ p.application-example {
 
 
 
-.page-template-page_single_sports_flood .site-content,
+
 .page-template-page_single_bay .site-content,
 .page-template-page_single_roadway .site-content,
 .page-template-page_single_facade .site-content,
@@ -820,7 +820,12 @@ p.application-example {
 .page-template-page_facade .site-content,
 .page-template-page_control_systems .site-content {
   margin-top: -112px;
-  margin-bottom: -128px;
+  margin-bottom: -266px;
+}
+
+.page-template-page_single_sports_flood .site-content {
+  margin-top: -112px;
+  margin-bottom: 0px;
 }
 
 
