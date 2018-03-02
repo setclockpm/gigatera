@@ -10,7 +10,6 @@
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  astrid
- Fonts: |||Quantico||Ropa+Sans|Lato|
 */
 
 
@@ -799,7 +798,6 @@ p.application-example {
 
 
 
-.page-template-page_single_bay .site-content,
 .page-template-page_single_roadway .site-content,
 .page-template-page_single_facade .site-content,
 .page-template-page_lighting .site-content,
@@ -823,6 +821,7 @@ p.application-example {
   margin-bottom: -266px;
 }
 
+.page-template-page_single_bay .site-content,
 .page-template-page_single_sports_flood .site-content {
   margin-top: -112px;
   margin-bottom: 0px;
