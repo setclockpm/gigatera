@@ -23,7 +23,6 @@ Template Name: Case Studies Main
   </div>
 
 
-
   <div class="container inner-container">
     <main id="main" class="site-main" role="main">
       <header id="case-studies-subsection-bar" class="navbar navbar-fixed-top subsection-bar row">

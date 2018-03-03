@@ -374,32 +374,7 @@
       <img class="card-img-bottom" src="https://gigaterausa.com/wp-content/uploads/2018/01/giga-divider.jpg" alt="Card Bottom Border">
     </div>
 
-    <div id="evendale-resort" class="col-xs-12 card case-study">
-      <div class="card-block">
-        <div class="thumbnail-top">
-          <a class="thumbnail" href="/applications/sports-flood-lighting/evendale-resort">
-            <img src="https://gigaterausa.com/wp-content/uploads/2018/01/evendale-resort-cs2.png" alt="Evendale Golf Resort Overhead" />
-          </a>
-          
-          <h3 class="title">Evendale Golf & Resort</h3>
-        </div>
-        <div class="horizontal-divider">
-          <hr class="card-divider">
-        </div>
-        <div class="card-text bottom">
-          <p class="description">
-            Light Source: SUFA-M 1K2 <br>  
-            Full Size Golf Course <br>
-          </p>
-        </div>
-        <div class="btn-container">
-          <a class="case-study" href="/applications/sports-flood-lighting/evendale-resort">
-            Case Study >>
-          </a>
-        </div>
-      </div>
-      <img class="card-img-bottom" src="https://gigaterausa.com/wp-content/uploads/2018/01/giga-divider.jpg" alt="Card Bottom Border">
-    </div>
+    
   
   </div>
  -->

@@ -9,6 +9,8 @@
 
 ?>
 
+
+
 <article id="post-<?php the_ID(); ?>" <?php post_class("col-md-12 under-fixed-nav"); ?>>
   <header class="entry-header">
     <h3 id="main-title" itemprop="headline" class="tagline applications-tagline">

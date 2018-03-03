@@ -29,7 +29,7 @@ Template Name: Roadway Lighting (Single)
 
         <div class="<?php echo 'container vertically-centered'; ?>">
           <div class="subsection-heading non-mobile text-center col-sm-4">
-            <?php the_title( '<h2 id="series-entry-title" class="entry-title">', '</h2>' ); ?>
+            <?php the_title( '<h2 id="series-entry-title" class="entry-title" style="font-size:1.5em;">', '</h2>' ); ?>
           </div>
 
           <div id="lighting-nav-container" class="col-sm-8">

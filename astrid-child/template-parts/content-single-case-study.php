@@ -9,17 +9,24 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<div class="col-md-8 col-md-offset-2">
-		<header class="entry-header">
-    		<?php  echo get_post_meta($post->ID, 'Application', true); ?>
-	    </header><!-- .entry-header -->
 
 
-	    <div class="entry-content">
-	    	<?php the_content(); ?>
-	    </div><!-- .entry-content -->
-	</div>
-	
+<article id="post-<?php the_ID(); ?>" <?php post_class("col-sm-12 under-fixed-nav"); ?>>
+  <header class="entry-header">
+    <h3 id="main-title" itemprop="headline" class="tagline applications-tagline">
+      <?php echo(get_post_meta($post->ID, 'headline', true)); ?>
+    </h3>
+  </header><!-- .entry-header -->
+
+  
+
+  <div class="entry-content">
+  	<div class="intro">
+  	  <p><?php echo(get_post_meta($post->ID, 'headline-blurb', true)); ?></p>
+    </div>
+    
+    <?php the_content(); ?>
+
+  </div><!-- .entry-content -->
 
 </article><!-- #post-## -->
