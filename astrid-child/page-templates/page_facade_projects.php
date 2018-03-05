@@ -30,7 +30,7 @@ Template Name: Case Studies: Facade
 
         <div class="<?php echo 'container vertically-centered'; ?>">
           <div class="subsection-heading non-mobile text-center col-sm-5">
-            <h2 class="entry-title product-title" style="color:#fff;">Installation Type:</h2>
+            <h2 class="entry-title product-title" style="">Installation Type:</h2>
           </div>
 
           <div id="lighting-nav-container" class="col-sm-7">
