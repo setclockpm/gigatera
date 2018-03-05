@@ -84,7 +84,7 @@ article {
 article p {
   color: #4C5454;
 }
-article#post-877, article#post-2 {
+article#post-877 {
   text-align: center;
 }
 article.gess section#intro .entry-content {
@@ -326,6 +326,20 @@ div.footer-wrapper .jumbotron-fluid {
   min-height: 288px;
   margin-bottom: 0px;
 }
+
+div.white-paper-style h2.headline {
+  border-top: 1px solid #777879;
+  border-bottom: 1px solid #777879;
+  color: #0098C5;
+  font-family: 'Quantico', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+  font-size: 2.0em;
+  letter-spacing: -1.5px;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  padding: 5px;
+  text-transform: none;
+}
+
 div#control-systems-container,
 div#gess-container,
 div#single-gess-container,
@@ -339,7 +353,6 @@ div#control-systems-container h2.headline {
   border-top: 1px solid #777879;
   border-bottom: 1px solid #777879;
   color: #0098C5;
-  /*font-family: 'PT Sans Caption', 'Myriad Pro', 'Lato', 'Arial', sans-serif;*/
   font-family: 'Quantico', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
   font-size: 2.0em;
   letter-spacing: -1.5px;

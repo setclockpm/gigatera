@@ -29,7 +29,7 @@ Template Name: Lighting Main
 
         <div class="<?php echo 'container vertically-centered'; ?>">
           <div class="subsection-heading non-mobile text-center col-sm-4">
-            <h2 id="lighting-entry-title" class="entry-title product-title">Lighting</h2>
+            <h2 id="lighting-entry-title" class="entry-title product-title">Lighting Type:</h2>
           </div>
 
           <div id="lighting-nav-container" class="col-sm-8">
