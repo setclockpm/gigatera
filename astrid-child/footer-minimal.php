@@ -14,9 +14,9 @@
    		  </div>
    	  </div><!-- #content -->
    
-   	  <div class="footer-wrapper">
+   	  <div class="footer-wrapper mnml">
       <?php if (get_post_meta($post->ID, 'footer-photo-url', true)): ?>
-        <div class="jumbotron jumbotron-fluid jumbotron-lighting" 
+        <div class="jumbotron jumbotron-fluid " 
              style="background-image:url(<?php echo(get_post_meta($post->ID, 'footer-photo-url', true)) ?>)">
       <?php else: ?>
         <div class="jumbotron jumbotron-fluid jumbotron-lighting">

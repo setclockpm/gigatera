@@ -299,26 +299,8 @@ div.case-study-links {
 div.downloads {
   margin-top: 30px;
 }
-
-div#applications-content h2.applications-tagline {
-  font-size: 32px;
-  line-height: 1.09375;
-  font-weight: 500;
-  letter-spacing: 0.011em;
-}
-div#applications-content h3 {
-  font-family: 'PT Sans', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
-}
-div#applications-content div p {
-  word-wrap: break-word;
-}
-div#applications-content p {
-  font-size: 17px;
-  line-height: 1.52947;
-  font-weight: 400;
-  letter-spacing: -0.021em;
-  font-family: 'PT Sans', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
-  margin: 1em 0 0;
+div.footer-wrapper.mnml .jumbotron-fluid {
+  min-height: 112px;
 }
 div.footer-wrapper .jumbotron-fluid {
   background-image: url(https://gigaterausa.com/wp-content/uploads/2018/02/tech_body_design-e1517788287306.png);
@@ -340,6 +322,27 @@ div.white-paper-style h2.headline {
   text-transform: none;
 }
 
+
+div#applications-content h2.applications-tagline {
+  font-size: 32px;
+  line-height: 1.09375;
+  font-weight: 500;
+  letter-spacing: 0.011em;
+}
+div#applications-content h3 {
+  font-family: 'PT Sans', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+}
+div#applications-content div p {
+  word-wrap: break-word;
+}
+div#applications-content p {
+  font-size: 17px;
+  line-height: 1.52947;
+  font-weight: 400;
+  letter-spacing: -0.021em;
+  font-family: 'PT Sans', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+  margin: 1em 0 0;
+}
 div#control-systems-container,
 div#gess-container,
 div#single-gess-container,
