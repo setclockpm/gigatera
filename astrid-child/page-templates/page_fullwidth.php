@@ -32,5 +32,5 @@ Template Name: Full width
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_footer("products"); ?>
+<?php get_footer("minimal"); ?>
 
