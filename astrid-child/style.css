@@ -32,10 +32,7 @@ a.button.case-study {
   text-decoration: none;
   color: #fff;
 }
-a.button.header-button {
-  font-family: 'PT Sans Caption', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
-  text-transform: unset;
-}
+
 
 a.case-study {
   color: #f9b92b;
@@ -402,6 +399,9 @@ div#lighting-nav-container {
   background-image: url(https://gigaterausa.com/wp-content/uploads/2018/01/facade-lighting-e1515150933311.png);
 }
 
+/*.full-width div.inner-container {
+  margin-top: -179px;
+}*/
 
 
 /*-----------------h2--------------------*/
@@ -476,6 +476,11 @@ h3.ordered-section {
   font-family: 'PT Sans Narrow', 'Helvetica Neue', 'Arial', sans-serif;
   margin-top: 60px;
 }
+h3.ordered-section .flag-icon {
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
 .product-detail h3.ordered-section {
   font-family: 'PT Sans Narrow', 'Helvetica Neue', 'Arial', sans-serif;
 }
@@ -832,8 +837,9 @@ p.application-example {
   margin-bottom: 40px;
 }
 
+
 .page-template-page_case_studies .site-content,
-.page-template-page_case_study_single, .site-content,
+.page-template-page_case_study_single .site-content,
 .page-template-page_equipment .site-content,
 .page-template-page_bay .site-content,
 .page-template-page_sports_flood .site-content, 
@@ -846,6 +852,7 @@ p.application-example {
   margin-bottom: -266px;
 }
 
+.page-template-page_fullwidth .site-content,
 .page-template-page_single_roadway .site-content,
 .page-template-page_single_facade .site-content,
 .page-template-page_single_bay .site-content,
@@ -1214,7 +1221,34 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
     top: 92px;
     z-index: 998;
   }
+
+  a.button.header-button {
+    font-family: 'PT Sans Caption', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+    text-transform: unset;
+    color:#fff;
+    border: 1px solid #fff;
+    display: none;
+  }
+  .header-image .header-text {
+    color: #f9b92b;
+    font-size: 64px;
+  }
+  .header-image::after {
+    background-color: rgba(37, 46, 53, 0.0);
+  }
+  .header-info {
+    top: 57%;
+  }
 }
+
+@media only screen and (max-width: 1023px) {
+  
+  .header-image .header-text {
+    display: none;
+  }
+
+}
+
 
 @media only screen and (min-width: 991px) {
   

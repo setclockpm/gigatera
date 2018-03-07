@@ -25,9 +25,10 @@ Template Name: Lighting Main
 
   <div id="lighting-container" class="<?php echo 'container'; ?>">
     <main id="main" class="site-main" role="main">
-      <header id="lighting-subsection-bar" class="navbar navbar-fixed-top subsection-bar row">
 
+      <header id="lighting-subsection-bar" class="navbar navbar-fixed-top subsection-bar row">
         <div class="<?php echo 'container vertically-centered'; ?>">
+
           <div class="subsection-heading non-mobile text-center col-sm-4">
             <h2 id="lighting-entry-title" class="entry-title product-title">Lighting Type:</h2>
           </div>
@@ -50,6 +51,7 @@ Template Name: Lighting Main
               </ul>
             </nav>
           </div>
+          
         </div><!-- #container --> 
       </header>
 
