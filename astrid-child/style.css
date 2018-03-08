@@ -399,10 +399,17 @@ div#lighting-nav-container {
   background-image: url(https://gigaterausa.com/wp-content/uploads/2018/01/facade-lighting-e1515150933311.png);
 }
 
-/*.full-width div.inner-container {
-  margin-top: -179px;
-}*/
 
+.half-alpha {
+  opacity: .3;
+}
+
+.hst-focus {
+  font-family: 'PT Sans', sans-serif;
+  letter-spacing: 4px;
+  font-weight: bold;
+  font-size: 1.05em;
+}
 
 /*-----------------h2--------------------*/
 h1 {
@@ -498,6 +505,9 @@ h4.caption a {
 }
 h4.header-subtext {
   font-family: 'PT Sans Narrow', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+}
+h4.header-subtext .half-alpha {
+  font-size: 0.9em;
 }
 h4.case-study-single-top {
   background-color: white;
@@ -1213,7 +1223,7 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
 }
 
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1025px) {
   
   .fix-subsection-bar .subsection-bar {
     background-color: rgba(32,37,41,0.8);
@@ -1230,9 +1240,12 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
     display: none;
   }
   .header-image .header-text {
-    color: #f9b92b;
-    font-size: 64px;
+    display: none;
   }
+  .header-image .header-subtext {
+    display: none;
+  }
+ 
   .header-image::after {
     background-color: rgba(37, 46, 53, 0.0);
   }
@@ -1241,10 +1254,26 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
   }
 }
 
-@media only screen and (max-width: 1023px) {
+
+@media only screen and (max-width: 1024px) {
+
+  a.button.header-button {
+    font-family: 'PT Sans Caption', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+    text-transform: unset;
+    text-decoration: underline;
+    color: #f9b92b;
+    border: 0;
+    letter-spacing: 1px;
+    padding: 0;
+  }
   
   .header-image .header-text {
-    display: none;
+    color: #f9b92b;
+    font-size: 48px;
+  }
+
+  .header-info {
+    top: 64%;
   }
 
 }
@@ -1274,7 +1303,12 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
 
 
 @media only screen and (max-width: 991px) {
-  
+
+  /*.header-button {
+    margin-top: 30px;
+    letter-spacing: 1px;
+    padding: 0;
+  }*/
   .subsection-nav nav.regular.section-nav {
     display: none;
   }
@@ -1329,6 +1363,29 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
 
 
 
+
+
+
+@media only screen and (max-width: 767px) {
+  
+  a.button.header-button {
+    font-family: 'PT Sans Caption', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+    border: 1px solid #0d1014;
+    background-color: #1e2125;
+    padding: 12px;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    width: 100%;
+  }
+
+  a.button.header-button:hover {
+    text-decoration: underline;
+    border: 1px solid #fcd088;
+    border-radius: 8px;
+  }
+}
+
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .lighting-title-container.mobile {
     display: block;
@@ -1347,6 +1404,9 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
 @media only screen and (max-width: 600px) {
 
   .tablet .label-only {
+    display: none;
+  }
+  .header-subtext .half-alpha {
     display: none;
   }
 }
@@ -1385,6 +1445,11 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
   .nav-pills > li {
     min-width: 60px;
     text-align: center;
+  }
+
+  a.button.header-button {
+    font-size: 0.9em;
+    padding: 7px;
   }
 
 }
