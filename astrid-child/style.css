@@ -1233,24 +1233,61 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
   }
 
   a.button.header-button {
-    font-family: 'PT Sans Caption', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+    background-color: rgba(25, 25, 25, 0.7);
+    border-radius: 2px;
+    font-family: 'PT Sans', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+    font-size: 1.2em;
     text-transform: unset;
-    color:#fff;
-    border: 1px solid #fff;
-    display: none;
+    color: #fff;
+    border: 0;
+    letter-spacing: 1.5px;
+    margin-top: 0px;
+  }
+  a.button.header-button:hover {
+    background-color: rgba(25, 25, 25, 0.8);
+    text-decoration: underline;
+  }
+  .header-image .container {
+    border-radius: 10px;
+    width: 540px;
+    padding: 20px;
+    background-color: rgba(25, 25, 25, 0.7);
   }
   .header-image .header-text {
     display: none;
+    color: #f9b92b;
+    font-size: 2.3em;
+    padding: 20px;
+  }
+  .hst-focus {
+    font-family: 'Quantico', sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 1.05em;
+    text-transform: uppercase;
   }
   .header-image .header-subtext {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    letter-spacing: 3px;
+  }
+  .header-image .header-subtext .half-alpha {
     display: none;
+  }
+  .header-image .header-subtext .hst-wide {
+    color: #f9b92b;
+    font-family: 'Quantico', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1em;
   }
  
   .header-image::after {
     background-color: rgba(37, 46, 53, 0.0);
   }
   .header-info {
-    top: 57%;
+    top: 70%;
+    right: 26%;
   }
 }
 
@@ -1270,6 +1307,12 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
   .header-image .header-text {
     color: #f9b92b;
     font-size: 48px;
+  }
+  .header-image .header-subtext .hst-wide {
+    display: none;
+  }
+  .header-image .header-text .professional {
+    display: none;
   }
 
   .header-info {
