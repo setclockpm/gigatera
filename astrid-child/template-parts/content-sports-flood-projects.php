@@ -43,7 +43,7 @@
           <div class="card-stacked col-xs-12 col-sm-6 col-md-6">
             <span class="installation-site">Gangneung Oval</span>
             <span class="location">
-              <a href="https://goo.gl/maps/EYMyqJNjsur">Gangneung, Gangwon-do, South Korea</a>
+              <a href="https://goo.gl/maps/EYMyqJNjsur">Gangneung, Gangwon, South Korea</a>
             </span>
           </div>
         </div>
@@ -89,7 +89,7 @@
           <div class="card-stacked col-xs-12 col-sm-6 col-md-6">
             <span class="installation-site">Gangneung Curling Center</span>
             <span class="location">
-              <a href="https://goo.gl/maps/AteJ9V12DD42">Gangneung, Gangwon-do, South Korea</a>
+              <a href="https://goo.gl/maps/AteJ9V12DD42">Gangneung, Gangwon, South Korea</a>
             </span>
           </div>
         </div>
@@ -141,27 +141,6 @@
         </div>
       </li>
 
-      <li id="ackansa-port" class="card">
-        <div class="row">
-          <div class="card-media col-xs-6 col-sm-3 col-md-3">
-            <iframe width="190" src="https://youtube.com/embed/A4Z-NAzi5MQ" frameborder="0" allow="autoplay;  encrypted-media" allowfullscreen></iframe>
-          </div>
-          <div class="small-label col-xs-6 col-sm-3 col-md-3 text-center non-mobile">
-            <span class="case-study">
-              <i class="fa fa-area-chart fa-2x" aria-hidden="true"></i>
-              <i class="fa fa-search-plus" aria-hidden="true"></i><br>
-              <span style="font-size:0.7em;">Case Study</span>
-            </span>
-          </div>
-          <div class="card-stacked col-xs-12 col-sm-6 col-md-6">
-            <span class="installation-site">Akcansa Port</span>
-            <span class="location">
-              <a href="https://goo.gl/maps/Rb3nKWiX5yD2">Avcılar/Istanbul, Turkey</a>
-            </span>
-          </div>
-        </div>
-      </li>
-
       <li id="dream-ballpark" class="card">
         <div class="row">
           <div class="card-media col-xs-5 col-sm-3 col-md-3">
@@ -204,7 +183,7 @@
           <div class="card-stacked col-xs-12 col-sm-6 col-md-6">
             <span class="installation-site">Changwon Gymnasium</span>
             <span class="location">
-              <a href="https://goo.gl/maps/medMCMCjXXt"> Gyeongsangnam-do, South Korea</a>
+              <a href="https://goo.gl/maps/medMCMCjXXt"> Gyeongsangnam, South Korea</a>
             </span>
           </div>
         </div>
@@ -233,14 +212,33 @@
         </div>
       </li>
 
+      <li id="evendale-resort" class="card">
+        <div class="row">
+          <div class="card-media col-xs-5 col-sm-3 col-md-3">
+            <iframe width="190" src="https://www.youtube.com/embed/K38TvED-Mro" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+          <div class="small-label col-xs-6 col-sm-3 col-md-3 text-center non-mobile">
+            <span class="case-study exists">
+              <a href="/case-studies/sports-flood/evendale-resort/">
+                <i class="fa fa-area-chart fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-search-plus" aria-hidden="true"></i><br>
+                <span style="font-size:0.7em;"">Case Study</span>
+              </a>
+            </span>
+          </div>
+          <div class="card-stacked col-xs-12 col-sm-6 col-md-6">
+            <span class="installation-site">EvenDale Golf & Resort</span>
+            <span class="location"><a href="https://goo.gl/maps/3nh25bmqAmn">Cheongju, South Korea</a></span>
+          </div>
+        </div>
+      </li>
+
       <?php the_content(); ?>
     </ul>
   </div> 
 </div><!-- .entry-content -->
 
 
-
-   
 
 
 
@@ -469,3 +467,4 @@
 
   </div>
 </div> -->
+

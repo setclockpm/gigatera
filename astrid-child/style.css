@@ -180,6 +180,12 @@ ul li.card:nth-child(10) {
 ul li.card:nth-child(11) {
   background: rgba(204, 204, 204, .2);
 }
+ul li.card:nth-child(12) {
+  background: rgba(204, 204, 204, .22);
+}
+ul li.card:nth-child(13) {
+  background: rgba(204, 204, 204, .24);
+}
 ul li.card .small-label {
   min-height: 90px;
   display: flex;
@@ -301,15 +307,7 @@ div.case-study-links {
 div.downloads {
   margin-top: 30px;
 }
-div.footer-wrapper.mnml .jumbotron-fluid {
-  min-height: 112px;
-}
-div.footer-wrapper .jumbotron-fluid {
-  background-image: url(https://gigaterausa.com/wp-content/uploads/2018/02/tech_body_design-e1517788287306.png);
-  color: white;
-  min-height: 288px;
-  margin-bottom: 0px;
-}
+
 
 div.white-paper-style h2.headline {
   border-top: 1px solid #777879;
@@ -398,6 +396,8 @@ div#lighting-nav-container {
 .facade-background, .background-facade {
   background-image: url(https://gigaterausa.com/wp-content/uploads/2018/01/facade-lighting-e1515150933311.png);
 }
+
+
 
 
 .half-alpha {
@@ -512,11 +512,12 @@ h4.header-subtext .half-alpha {
 h4.case-study-single-top {
   background-color: white;
   color: #1e2125;
+  font-size: 1.9em;
   margin-top: 50px;
   margin-bottom: 8px;
+  margin-left: 16px;
   font-family: 'PT Sans Narrow', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
   font-weight: bold;
-  text-decoration: underline;
 }
 h4.case-study-single-btm {
   margin-top: 0px;
@@ -562,7 +563,40 @@ img.tile {
 }
 
 
+/* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
+/* ****** FOOTER FOOTER FOOTER FOOTER FOOTER ****** */
+/* *******       FOOTER FOOTER FOOTER        ****** */
+/* ******************** FOOTER ******************** */
 
+div.footer-wrapper.mnml .jumbotron-fluid {
+  min-height: 112px;
+}
+div.footer-wrapper .jumbotron-fluid {
+  background-image: url(https://gigaterausa.com/wp-content/uploads/2018/02/tech_body_design-e1517788287306.png);
+  color: white;
+  /*min-height: 288px;*/
+  margin-bottom: 0px;
+}
+.footer-navigation li {
+  padding: 0 20px;
+}
+
+li.menu-item-34 a:hover {
+  color: #3b5998;
+}
+li.menu-item-1994 a:hover {
+  color: #cc181e;
+}
+li.menu-item-2115 a:hover {
+  color: #0098C5;
+}
+
+  
+
+/* ******************** FOOTER ******************** */
+/* *******       FOOTER FOOTER FOOTER        ****** */
+/* ****** FOOTER FOOTER FOOTER FOOTER FOOTER ****** */
+/* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
 
 
 .with-bg {
@@ -849,7 +883,6 @@ p.application-example {
 
 
 .page-template-page_case_studies .site-content,
-.page-template-page_case_study_single .site-content,
 .page-template-page_equipment .site-content,
 .page-template-page_bay .site-content,
 .page-template-page_sports_flood .site-content, 
@@ -870,8 +903,10 @@ p.application-example {
   margin-top: -112px;
   margin-bottom: 0px;
 }
-
-
+.page-template-page_case_study_single .site-content {
+  margin-top: -112px;
+  margin-bottom: -113px;
+}
 
 .point8em {
   font-size: .8em;
@@ -1413,8 +1448,8 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
   
   a.button.header-button {
     font-family: 'PT Sans Caption', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
-    border: 1px solid #0d1014;
-    background-color: #1e2125;
+    border: 1px solid #1e2125;
+    background-color: #2f3236; 
     padding: 12px;
     border-radius: 8px;
     letter-spacing: 1px;
@@ -1465,6 +1500,11 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
 
 @media only screen and (max-width: 479px) {
 
+  a.button.header-button {
+    background-color: transparent;
+    border: 0;
+  }
+
   div#lighting-nav-container {
     padding-left: 0px;
     padding-right: 0px;
@@ -1473,9 +1513,30 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
     width: 100%;
   }
 
+  h2.widget-title {
+    letter-spacing: 1px;
+  }
+
   h3#control-system-header-bg {
     font-size: 1.18em;
     min-height: 370px;
+  }
+
+  h4.header-subtext {
+    font-size: 2em;
+  }
+  .header-image .header-text {
+    display: none;
+  }
+  .header-image .header-subtext .hst-focus {
+    letter-spacing: 3px;
+  }
+  .header-image .header-subtext .hst-wide {
+    display: inline;
+    color: #f9b92f;
+  }
+  .header-info {
+    top: 33%;
   }
 
   .subsection-bar {
