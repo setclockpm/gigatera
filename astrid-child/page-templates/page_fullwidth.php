@@ -34,26 +34,6 @@ Template Name: Full Width
               <?php echo(get_post_meta($post->ID, 'headline', true)); ?>
             </h2>
           </div>
-
-
-
-
-
-
-
-
-
-
-        
-
-
-
-
-
-
-
-
-
         </div><!-- #container --> 
       </header>
 
