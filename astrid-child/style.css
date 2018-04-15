@@ -400,6 +400,13 @@ div#lighting-nav-container {
 
 
 
+.grid-container {
+  display: grid;
+}
+
+
+
+
 .half-alpha {
   opacity: .3;
 }
@@ -1020,6 +1027,62 @@ span.fine-print {
   text-align: right;
 }
 
+/*---------------------------------------------------- SITEMAP ------------------------------------------------*/
+
+
+.page-template-page_sitemap .site-content {
+  margin-top: -112px;
+  margin-bottom: 0px;
+}
+
+.subsection-showcase .non-mobile {
+  height: 384px;
+}
+.subsection-showcase .mobile {
+  display: none;
+  height: 256px;
+  position: relative;
+}
+
+
+.sitemap h4 {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: bold;
+  background-color: #2f2f2f;
+  text-transform: uppercase;
+}
+.sitemap .grid-container {
+  grid-template-columns: [lighting] 33% [controls] 33% [case-studies] 34% [end];
+  grid-template-rows: [products] auto [about] 200px[end];
+  justify-content: center;  
+}
+
+
+.sitemap .grid-container .lighting,
+.sitemap .grid-container .controls,
+.sitemap .grid-container .case-studies {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  align-self: start;
+}
+.sitemap .grid-container .lighting {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.sitemap .grid-container .controls {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.sitemap .grid-container .case-studies {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+.sitemap .grid-container .about {
+  border-top: 1px solid #ddd;
+  grid-column: 1 / span 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
 
 
 /*--------------------------------------------------- SUBSECTION --------------------------------------------- */

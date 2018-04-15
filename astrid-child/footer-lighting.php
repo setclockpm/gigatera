@@ -61,7 +61,7 @@
 <script type="text/javascript">
   jQuery(document).ready(function($){
     
-    $(window).on("scroll", function(e) {
+    $(window).on("load", function(e) {
       $("li.lighting-nav-option").addClass('active current-menu-item current-page-item');
     });
     $('.lighting-menu-container > ul.nav li a').click(function(e) {
