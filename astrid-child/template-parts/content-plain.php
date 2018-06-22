@@ -11,7 +11,7 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(""); ?>>
 
-  <div class="entry-content grid-container">
+  <div class="entry-content">
   	<?php if (get_post_custom_values('subheader-img-url')) : ?>
       <div class="subheader-img">
         <img src="<?php echo get_post_meta($post->ID, 'subheader-img-url', true); ?>">

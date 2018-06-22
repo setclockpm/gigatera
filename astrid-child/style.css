@@ -75,6 +75,27 @@ a.thumbnail {
   border-radius: 6px 6px 0px 0px;  
 }
 
+.top-section-bar h2.greetings {
+  color: rgb(255,255,255, 1.0);
+  font-family: 'Helvetica Neue', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+  font-size: 3.0em;
+  font-weight: bolder;
+  /*letter-spacing: -0.5px;*/
+  margin-top: 6px;
+  margin-bottom: 25px;
+  padding: 5px;
+  text-shadow:  rgb(17, 17, 17) 0px 1px 1px;
+  text-transform: none;
+}
+
+.about .page-content {
+  font-size: 1.4em;
+}
+
+.about .page-content p {
+    font-family: 'Helvetica Neue', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+}
+
 article {
   background-color: #fbfbf9;
 }
@@ -86,6 +107,16 @@ article#post-877 {
 }
 article.gess section#intro .entry-content {
   margin-bottom: 55px;
+}
+
+
+
+.basic .hentry {
+  padding-top: 110px;
+ }
+
+.bolder {
+  font-weight: bolder;
 }
 
 
@@ -397,6 +428,10 @@ div#lighting-nav-container {
   background-image: url(https://gigaterausa.com/wp-content/uploads/2018/01/facade-lighting-e1515150933311.png);
 }
 
+.flex-end {
+  display: flex;
+  align-items: flex-end;
+}
 
 
 
@@ -434,6 +469,10 @@ h1#series-entry-title {
 h2 {
   font-family: "PT Sans Caption", "Helvetica Neue", "Arial", sans-serif;
   text-transform: uppercase;
+}
+h2.top-bottom-border {
+  border-top: 1px solid #777879;
+  border-bottom: 1px solid #777879;
 }
 h2.headline {
   color: #f9b92b;
@@ -556,6 +595,14 @@ hr.caption-border {
 }
 
 
+header .img-container {
+  margin-bottom: 36px;
+}
+
+/* ABOUT PAGE */
+header .img-container .logo-centered {
+  max-width: 400px;
+}
 
 
 div#control-systems-container .hentry {
@@ -719,7 +766,10 @@ main h2 {
   line-height: 1.15;
 }
 main .subsection-heading.non-mobile h2 {
-  font-size: 2em;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  font-weight: 400;
+  letter-spacing: .5px;
+  font-size: 2.1em;
 }
 main .subsection-heading.non-mobile h2.bay {
   font-size: 1.9em;
@@ -889,18 +939,30 @@ p.application-example {
 }
 
 
-.page-template-page_case_studies .site-content,
-.page-template-page_equipment .site-content,
-.page-template-page_bay .site-content,
-.page-template-page_sports_flood .site-content, 
-.page-template-page_roadway .site-content,
-.page-template-page_gess .site-content,
-.page-template-page_single_gess .site-content,
-.page-template-page_facade .site-content,
-.page-template-page_control_systems .site-content {
+.page-template-page_case_studies .site-content {
   margin-top: -112px;
   margin-bottom: -266px;
 }
+
+.page-template-page_facade .site-content,
+.page-template-page_roadway .site-content,
+.page-template-page_bay .site-content {
+  margin-top: -112px;
+  margin-bottom: -52px;
+}
+.page-template-page_sports_flood .site-content {
+  margin-bottom: -76px;
+  margin-top: -112px;
+}
+.page-template-page_gess .site-content,
+.page-template-page_single_gess .site-content,
+.page-template-page_equipment .site-content,
+.page-template-page_control_systems .site-content {
+  margin-top: -112px;
+  margin-bottom: -72px;
+
+}
+
 
 .page-template-page_fullwidth .site-content,
 .page-template-page_single_roadway .site-content,
@@ -1030,13 +1092,40 @@ span.fine-print {
 /*---------------------------------------------------- SITEMAP ------------------------------------------------*/
 
 
+h1#sitemap {
+  color: #f9b92b;
+}
+
+.sitemap header.light-bg {
+  background-color: #fff;
+}
+.sitemap header.dark-bg {
+  background-color: #bfbfbf;
+}
+.sitemap .grid-container .products .controls h4 {
+  background-color: #00A0C7;
+}
+.sitemap .grid-container .products .lighting h4 {
+  background-color: #f9b92b;
+}
+
+.jumbotron-sitemap {
+  background-image: url(https://gigaterausa.com/wp-content/uploads/2018/02/SUFA-A-f8-e1517709337818.jpg);
+}
+
+.subsection-showcase h1 {
+  font-family: "Helvetica Neue", "Quantico", "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+}
+
 .page-template-page_sitemap .site-content {
   margin-top: -112px;
   margin-bottom: 0px;
 }
 
 .subsection-showcase .non-mobile {
-  height: 384px;
+  height: 256px;
 }
 .subsection-showcase .mobile {
   display: none;
@@ -1044,46 +1133,95 @@ span.fine-print {
   position: relative;
 }
 
-
+.sitemap .hi-def .jumbotron {
+  margin-top: -16px
+}
+.sitemap .company ul {
+  text-align: center;
+}
+.sitemap .company ul li {
+  display: inline-block;
+  padding: 5px 45px;
+}
+.sitemap .company li a {
+  font-family: 'Helvetica Neue', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+  font-size: 2.9em;
+  font-weight: bolder;
+  color: black;
+}
+.sitemap .company li a:hover {
+  text-decoration: underline;
+}
 .sitemap h4 {
-  font-family: "PT Sans Narrow", sans-serif;
-  font-weight: bold;
-  background-color: #2f2f2f;
+  font-family: 'Myriad Pro', 'Roboto', 'Helvetica Neue', "Arial", sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+  padding: 8px;
   text-transform: uppercase;
 }
 .sitemap .grid-container {
-  grid-template-columns: [lighting] 33% [controls] 33% [case-studies] 34% [end];
-  grid-template-rows: [products] auto [about] 200px[end];
+  grid-template-columns: [products] 50% [technology] 50% [end];
+  grid-template-rows: [company] auto [products] 200px[end];
+  grid-gap: 0px;
   justify-content: center;  
 }
 
 
-.sitemap .grid-container .lighting,
-.sitemap .grid-container .controls,
-.sitemap .grid-container .case-studies {
-  grid-row-start: 1;
-  grid-row-end: 2;
+.sitemap .grid-container .products,
+.sitemap .grid-container .technology {
+  border-top: 1px solid #ddd;
+  grid-row-start: 3;
+  grid-row-end: 4;
   align-self: start;
 }
-.sitemap .grid-container .lighting {
-  grid-column-start: 1;
-  grid-column-end: 2;
+.sitemap .grid-container .products header,
+.sitemap .grid-container .technology header {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-.sitemap .grid-container .controls {
-  grid-column-start: 2;
-  grid-column-end: 3;
-}
-.sitemap .grid-container .case-studies {
-  grid-column-start: 3;
-  grid-column-end: 4;
-}
-.sitemap .grid-container .about {
-  border-top: 1px solid #ddd;
-  grid-column: 1 / span 3;
+.sitemap .grid-container .hi-def {
+  grid-column: 1 / span 2;
   grid-row-start: 2;
   grid-row-end: 3;
 }
+.sitemap .grid-container .company {
+  grid-column: 1 / span 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.sitemap .grid-container .products {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background-color: #bfbfbf;
+}
+.sitemap .grid-container .products li a {
+  color: #1e2125;
+}
 
+.sitemap .grid-container .technology {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.sitemap .grid-container .products h3,
+.sitemap .grid-container .technology h3 {
+  font-family: "Helvetica Neue", 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+  color: #f9b92b;
+  text-shadow: black 0.3em 0.3em 0.3em;
+  letter-spacing: 0.5px;
+  font-weight: bolder;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.sitemap .grid-container .products h3 { 
+   text-shadow: black 0.05em 0.05em 0.05em;
+}
+.sitemap .grid-container .products h4,
+.sitemap .grid-container .products h4 a { 
+   color: white;
+}
+.sitemap .grid-container .technology h3 { 
+   text-shadow: #000 0.05em 0.1em 0.1em;
+ }
 
 /*--------------------------------------------------- SUBSECTION --------------------------------------------- */
 
@@ -1092,7 +1230,17 @@ div#page {
   position: relative;
 }
 
-
+.dark-bar {
+  background: #1e2125;
+}
+.yellow-bar {
+  background: #f8b92c;   
+}
+.top-section-bar {
+  height: 68px;
+  top: 112px;
+  position: relative;
+}
 .subsection-bar {
   background: #1e2125;
   height: 68px;
@@ -1105,7 +1253,10 @@ div#page {
 
 
 .subsection-heading .entry-title, .subsection-heading .entry-title a {
-   margin: 15px auto;
+  margin: 15px auto;
+}
+.subsection-heading .infopage-title, .subsection-heading .infopage-title a {
+  margin: 15px auto;
 }
 .subsection-title-container {
   height: 384px;
@@ -1284,6 +1435,13 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
 
 
 
+@media only screen and (max-width: 1199px) {
+  h3#control-system-header-bg {
+    font-size: 1.33em;
+    min-height: 170px;
+  }
+}
+
 @media only screen and (max-width: 1067px) {
   div#applications-content h2.applications-tagline {
     font-size: 28px;
@@ -1292,103 +1450,6 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
     letter-spacing: 0.012em;
   }
 }
-
-@media only screen and (max-width: 767px) {
-
-  .card-stacked {
-    font-size: 1.4em;
-    padding-top: 10px;
-  }
-  h3#control-system-header-bg {
-    font-size: 1.3em;
-    min-height: 196px;
-  }
-
-  .nav-pills>li+li {
-    margin-left: 0px;
-  }
-  .nav-pills > li {
-    background-color: #22262c;
-  }
-  
-  .subsection-heading.non-mobile {
-    display: none;
-  }
-  .subsection-nav nav.tablet.section-nav {
-    display: none;
-  }
-
-}
-
-
-@media only screen and (min-width: 1025px) {
-  
-  .fix-subsection-bar .subsection-bar {
-    background-color: rgba(32,37,41,0.8);
-    position: fixed;
-    top: 92px;
-    z-index: 998;
-  }
-
-  a.button.header-button {
-    background-color: rgba(25, 25, 25, 0.7);
-    border-radius: 2px;
-    font-family: 'PT Sans', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
-    font-size: 1.2em;
-    text-transform: unset;
-    color: #fff;
-    border: 0;
-    letter-spacing: 1.5px;
-    margin-top: 0px;
-  }
-  a.button.header-button:hover {
-    background-color: rgba(25, 25, 25, 0.8);
-    text-decoration: underline;
-  }
-  .header-image .container {
-    border-radius: 10px;
-    width: 540px;
-    padding: 20px;
-    background-color: rgba(25, 25, 25, 0.7);
-  }
-  .header-image .header-text {
-    display: none;
-    color: #f9b92b;
-    font-size: 2.3em;
-    padding: 20px;
-  }
-  .hst-focus {
-    font-family: 'Quantico', sans-serif;
-    letter-spacing: 2px;
-    font-weight: bold;
-    font-size: 1.05em;
-    text-transform: uppercase;
-  }
-  .header-image .header-subtext {
-    margin-bottom: 5px;
-    padding-bottom: 5px;
-    letter-spacing: 3px;
-  }
-  .header-image .header-subtext .half-alpha {
-    display: none;
-  }
-  .header-image .header-subtext .hst-wide {
-    color: #f9b92b;
-    font-family: 'Quantico', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 1.1em;
-  }
- 
-  .header-image::after {
-    background-color: rgba(37, 46, 53, 0.0);
-  }
-  .header-info {
-    top: 70%;
-    right: 26%;
-  }
-}
-
 
 @media only screen and (max-width: 1024px) {
 
@@ -1419,55 +1480,19 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
 
 }
 
-
-@media only screen and (min-width: 991px) {
-  
-  .hentry {
-    padding-right: 40px;
-    padding-bottom: 30px;
-    padding-left: 40px;
-  }
-
-  .nav-pills > li {
-    min-width: 113px;
-    text-align: center;
-  }
-
-  .subsection-nav nav.tablet.section-nav {
-    display: none;
-  }
-   .subsection-heading.mobile {
-    display: none;
-  }
-
-}
-
-
 @media only screen and (max-width: 991px) {
 
-  /*.header-button {
-    margin-top: 30px;
-    letter-spacing: 1px;
-    padding: 0;
-  }*/
   .subsection-nav nav.regular.section-nav {
     display: none;
   }
   .subsection-nav nav.tablet.section-nav {
     display: block;
   }
-  .subsection-heading.mobile {
-    display: block;
-    width: 100%;
-    position: absolute;
-    top: 146px;
-    z-index: 1;
-  }
   .subsection-heading.mobile h1 {
     font-size: 2.6em;
   }
   .subsection-heading.mobile h1.gess {
-    text-transform:none;
+    text-transform: none;
     letter-spacing:-3px;
   }
   .subsection-title-container {
@@ -1486,29 +1511,8 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
 }
 
 
-
-@media only screen and (max-width: 1199px) {
-  h3#control-system-header-bg {
-    font-size: 1.33em;
-    min-height: 170px;
-  }
-}
-
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-
-  main .subsection-heading.non-mobile h2 {
-    font-size: 1.4em;
-  }
-}
-
-
-
-
-
-
 @media only screen and (max-width: 767px) {
-  
+
   a.button.header-button {
     font-family: 'PT Sans Caption', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
     border: 1px solid #1e2125;
@@ -1525,22 +1529,39 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
     border: 1px solid #fcd088;
     border-radius: 8px;
   }
-}
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-  .lighting-title-container.mobile {
+  .subsection-heading.mobile {
     display: block;
+    width: 100%;
+    position: absolute;
+    top: 146px;
+    z-index: 1;
   }
-  .lighting-title-container.non-mobile {
-    display: none;
+
+  .card-stacked {
+    font-size: 1.4em;
+    padding-top: 10px;
+  }
+  h3#control-system-header-bg {
+    font-size: 1.3em;
+    min-height: 196px;
+  }
+
+  .nav-pills>li+li {
+    margin-left: 0px;
   }
   .nav-pills > li {
-    min-width: 83px;
-    text-align: center;
+    background-color: #22262c;
   }
+  
+  .subsection-heading.non-mobile {
+    display: none;
+  }
+  .subsection-nav nav.tablet.section-nav {
+    display: none;
+  }
+
 }
-
-
 
 @media only screen and (max-width: 600px) {
 
@@ -1621,6 +1642,154 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
 
 }
 
+
+
+
+
+
+
+@media only screen and (min-width: 1600px) { 
+
+  .subsection-showcase .non-mobile {
+    height: 384px;
+  }
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1024px) {
+  
+  .fix-subsection-bar .subsection-bar {
+    background-color: rgba(32,37,41,0.8);
+    position: fixed;
+    top: 92px;
+    z-index: 998;
+  }
+
+  a.button.header-button {
+    background-color: rgba(25, 25, 25, 0.7);
+    border-radius: 2px;
+    font-family: 'PT Sans', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+    font-size: 1.2em;
+    text-transform: unset;
+    color: #fff;
+    border: 0;
+    letter-spacing: 1.5px;
+    margin-top: 0px;
+  }
+  a.button.header-button:hover {
+    background-color: rgba(25, 25, 25, 0.8);
+    text-decoration: underline;
+  }
+  .header-image .container {
+    border-radius: 10px;
+    width: 540px;
+    padding: 20px;
+    background-color: rgba(25, 25, 25, 0.7);
+  }
+  .header-image .header-text {
+    display: none;
+    color: #f9b92b;
+    font-size: 2.3em;
+    padding: 20px;
+  }
+  .hst-focus {
+    font-family: 'Quantico', sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 1.05em;
+    text-transform: uppercase;
+  }
+  .header-image .header-subtext {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    letter-spacing: 3px;
+  }
+  .header-image .header-subtext .half-alpha {
+    display: none;
+  }
+  .header-image .header-subtext .hst-wide {
+    color: #f9b92b;
+    font-family: 'Quantico', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+ 
+  .header-image::after {
+    background-color: rgba(37, 46, 53, 0.0);
+  }
+  .header-info {
+    top: 70%;
+    right: 26%;
+  }
+}
+
+
+
+
+
+@media only screen and (min-width: 991px) {
+  
+  .hentry {
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+  }
+
+  .basic .hentry {
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+  }
+
+  .nav-pills > li {
+    min-width: 113px;
+    text-align: center;
+  }
+
+  .subsection-nav nav.tablet.section-nav {
+    display: none;
+  }
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+ .subsection-heading.mobile {
+    display: none;
+  }
+}
+  
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  main .subsection-heading.non-mobile h2 {
+    font-size: 1.4em;
+  }
+}
+
+
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .lighting-title-container.mobile {
+    display: block;
+  }
+  .lighting-title-container.non-mobile {
+    display: none;
+  }
+  .nav-pills > li {
+    min-width: 83px;
+    text-align: center;
+  }
+}
 
 
 

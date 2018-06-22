@@ -34,7 +34,7 @@
   		<ol class="feature-list">
   			<li class="feature">
   			  <h5 data-color="#10487E"><?php echo(get_post_meta($post->ID, 'highlight1', true)); ?></h5>
-          The <span class="gess">GeSS™</span> control system provides different supports, including streetlight as well as wireless, wired, and sensor controls that allows even for hybrid controls to be implemented by combining any of them upon customer request. With this hybrid control, a customized control system can be implemented based on usage conditions with theadvantage of energy savings and services.
+          The <span class="gess">GeSS™</span> control system provides different supports, including streetlight as well as wireless, wired, and sensor controls that allows even for hybrid controls to be implemented by combining any of them upon customer request. With this hybrid control, a customized control system can be implemented based on usage conditions with the advantage of energy savings and services.
   			</li>
   			<li class="feature">
   			  <h5 data-color="#10487E"><?php echo(get_post_meta($post->ID, 'highlight2', true)); ?></h5>

@@ -14,20 +14,21 @@ Template Name: Sitemap
   <main id="main" class="site-main" role="main">
 
     <header id="sitemap-landscape" class="subsection-showcase">
+
     <?php if (has_post_thumbnail()): ?>
       <div class="cover-no-repeat jumbotron" style="background-image:url(<?php the_post_thumbnail_url( "full" ) ?>);">
     <?php else: ?>
       <div class="cover-no-repeat jumbotron jumbotron-default">
     <?php endif ?>
         <div class="subsection-heading mobile text-center">
-          <?php the_title( '<h1 id="lighting-entry-title" class="entry-title sitemap">', '</h1>' ); ?>
+          <?php the_title( '<h1 id="sitemap" class="infopage-title sitemap">', '</h1>' ); ?>
         </div>
 
-        <div class="subsection-heading non-mobile text-center vertically-centered">
-          <?php the_title( '<h1 id="sitemap" class="entry-title infopage-title ">', '</h1>' ); ?>
+        <div class="subsection-heading non-mobile text-center flex-end">
+          <?php the_title( '<h1 id="sitemap" class="infopage-title ">', '</h1>' ); ?>
         </div>
-
       </div>
+
     </header>
 
 
@@ -42,6 +43,10 @@ Template Name: Sitemap
    </main><!-- #main -->
 
 <?php get_footer("minimal"); ?>
+
+
+
+
 
 
 <script type="text/javascript">
