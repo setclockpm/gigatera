@@ -35,8 +35,15 @@ Template Name: Facade Lighting
           <div id="lighting-nav-container" class="col-sm-8">
             <nav id="lighting-nav" class="section-nav">
               <ul class="nav nav-pills">
-                <li role="presentation" data-section="Sports / Flood">
-                  <a href="/products/lighting/sports-flood">Sports / Flood</a>
+                <li role="presentation" class="active" data-section="Sports / Flood">
+                  <a href="/products/lighting/sports-flood">
+                    Sports<br><span class="small">Flood</span>
+                  </a>
+                </li>
+                <li role="presentation" class="active" data-section="Area Flood">
+                  <a href="/products/lighting/area-flood">
+                    Area<br><span class="small">Flood</span>
+                  </a>
                 </li>
                 <li role="presentation" data-section="Bay">
                   <a href="/products/lighting/bay">Bay</a>
@@ -50,7 +57,7 @@ Template Name: Facade Lighting
               </ul>
             </nav>
           </div>
-        </div><!-- #container --> 
+        </div><!-- #container -->
 
       </header>
 
@@ -65,12 +72,12 @@ Template Name: Facade Lighting
     </main><!-- #main -->
   </div><!-- #lighting-container -->
 
-  
 
-  
+
+
   <script type="text/javascript">
     jQuery(document).ready(function($){
-      
+
       console.log("loaded!");
 
       $('.lighting-menu-container > ul.nav li a').click(function(e) {
@@ -82,7 +89,7 @@ Template Name: Facade Lighting
           // e.preventDefault();
       });
     });
-    
+
   </script>
 
 <?php get_footer("lighting"); ?>

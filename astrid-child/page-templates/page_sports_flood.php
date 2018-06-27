@@ -2,7 +2,7 @@
 
 /*
 
-Template Name: Sports / Flood Lighting
+Template Name: Sports Flood Lighting
 
 */
 	get_header();
@@ -36,7 +36,14 @@ Template Name: Sports / Flood Lighting
             <nav id="lighting-nav" class="section-nav">
               <ul class="nav nav-pills">
                 <li role="presentation" class="active" data-section="Sports / Flood">
-                  <a href="/products/lighting/sports-flood">Sports / Flood</a>
+                  <a href="/products/lighting/sports-flood">
+                    Sports<br><span class="small">Flood</span>
+                  </a>
+                </li>
+                <li role="presentation" class="active" data-section="Area Flood">
+                  <a href="/products/lighting/area-flood">
+                    Area<br><span class="small">Flood</span>
+                  </a>
                 </li>
                 <li role="presentation" data-section="Bay">
                   <a href="/products/lighting/bay">Bay</a>
@@ -50,7 +57,7 @@ Template Name: Sports / Flood Lighting
               </ul>
             </nav>
           </div>
-        </div><!-- #container --> 
+        </div><!-- #container -->
 
       </header>
 
@@ -60,15 +67,15 @@ Template Name: Sports / Flood Lighting
           <?php get_template_part( 'template-parts/content', 'sports-flood' ); ?>
         <?php endwhile; // end of the loop. ?>
 
-      </div> 
+      </div>
 
     </main><!-- #main -->
   </div><!-- #container -->
 
-  
 
 
-  
+
+
 
 <?php get_footer("lighting"); ?>
 

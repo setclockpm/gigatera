@@ -2,10 +2,10 @@
 
 /*
 
-Template Name: Roadway Lighting
+Template Name: Area Flood Lighting
 
 */
-  get_header();
+    get_header();
 ?>
 
 </div><!-- #container -->
@@ -13,16 +13,9 @@ Template Name: Roadway Lighting
 <div id="primary" class="lighting">
 
 <?php if (has_post_thumbnail()): ?>
-  <div class="lighting-title-container non-mobile" style="background-image: url(<?php the_post_thumbnail_url( "full" ) ?>);">
+  <div class="lighting-title-container subsection-title-container" style="background-image: url(<?php the_post_thumbnail_url( "full" ) ?>);">
 <?php else: ?>
-  <div class="lighting-title-container non-mobile lighting-main-background">
-<?php endif ?>
-  </div>
-
-<?php if (has_post_thumbnail()): ?>
-  <div class="lighting-title-container mobile" style="background-image: url(<?php the_post_thumbnail_url( "full" ) ?>);">
-<?php else: ?>
-  <div class="lighting-title-container mobile lighting-main-background">
+  <div class="lighting-title-container subsection-title-container lighting-main-background">
 <?php endif ?>
     <div class="subsection-heading mobile text-center">
       <?php the_title( '<h1 id="lighting-entry-title" class="entry-title product-title">', '</h1>' ); ?>
@@ -55,7 +48,7 @@ Template Name: Roadway Lighting
                 <li role="presentation" data-section="Bay">
                   <a href="/products/lighting/bay">Bay</a>
                 </li>
-                <li role="presentation" class="active" data-section="Roadway">
+                <li role="presentation" data-section="Roadway">
                   <a href="/products/lighting/roadway">Roadway</a>
                 </li>
                 <li role="presentation" data-section="Facade">
@@ -71,33 +64,18 @@ Template Name: Roadway Lighting
       <div class="lighting-content row">
 
         <?php while ( have_posts() ) : the_post(); ?>
-          <?php get_template_part( 'template-parts/content', 'roadway' ); ?>
+          <?php get_template_part( 'template-parts/content', 'sports-flood' ); ?>
         <?php endwhile; // end of the loop. ?>
 
       </div>
 
     </main><!-- #main -->
-  </div><!-- #lighting-container -->
+  </div><!-- #container -->
 
 
 
 
-  <script type="text/javascript">
-    jQuery(document).ready(function($){
 
-      console.log("loaded!");
-
-      $('.lighting-menu-container > ul.nav li a').click(function(e) {
-          var clickedLink = $(this);
-          clickedLink.parent().siblings().removeClass('active').end().addClass('active');
-          clickedLink.parent().data("section");
-          console.log(clickedLink.parent().data("section"));
-          $("h1#lighting-entry-title").text(clickedLink.parent().data("section"));
-          // e.preventDefault();
-      });
-    });
-
-  </script>
 
 <?php get_footer("lighting"); ?>
 
