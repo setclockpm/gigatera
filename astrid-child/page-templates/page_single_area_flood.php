@@ -2,10 +2,10 @@
 
 /*
 
-Template Name: Sports Flood Lighting
+Template Name: Area Flood Lighting (Single)
 
 */
-	get_header();
+    get_header();
 ?>
 
 </div><!-- #container -->
@@ -13,7 +13,7 @@ Template Name: Sports Flood Lighting
 <div id="primary" class="lighting">
 
 <?php if (has_post_thumbnail()): ?>
-  <div class="lighting-title-container subsection-title-container" style="background-image: url(<?php the_post_thumbnail_url( "full" ) ?>);">
+  <div class="lighting-title-container subsection-title-container" style="background-image:url(<?php the_post_thumbnail_url( "full" ) ?>);">
 <?php else: ?>
   <div class="lighting-title-container subsection-title-container lighting-main-background">
 <?php endif ?>
@@ -29,20 +29,26 @@ Template Name: Sports Flood Lighting
 
         <div class="<?php echo 'container vertically-centered'; ?>">
           <div class="subsection-heading non-mobile text-center col-sm-4">
-            <h2 id="lighting-entry-title" class="entry-title product-title">Lighting</h2>
+            <?php the_title( '<h2 id="series-entry-title" class="entry-title">', '</h2>' ); ?>
           </div>
 
           <div id="lighting-nav-container" class="col-sm-8">
             <nav id="lighting-nav" class="section-nav">
               <ul class="nav nav-pills">
-                <li role="presentation" class="active" data-section="Sports / Flood">
+                <li role="presentation" data-section="Sports / Flood">
                   <a href="/products/lighting/sports-flood">
-                    Sports<br><span class="tiny">Flood</span>
+                    <div class="multi-word-label">
+                      <div class="label-title"><span>Sports</span></div>
+                      <div class="label-sub"><span class="tiny">Flood</span></div>
+                    </div>
                   </a>
                 </li>
-                <li role="presentation" data-section="Area Flood">
+                <li role="presentation" class="active" data-section="Area Flood">
                   <a href="/products/lighting/area-flood">
-                    Area<br><span class="tiny">Flood</span>
+                    <div class="multi-word-label">
+                      <div class="label-title"><span>Sports</span></div>
+                      <div class="label-sub"><span class="tiny">Flood</span></div>
+                    </div>
                   </a>
                 </li>
                 <li role="presentation" data-section="Bay">
@@ -64,7 +70,7 @@ Template Name: Sports Flood Lighting
       <div class="lighting-content row">
 
         <?php while ( have_posts() ) : the_post(); ?>
-          <?php get_template_part( 'template-parts/content', 'sports-flood' ); ?>
+          <?php get_template_part( 'template-parts/content', 'single-area-flood' ); ?>
         <?php endwhile; // end of the loop. ?>
 
       </div>
@@ -76,6 +82,20 @@ Template Name: Sports Flood Lighting
 
 
 
+  <script type="text/javascript">
+    jQuery(document).ready(function($){
+
+      $('.lighting-menu-container > ul.nav li a').click(function(e) {
+          var clickedLink = $(this);
+          clickedLink.parent().siblings().removeClass('active').end().addClass('active');
+          clickedLink.parent().data("section");
+          console.log(clickedLink.parent().data("section"));
+          $("h1#lighting-entry-title").text(clickedLink.parent().data("section"));
+          // e.preventDefault();
+      });
+    });
+
+  </script>
 
 <?php get_footer("lighting"); ?>
 

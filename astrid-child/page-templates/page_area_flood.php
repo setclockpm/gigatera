@@ -35,14 +35,14 @@ Template Name: Area Flood Lighting
           <div id="lighting-nav-container" class="col-sm-8">
             <nav id="lighting-nav" class="section-nav">
               <ul class="nav nav-pills">
-                <li role="presentation" class="active" data-section="Sports / Flood">
+                <li role="presentation" data-section="Sports / Flood">
                   <a href="/products/lighting/sports-flood">
-                    Sports<br><span class="small">Flood</span>
+                    Sports<br><span class="tiny">Flood</span>
                   </a>
                 </li>
                 <li role="presentation" class="active" data-section="Area Flood">
                   <a href="/products/lighting/area-flood">
-                    Area<br><span class="small">Flood</span>
+                    Area<br><span class="tiny">Flood</span>
                   </a>
                 </li>
                 <li role="presentation" data-section="Bay">
@@ -64,7 +64,7 @@ Template Name: Area Flood Lighting
       <div class="lighting-content row">
 
         <?php while ( have_posts() ) : the_post(); ?>
-          <?php get_template_part( 'template-parts/content', 'sports-flood' ); ?>
+          <?php get_template_part( 'template-parts/content', 'area-flood' ); ?>
         <?php endwhile; // end of the loop. ?>
 
       </div>

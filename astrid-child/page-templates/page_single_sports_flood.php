@@ -20,9 +20,9 @@ Template Name: Sports / Flood Lighting (Single)
     <div class="subsection-heading mobile text-center">
       <?php the_title( '<h1 id="lighting-entry-title" class="entry-title product-title">', '</h1>' ); ?>
     </div>
-  </div>  
-      
-      
+  </div>
+
+
   <div id="lighting-container" class="<?php echo 'container'; ?>">
     <main id="main" class="site-main" role="main">
       <header id="lighting-subsection-bar" class="navbar navbar-fixed-top subsection-bar row">
@@ -36,7 +36,14 @@ Template Name: Sports / Flood Lighting (Single)
             <nav id="lighting-nav" class="section-nav">
               <ul class="nav nav-pills">
                 <li role="presentation" class="active" data-section="Sports / Flood">
-                  <a href="/products/lighting/sports-flood">Sports / Flood</a>
+                  <a href="/products/lighting/sports-flood">
+                    Sports<br><span class="tiny">Flood</span>
+                  </a>
+                </li>
+                <li role="presentation" data-section="Area Flood">
+                  <a href="/products/lighting/area-flood">
+                    Area<br><span class="tiny">Flood</span>
+                  </a>
                 </li>
                 <li role="presentation" data-section="Bay">
                   <a href="/products/lighting/bay">Bay</a>
@@ -50,7 +57,7 @@ Template Name: Sports / Flood Lighting (Single)
               </ul>
             </nav>
           </div>
-        </div><!-- #container --> 
+        </div><!-- #container -->
 
       </header>
 
@@ -60,18 +67,18 @@ Template Name: Sports / Flood Lighting (Single)
           <?php get_template_part( 'template-parts/content', 'single-sports-flood' ); ?>
         <?php endwhile; // end of the loop. ?>
 
-      </div> 
+      </div>
 
     </main><!-- #main -->
   </div><!-- #container -->
 
-        
-  
 
-  
+
+
+
   <script type="text/javascript">
     jQuery(document).ready(function($){
-      
+
       $('.lighting-menu-container > ul.nav li a').click(function(e) {
           var clickedLink = $(this);
           clickedLink.parent().siblings().removeClass('active').end().addClass('active');
@@ -81,7 +88,7 @@ Template Name: Sports / Flood Lighting (Single)
           // e.preventDefault();
       });
     });
-    
+
   </script>
 
 <?php get_footer("lighting"); ?>
