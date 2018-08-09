@@ -62,7 +62,7 @@ a.thumbnail {
 }
 
 
-.applications-title .entry-title, 
+.applications-title .entry-title,
 .applications-title .entry-title a {
   color: #f9b92b;
   font-size: 50px;
@@ -72,7 +72,7 @@ a.thumbnail {
 }
 
 .applications-title-container {
-  border-radius: 6px 6px 0px 0px;  
+  border-radius: 6px 6px 0px 0px;
 }
 
 .top-section-bar h2.greetings {
@@ -158,7 +158,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(https://gigaterausa.com/wp-content/uploads/2018/01/control-systems-bottom-1.png);
-  border-radius: 6px 6px 0px 0px;  
+  border-radius: 6px 6px 0px 0px;
   padding-top: 32px;
   padding-bottom: 12px;
   text-shadow: black 0.3em 0.3em 0.3em;
@@ -521,7 +521,7 @@ h3.headline {
 h3.service-title {
   letter-spacing: normal;
   letter-spacing: 0px;
-  font-size: 1.6em; 
+  font-size: 1.6em;
 }
 h3.ordered-section {
   color: #0098C5;
@@ -579,7 +579,7 @@ h5 {
 
 
 h6 {
-  font-family: 'PT Sans', 'Myriad Pro', 'Lato', 'Arial', sans-serif; 
+  font-family: 'PT Sans', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
 }
 
 
@@ -591,7 +591,7 @@ hr.card-divider {
 }
 
 hr.caption-border {
-  border: 1px solid #fcd088; 
+  border: 1px solid #fcd088;
 }
 
 
@@ -645,7 +645,7 @@ li.menu-item-2115 a:hover {
   color: #0098C5;
 }
 
-  
+
 
 /* ******************** FOOTER ******************** */
 /* *******       FOOTER FOOTER FOOTER        ****** */
@@ -700,7 +700,7 @@ li.menu-item-2115 a:hover {
 
 
 
-li.active a:first-child:before { 
+li.active a:first-child:before {
   right: 0;
   border-top: 1px solid #fcd088;
   width: 100%;
@@ -733,7 +733,7 @@ li.label-only {
 
 
 
-.lighting-title .entry-title, 
+.lighting-title .entry-title,
 .entry-title a {
   color: #f9b92b;
   text-align: center;
@@ -1089,6 +1089,10 @@ span.fine-print {
   text-align: right;
 }
 
+span.tiny-print {
+  font-size: 0.7em;
+}
+
 /*---------------------------------------------------- SITEMAP ------------------------------------------------*/
 
 
@@ -1163,7 +1167,7 @@ h1#sitemap {
   grid-template-columns: [products] 50% [technology] 50% [end];
   grid-template-rows: [company] auto [products] 200px[end];
   grid-gap: 0px;
-  justify-content: center;  
+  justify-content: center;
 }
 
 
@@ -1212,14 +1216,14 @@ h1#sitemap {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.sitemap .grid-container .products h3 { 
+.sitemap .grid-container .products h3 {
    text-shadow: black 0.05em 0.05em 0.05em;
 }
 .sitemap .grid-container .products h4,
-.sitemap .grid-container .products h4 a { 
+.sitemap .grid-container .products h4 a {
    color: white;
 }
-.sitemap .grid-container .technology h3 { 
+.sitemap .grid-container .technology h3 {
    text-shadow: #000 0.05em 0.1em 0.1em;
  }
 
@@ -1234,7 +1238,7 @@ div#page {
   background: #1e2125;
 }
 .yellow-bar {
-  background: #f8b92c;   
+  background: #f8b92c;
 }
 .top-section-bar {
   height: 68px;
@@ -1321,7 +1325,7 @@ table.specs {
 }
 table.specs td {
   background-color: transparent;
-  border-image-source: none; 
+  border-image-source: none;
   padding: 0cm 5.4pt;
 }
 table.specs td.rightmost {
@@ -1330,7 +1334,7 @@ table.specs td.rightmost {
 tr.bottom-specs td {
   border: #000000;
   padding: 10pt 5.4pt;
-  width: 53.96%; 
+  width: 53.96%;
   height: 12.75pt;
 }
 tr.bottom-specs.first td {
@@ -1345,26 +1349,26 @@ tr.column-names {
   height: 27.35pt;
 }
 tr.column-names td {
-  background-color: #d9d9d9; 
-  border-width: 0px 0.25pt 0.25pt 0px; 
-  border-style: none solid solid none; 
-  border-color: #000000 gray gray rgb(0, 0, 0); 
-  height: 27.35pt; 
+  background-color: #d9d9d9;
+  border-width: 0px 0.25pt 0.25pt 0px;
+  border-style: none solid solid none;
+  border-color: #000000 gray gray rgb(0, 0, 0);
+  height: 27.35pt;
   line-height: 1;
   vertical-align: middle;
 }
 tr.specs td {
-  border-width: 0.25pt 0.25pt 0px 0px; 
-  border-style: solid solid none none; 
-  border-color: gray gray rgb(0, 0, 0) #000; 
+  border-width: 0.25pt 0.25pt 0px 0px;
+  border-style: solid solid none none;
+  border-color: gray gray rgb(0, 0, 0) #000;
   padding-top: 8.8pt;
   padding-bottom: 8.8pt;
   height: 33.55pt;
   vertical-align: top;
 }
 tr.specs-first td {
-  border-width: 0px 0.25pt 0px 0px; 
-  border-style: none solid none none; 
+  border-width: 0px 0.25pt 0px 0px;
+  border-style: none solid none none;
   border-color: #000000 gray rgb(0, 0, 0) rgb(0, 0, 0);
   height: 33.55pt;
   padding-top: 8.8pt;
@@ -1380,15 +1384,15 @@ tr.specs-top {
   height: 12.75pt;
 }
 tr.specs-top td {
-  border-width: 0px 0px 0.25pt; 
-  border-style: none none solid; 
-  border-color: #000000 rgb(0, 0, 0) gray; 
-  width: 100%; 
-  height: 12.75pt; 
+  border-width: 0px 0px 0.25pt;
+  border-style: none none solid;
+  border-color: #000000 rgb(0, 0, 0) gray;
+  width: 100%;
+  height: 12.75pt;
 }
 
 td.tolerance p {
-  text-align: right; 
+  text-align: right;
 }
 
 
@@ -1428,7 +1432,7 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
 RESPONSIVE STUFF RESPONSIVE STUFF
 RESPONSIVE STUFF RESPONSIVE STUFF
 RESPONSIVE STUFF ----------------------------------------------------------------------------------------------------  RESPONSIVE STUFF
-RESPONSIVE STUFF RESPONSIVE STUFF 
+RESPONSIVE STUFF RESPONSIVE STUFF
 RESPONSIVE STUFF RESPONSIVE STUFF
 RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF
 */
@@ -1462,7 +1466,7 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
     letter-spacing: 1px;
     padding: 0;
   }
-  
+
   .header-image .header-text {
     color: #f9b92b;
     font-size: 48px;
@@ -1516,7 +1520,7 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
   a.button.header-button {
     font-family: 'PT Sans Caption', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
     border: 1px solid #1e2125;
-    background-color: #2f3236; 
+    background-color: #2f3236;
     padding: 12px;
     border-radius: 8px;
     letter-spacing: 1px;
@@ -1553,7 +1557,7 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
   .nav-pills > li {
     background-color: #22262c;
   }
-  
+
   .subsection-heading.non-mobile {
     display: none;
   }
@@ -1648,7 +1652,7 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
 
 
 
-@media only screen and (min-width: 1600px) { 
+@media only screen and (min-width: 1600px) {
 
   .subsection-showcase .non-mobile {
     height: 384px;
@@ -1662,7 +1666,7 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
 
 
 @media only screen and (min-width: 1024px) {
-  
+
   .fix-subsection-bar .subsection-bar {
     background-color: rgba(32,37,41,0.8);
     position: fixed;
@@ -1719,7 +1723,7 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
     font-weight: bold;
     font-size: 1.1em;
   }
- 
+
   .header-image::after {
     background-color: rgba(37, 46, 53, 0.0);
   }
@@ -1734,7 +1738,7 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
 
 
 @media only screen and (min-width: 991px) {
-  
+
   .hentry {
     padding-right: 40px;
     padding-bottom: 30px;
@@ -1765,7 +1769,7 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
     display: none;
   }
 }
-  
+
 
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {

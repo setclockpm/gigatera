@@ -1,7 +1,7 @@
 <?php
 
 /*
-
+354840094388908
 Template Name: Area Flood Lighting (Single)
 
 */
@@ -39,15 +39,19 @@ Template Name: Area Flood Lighting (Single)
                   <a href="/products/lighting/sports-flood">
                     <div class="multi-word-label">
                       <div class="label-title"><span>Sports</span></div>
-                      <div class="label-sub"><span class="tiny">Flood</span></div>
+                      <div class="label-sub">
+                        <span class="tiny-print">Flood</span>
+                      </div>
                     </div>
                   </a>
                 </li>
                 <li role="presentation" class="active" data-section="Area Flood">
                   <a href="/products/lighting/area-flood">
                     <div class="multi-word-label">
-                      <div class="label-title"><span>Sports</span></div>
-                      <div class="label-sub"><span class="tiny">Flood</span></div>
+                      <div class="label-title"><span>Area</span></div>
+                      <div class="label-sub">
+                        <span class="tiny-print">Flood</span>
+                      </div>
                     </div>
                   </a>
                 </li>
