@@ -54,6 +54,11 @@
         <img class="tile" src="https://gigaterausa.com/wp-content/uploads/2018/01/maha.png" alt="maha">
       </a>
     </div>
+    <div id="maha-plus" class="text-center">
+      <a href="/products/lighting/sports-flood/maha-plus">
+        <img class="tile" src="https://gigaterausa.com/wp-content/uploads/2018/01/maha.png" alt="maha-plus">
+      </a>
+    </div>
   </div>
 
 </div>
