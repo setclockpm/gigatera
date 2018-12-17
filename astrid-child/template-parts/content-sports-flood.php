@@ -22,6 +22,11 @@
         <img class="tile" src="https://gigaterausa.com/wp-content/uploads/2018/01/sufa-m.png" alt="sufa-m">
       </a>
     </div>
+    <div id="maha-plus" class="text-center">
+      <a href="/products/lighting/sports-flood/maha-plus">
+        <img class="tile" src="https://gigaterausa.com/wp-content/uploads/2018/11/maha-plus.png" alt="maha-plus">
+      </a>
+    </div>
   </div>
 
   <div class="middle col-md-4 col-xs-12">
@@ -52,11 +57,6 @@
     <div id="maha" class="text-center">
       <a href="/products/lighting/sports-flood/maha">
         <img class="tile" src="https://gigaterausa.com/wp-content/uploads/2018/01/maha.png" alt="maha">
-      </a>
-    </div>
-    <div id="maha-plus" class="text-center">
-      <a href="/products/lighting/sports-flood/maha-plus">
-        <img class="tile" src="https://gigaterausa.com/wp-content/uploads/2018/01/maha.png" alt="maha-plus">
       </a>
     </div>
   </div>

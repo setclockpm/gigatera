@@ -44,7 +44,7 @@
 
 	  </header><!-- .entry-header -->
 
-	
+
     <div class="product-images-container row">
 
       <div class="col-xs-12 col-md-6">
@@ -58,12 +58,12 @@
           <li><?php echo(get_post_meta($post->ID, 'highlight3', true)); ?></li>
           <?php if (count(get_post_custom_values('highlight4')) > 0) : ?>
             <li><?php echo(get_post_meta($post->ID, 'highlight4', true)); ?></li>
-          <?php endif; ?> 
+          <?php endif; ?>
           <?php if (count(get_post_custom_values('highlight5')) > 0) : ?>
             <li><?php echo(get_post_meta($post->ID, 'highlight5', true)); ?></li>
-          <?php endif; ?> 
+          <?php endif; ?>
         </ul>
-         
+
         <section class="applications">
           <span class="head"><h3>Typical Applications</h3></span>
           <?php echo(get_post_meta($post->ID, 'Application', true)); ?>
@@ -74,14 +74,14 @@
             <span class="head"><h3>Certifications</h3></span>
             <?php echo(get_post_meta($post->ID, 'Certifications', true)); ?>
           </section>
-        <?php endif; ?> 
+        <?php endif; ?>
 
         <?php if (get_post_custom_values('spec-sheet-dl')) : ?>
           <section class="downloads">
             <span class="head"><h3>Downloads</h3></span>
             <a href="<?php echo(get_post_meta($post->ID, 'spec-sheet-dl', true)); ?>" class="spec-sheet" title="spec-sheet.pdf">Spec Sheet (pdf)</a>
           </section>
-        <?php endif; ?> 
+        <?php endif; ?>
 
       </div>
 
@@ -104,7 +104,7 @@
           <?php endif; ?>
           <p>Finish : <?php echo(get_post_meta($post->ID, 'Finish', true)); ?></p>
           <p>
-            Control System : 
+            Control System :
             <?php if (count(get_post_custom_values('control-system-wired')) > 0) : ?>
               <p class="nest">Wired: <?php echo(get_post_meta($post->ID, 'control-system-wired', true)); ?></p>
             <?php endif; ?>
@@ -112,7 +112,7 @@
               <p class="nest">Wireless: <?php echo(get_post_meta($post->ID, 'control-system-wireless', true)); ?></p>
             <?php endif; ?>
           </p>
-          
+
           <?php if (count(get_post_custom_values('Junction Box')) > 0) : ?>
             <p>Junction Box : <?php echo(get_post_meta($post->ID, 'Junction Box', true)); ?></p>
           <?php endif; ?>
@@ -121,10 +121,10 @@
           <?php endif; ?>
         </div>
       </section>
-        
-     
+
+
      	<?php the_content(); ?>
-  
+
 	  </div><!-- .entry-content -->
 
 

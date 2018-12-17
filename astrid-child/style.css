@@ -14,6 +14,404 @@
 
 
 
+
+
+
+
+@import url("https://use.typekit.net/aqm3bsm.css");
+/***************************** MYRIAD PRO CONDENSED *********************************/
+/************************************************************************************/
+/************************************************************************************/
+/*  light  */
+@font-face {
+  font-family: myriad-pro-condensed;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProLightCond.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProLightCond.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProLightCond.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProLightCond.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: myriad-pro-condensed;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProLightCondIt.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProLightCondIt.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProLightCondIt.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProLightCondIt.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+/*  regular */
+@font-face {
+  font-family: myriad-pro-condensed;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProCond.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProCond.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProCond.woff2') format('woff2'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProCond.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProCond.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: myriad-pro-condensed;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProCondIt.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProCondIt.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProCondIt.woff2') format('woff2'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProCondIt.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProCondIt.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+/*  semibold  */
+@font-face {
+  font-family: myriad-pro-condensed;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiboldCond.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiboldCond.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiboldCond.woff2') format('woff2'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiboldCond.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiboldCond.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: myriad-pro-condensed;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiboldCondIt.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiboldCondIt.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiboldCondIt.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiboldCondIt.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 600;
+}
+/* (Bold Condensed included with Adobe TypeKit Free Version) */
+/*  black  */
+@font-face {
+  font-family: myriad-pro-condensed;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlackCond.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlackCond.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlackCond.woff2') format('woff2'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlackCond.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlackCond.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 900;
+
+}
+@font-face {
+  font-family: myriad-pro-condensed;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlackCondIt.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlackCondIt.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlackCondIt.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlackCondIt.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 900;
+}
+
+
+/**************************** MYRIAD PRO SEMICONDENSED *******************************/
+/*************************************************************************************/
+/*************************************************************************************/
+/*  light  */
+@font-face {
+  font-family: myriad-pro-semi-condensed;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProLightSemiCn.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProLightSemiCn.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProLightSemiCn.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProLightSemiCn.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: myriad-pro-semi-condensed;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProLightSemiCnIt.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProLightSemiCnIt.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProLightSemiCnIt.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProLightSemiCnIt.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 300;
+}
+/*  regular */
+@font-face {
+  font-family: myriad-pro-semi-condensed;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiCn.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiCn.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiCn.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiCn.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: myriad-pro-semi-condensed;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiCnIt.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiCnIt.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiCnIt.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiCnIt.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 400;
+}
+/*  semibold */
+@font-face {
+  font-family: myriad-pro-semi-condensed;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiboldSemiCn.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiboldSemiCn.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiboldSemiCn.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiboldSemiCn.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: myriad-pro-semi-condensed;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiboldSemiCnIt.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiboldSemiCnIt.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiboldSemiCnIt.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiboldSemiCnIt.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 600;
+}
+/*  bold */
+@font-face {
+  font-family: myriad-pro-semi-condensed;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBoldSemiCn.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBoldSemiCn.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBoldSemiCn.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBoldSemiCn.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: myriad-pro-semi-condensed;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBoldSemiCnIt.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBoldSemiCnIt.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBoldSemiCnIt.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBoldSemiCnIt.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 700;
+}
+/*  black */
+@font-face {
+  font-family: myriad-pro-semi-condensed;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlackSemiCn.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlackSemiCn.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlackSemiCn.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlackSemiCn.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 900;
+}
+@font-face {
+  font-family: myriad-pro-semi-condensed;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlackSemiCnIt.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlackSemiCnIt.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlackSemiCnIt.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlackSemiCnIt.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 900;
+}
+
+
+/**************************** MYRIAD PRO REGULAR**************************************/
+/*************************************************************************************/
+/*************************************************************************************/
+/*  light  */
+@font-face {
+  font-family: myriad-pro;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProLight.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProLight.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProLight.woff2') format('woff2'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProLight.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProLight.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: myriad-pro;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProLightIt.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProLightIt.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProLightIt.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProLightIt.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 300;
+}
+/*  regular */
+@font-face {
+  font-family: myriad-pro;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProRegular.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProRegular.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProRegular.woff2') format('woff2'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProRegular.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProRegular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: myriad-pro;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProIt.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProIt.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProIt.woff2') format('woff2'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProIt.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProIt.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 400;
+}
+/*  semibold */
+@font-face {
+  font-family: myriad-pro;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemibold.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemibold.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemibold.woff2') format('woff2'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemibold.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemibold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: myriad-pro;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiboldIt.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiboldIt.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiboldIt.woff2') format('woff2'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiboldIt.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiboldIt.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 600;
+}
+/*  bold */
+/* (Bold included with Adobe TypeKit Free Version) */
+@font-face {
+  font-family: myriad-pro;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBoldIt.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBoldIt.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBoldIt.woff2') format('woff2'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBoldIt.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBoldIt.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 700;
+}
+/*  black */
+@font-face {
+  font-family: myriad-pro;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlack.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlack.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlack.woff2') format('woff2'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlack.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlack.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 900;
+}
+@font-face {
+  font-family: myriad-pro;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlackIt.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlackIt.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlackIt.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlackIt.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 900;
+}
+
+/**************************** MYRIAD PRO SEMIEXTENDED **************************************/
+/*******************************************************************************************/
+/*******************************************************************************************/
+/*  light  */
+@font-face {
+  font-family: myriad-pro-semiextended;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProLightSemiExt.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProLightSemiExt.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProLightSemiExt.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProLightSemiExt.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: myriad-pro-semiextended;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProLightSemiExtIt.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProLightSemiExtIt.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProLightSemiExtIt.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProLightSemiExtIt.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 300;
+}
+/*  regular */
+@font-face {
+  font-family: myriad-pro-semiextended;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiExt.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiExt.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiExt.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiExt.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: myriad-pro-semiextended;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiExtIt.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiExtIt.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiExtIt.woff2') format('woff2'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiExtIt.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 400;
+}
+/*  semibold */
+@font-face {
+  font-family: myriad-pro-semiextended;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiboldSemiExt.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiboldSemiExt.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiboldSemiExt.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiboldSemiExt.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: myriad-pro-semiextended;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiboldSemiExtIt.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiboldSemiExtIt.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiboldSemiExtIt.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProSemiboldSemiExtIt.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 600;
+}
+/*  bold */
+@font-face {
+  font-family: myriad-pro-semiextended;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBoldSemiExt.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBoldSemiExt.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBoldSemiExt.woff2') format('woff2'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBoldSemiExt.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBoldSemiExt.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 700;
+}
+@font-face {
+  font-family: myriad-pro-semiextended;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MMyriadProBoldSemiExtIt.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MMyriadProBoldSemiExtIt.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MMyriadProBoldSemiExtIt.woff2') format('woff2'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MMyriadProBoldSemiExtIt.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MMyriadProBoldSemiExtIt.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 700;
+}
+/*  black */
+@font-face {
+  font-family: myriad-pro-semiextended;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlackSemiExt.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlackSemiExt.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlackSemiExt.woff2') format('woff2'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlackSemiExt.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlackSemiExt.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 900;
+}
+@font-face {
+  font-family: myriad-pro;
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlackSemiExtIt.eot');
+  src: url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlackSemiExtIt.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlackSemiExtIt.woff') format('woff'),
+    url('https://s3.amazonaws.com/fontstash/fonts/sans-serif/myriad-pro/MyriadProBlackSemiExtIt.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 900;
+}
+
+
+
+
+
+
+
 a.button.case-study:hover {
   border: 1px solid #f9b92b;
   background-color: #fcd088;
@@ -122,12 +520,12 @@ article.gess section#intro .entry-content {
 
 body {
   background-color: #cfcfcf;
-  font-family: 'PT Sans', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+  font-family: 'Myriad Pro', 'PT Sans', 'Arial', sans-serif;
   letter-spacing: normal;
 }
 
 .button {
-  font-family: 'PT Sans Caption', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+  font-family: myriad-pro-semiextended, 'PT Sans Caption', 'Arial', sans-serif;
   font-weight: bold;
   letter-spacing: 1px;
 }
@@ -258,6 +656,12 @@ ul li.card span.case-study {
 }
 
 .case-studies header.navbar {
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+     -moz-box-shadow: 0 10px 6px -6px #777;
+          box-shadow: 0 10px 6px -6px #777;
+  -webkit-transition: all .2s ease;
+}
+.control-system header.navbar {
   -webkit-box-shadow: 0 10px 6px -6px #777;
      -moz-box-shadow: 0 10px 6px -6px #777;
           box-shadow: 0 10px 6px -6px #777;
@@ -481,7 +885,7 @@ h2.headline {
   margin-bottom: 10px;
 }
 h2.applications-tagline {
-  font-family: "Quantico", "Ropa Sans" "Arial", sans-serif;
+  font-family: "Quantico", "Arial", sans-serif;
 }
 h2.tagline {
  font-family: 'PT Sans Caption', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
@@ -766,7 +1170,7 @@ main h2 {
   line-height: 1.15;
 }
 main .subsection-heading.non-mobile h2 {
-  font-family: "Helvetica Neue", "Arial", sans-serif;
+  font-family: myriad-pro-semiextended, "PT Sans Caption", "Arial", sans-serif;
   font-weight: 400;
   letter-spacing: .5px;
   font-size: 2.1em;
@@ -1055,14 +1459,17 @@ section#main-blurb p {
 }
 .section-nav .nav-pills > li > a {
   color: #e0e0e0;
-  font-family: 'PT Sans Narrow', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+  font-family: myriad-pro-condensed, 'PT Sans Narrow', 'Arial', sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 18px;
+  text-transform: lowercase;
 }
 .section-nav .nav-pills > li.active > a {
   color: #fcd088;
-  background-color: #33373c;
   border-top: 1px solid #FBD098;
   border-bottom: 1px solid #FBD098;
+  font-weight: 400;
 }
 .section-nav .nav-pills > li > a:focus {
   background-color: #33373c;
@@ -1480,6 +1887,10 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
 
   .header-info {
     top: 64%;
+  }
+  .site-branding, .btn-menu {
+    text-align: center;
+    width: 50%;
   }
 
 }

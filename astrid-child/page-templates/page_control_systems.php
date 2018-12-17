@@ -10,7 +10,7 @@ Template Name: Control Systems Main
 </div><!-- #container -->
 
 
-<div id="primary" class="lighting">
+<div id="primary" class="lighting control-system">
 
 <?php if (has_post_thumbnail()): ?>
   <div class="lighting-title-container subsection-title-container" style="background-image:url(<?php the_post_thumbnail_url( "full" ) ?>);">
@@ -24,7 +24,7 @@ Template Name: Control Systems Main
 
   <div id="control-systems-container" class="<?php echo 'container'; ?>">
 	  <main id="main" class="site-main" role="main">
-      
+
       <header id="lighting-subsection-bar" class="navbar navbar-fixed-top subsection-bar row">
         <div class="<?php echo 'container vertically-centered'; ?>">
           <div class="subsection-heading non-mobile text-center col-sm-5">
@@ -46,7 +46,7 @@ Template Name: Control Systems Main
         </div><!-- #container -->
 
       </header>
-         
+
       <div class="lighting-content row">
 
         <?php while ( have_posts() ) : the_post(); ?>
