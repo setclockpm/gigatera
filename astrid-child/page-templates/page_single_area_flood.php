@@ -23,16 +23,17 @@ Template Name: Area Flood Lighting (Single)
   </div>
 
 
-  <div id="lighting-container" class="<?php echo 'container'; ?>">
+  <div id="lighting-container">
     <main id="main" class="site-main" role="main">
       <header id="lighting-subsection-bar" class="navbar navbar-fixed-top subsection-bar row">
 
         <div class="<?php echo 'container vertically-centered'; ?>">
-          <div class="subsection-heading non-mobile text-center col-sm-4">
+
+          <div class="subsection-heading non-mobile text-center col-sm-4 col-lg-5">
             <?php the_title( '<h2 id="series-entry-title" class="entry-title">', '</h2>' ); ?>
           </div>
 
-          <div id="lighting-nav-container" class="col-sm-8">
+          <div id="lighting-nav-container" class="col-sm-8 col-lg-7">
             <nav id="lighting-nav" class="section-nav">
               <ul class="nav nav-pills">
                 <li role="presentation" data-section="Sports / Flood">

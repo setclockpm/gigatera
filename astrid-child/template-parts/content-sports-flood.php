@@ -11,7 +11,7 @@
 
 <div id="sports-flood-series" class="col-xs-12 hentry under-fixed-nav">
 
-  <div class="left col-md-4 col-xs-12">
+  <div class="left col-md-4 col-sm-6 col-xs-12">
     <div id="sufa-a" class="text-center">
       <a href="/products/lighting/sports-flood/sufa-a">
         <img class="tile" src="https://gigaterausa.com/wp-content/uploads/2018/01/sufa-a.png" alt="sufa-a">
@@ -29,7 +29,7 @@
     </div>
   </div>
 
-  <div class="middle col-md-4 col-xs-12">
+  <div class="middle col-md-4 col-sm-6 col-xs-12">
     <div id="sufa-h" class="text-center">
       <a href="/products/lighting/sports-flood/sufa-h">
         <img class="tile" src="https://gigaterausa.com/wp-content/uploads/2018/01/sufa-h.png" alt="sufa-h">
@@ -48,7 +48,7 @@
   </div>
 
 
-  <div class="right col-md-4 col-xs-12">
+  <div class="right col-md-4 col-sm-6 col-xs-12">
     <div id="wapa" class="text-center">
       <a href="/products/lighting/sports-flood/wapa">
         <img class="tile" src="https://gigaterausa.com/wp-content/uploads/2018/01/wapa.png" alt="wapa">

@@ -23,30 +23,32 @@ Template Name: Sports Flood Lighting
   </div>
 
 
-  <div id="lighting-container" class="<?php echo 'container'; ?>">
-    <main id="main" class="site-main" role="main">
-      <header id="lighting-subsection-bar" class="navbar navbar-fixed-top subsection-bar row">
+  <div id="lighting-container">
+    <main id="main" class="site-main container" role="main">
 
-        <div class="<?php echo 'container vertically-centered'; ?>">
-          <div class="subsection-heading non-mobile text-center col-sm-4">
+      <header id="lighting-subsection-bar" class="navbar navbar-fixed-top subsection-bar">
+        <div class="vertically-centered">
+          <div class="subsection-heading non-mobile text-center col-sm-4 col-lg-5">
             <h2 id="lighting-entry-title" class="entry-title product-title">Lighting</h2>
           </div>
 
-          <div id="lighting-nav-container" class="col-sm-8">
+          <div id="lighting-nav-container" class="col-sm-8 col-lg-7">
             <nav id="lighting-nav" class="section-nav">
               <ul class="nav nav-pills">
                 <li role="presentation" class="active" data-section="Sports / Flood">
                   <a href="/products/lighting/sports-flood">
-                    Sports<br><span class="tiny">Flood</span>
+                    Sports Flood
                   </a>
                 </li>
                 <li role="presentation" data-section="Area Flood">
                   <a href="/products/lighting/area-flood">
-                    Area<br><span class="tiny">Flood</span>
+                    Area Flood
                   </a>
                 </li>
                 <li role="presentation" data-section="Bay">
-                  <a href="/products/lighting/bay">Bay</a>
+                  <a href="/products/lighting/bay">
+                    Bay
+                  </a>
                 </li>
                 <li role="presentation" data-section="Roadway">
                   <a href="/products/lighting/roadway">Roadway</a>
@@ -58,7 +60,6 @@ Template Name: Sports Flood Lighting
             </nav>
           </div>
         </div><!-- #container -->
-
       </header>
 
       <div class="lighting-content row">

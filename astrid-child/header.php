@@ -33,13 +33,17 @@
 
     <header id="masthead" class="site-header <?php echo astrid_has_header(); ?>" role="banner">
         <div class="container">
-            <div class="site-branding col-md-4 col-sm-6 col-xs-12">
-                <?php astrid_branding(); ?>
+            <div class="vertical-center row">
+                <div id="btn-menu-override" class="btn-menu col-xs-3"><i class="fa fa-navicon"></i></div>
+                <div id="site-branding-override" class="site-branding col-md-5 col-sm-6 col-xs-9">
+                    <?php astrid_branding(); ?>
+                </div>
+                <nav id="mainnav" class="main-navigation col-md-7 col-sm-6" role="navigation">
+                  <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+                </nav><!-- #site-navigation -->
             </div>
-            <div class="btn-menu col-md-8 col-sm-6 col-xs-12"><i class="fa fa-navicon"></i></div>
-            <nav id="mainnav" class="main-navigation col-md-8 col-sm-6 col-xs-12" role="navigation">
-                <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-            </nav><!-- #site-navigation -->
+
+
         </div>
     </header><!-- #masthead -->
 

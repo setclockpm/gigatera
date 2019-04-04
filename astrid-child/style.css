@@ -520,7 +520,6 @@ article.gess section#intro .entry-content {
 
 body {
   background-color: #cfcfcf;
-  font-family: 'Myriad Pro', 'PT Sans', 'Arial', sans-serif;
   letter-spacing: normal;
 }
 
@@ -857,14 +856,11 @@ div#lighting-nav-container {
   font-size: 1.05em;
 }
 
-/*-----------------h2--------------------*/
+/*-----------------h1--------------------*/
 h1 {
-   font-family: "Quantico", "Ropa Sans", "Arial", sans-serif;
    text-transform: uppercase;
 }
-h1.entry-title {
-  font-family: "Quantico", sans-serif;
-}
+
 h1#series-entry-title {
   padding-bottom: 10px;
 }
@@ -888,7 +884,7 @@ h2.applications-tagline {
   font-family: "Quantico", "Arial", sans-serif;
 }
 h2.tagline {
- font-family: 'PT Sans Caption', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+ font-family: myriad-pro-semiextended, 'PT Sans Narrow', 'Arial', sans-serif;
 }
 h2.widget-title {
    font-family: 'Quantico', 'PT Sans Caption', 'Helvetica Neue', 'Arial', sans-serif;
@@ -1115,7 +1111,7 @@ li.active a {
 }
 
 li.active a:first-child:after {
-  left: 0;
+  /*left: 0;*/
   border-bottom: 1px solid #fcd088;
   width: 100%;
 }
@@ -1166,7 +1162,7 @@ li.label-only {
 
 
 main h2 {
-  font-size: 32px;
+  font-size: 28px;
   line-height: 1.15;
 }
 main .subsection-heading.non-mobile h2 {
@@ -1184,6 +1180,10 @@ main .subsection-heading.non-mobile h2.bay {
 }
 .main-navigation li a::after {
   border-bottom: 0;
+}
+
+#mainnav-mobi li {
+  text-align: left;
 }
 
 
@@ -1204,7 +1204,7 @@ nav#lighting-menu-container {
 
 .nav-pills a {
   color: #1d1d1b;
-  font-family: 'PT Sans Caption', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+  font-family: 'Helvetica Neue', myriad-pro-condensed, 'PT Sans Narrow', 'Arial', sans-serif;
   font-weight: bolder;
 }
 
@@ -1215,7 +1215,7 @@ nav#lighting-menu-container {
 }
 
 .nav>li>a {
-  padding: 16px 15px;
+  padding: 17px 15px;
 }
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
@@ -1232,6 +1232,7 @@ nav#lighting-menu-container {
 .navbar .nav-pills {
   border-radius: 9px;
   display: inline-block;
+  margin-right: 36px;
   float: none;
 }
 
@@ -1459,17 +1460,15 @@ section#main-blurb p {
 }
 .section-nav .nav-pills > li > a {
   color: #e0e0e0;
-  font-family: myriad-pro-condensed, 'PT Sans Narrow', 'Arial', sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 18px;
+  font-size: 17px;
   text-transform: lowercase;
 }
 .section-nav .nav-pills > li.active > a {
   color: #fcd088;
   border-top: 1px solid #FBD098;
   border-bottom: 1px solid #FBD098;
-  font-weight: 400;
 }
 .section-nav .nav-pills > li > a:focus {
   background-color: #33373c;
@@ -1660,6 +1659,7 @@ div#page {
 }
 .subsection-bar nav {
   display: inline-block;
+
 }
 
 
@@ -1814,22 +1814,64 @@ ul.highlights {
 }
 
 ul#primary-menu li a {
-  font-family: "Quantico", "Helvetica Neue", "Arial", sans-serif;
-  letter-spacing: 0.5px;
+  font-family: "Helvetica Neue", myriad-pro, "Arial", sans-serif;
+  font-size: 0.95em;
+  font-weight: 300;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
 }
 ul#primary-menu ul.sub-menu li a {
-  text-transform: uppercase;
-  font-family: "Ropa Sans", 'PT Sans', 'Myriad Pro', 'Lato', 'Arial', sans-serif;
+  font-family: myriad-pro, 'Lato', 'Arial', sans-serif;
+  letter-spacing: .1px;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: unset;
 }
 
 .under-fixed-nav {
   padding-top: 130px;
 }
 
-.vertically-centered {
-  display: flex;
-  align-items: center;
+.vertical-center, .vertically-centered {
+  /*min-height: 100%;  /* Fallback for vh unit */
+  /*min-height: 100vh; /* You might also want to use
+                          'height' property instead.
+
+                          Note that for percentage values of
+                          'height' or 'min-height' properties,
+                          the 'height' of the parent element
+                          should be specified explicitly.
+
+                          In this case the parent of '.vertical-center'
+                          is the <body> element */
+
+    /* Make it a flex container */
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    /* Align the bootstrap's container vertically */
+      -webkit-box-align : center;
+    -webkit-align-items : center;
+         -moz-box-align : center;
+         -ms-flex-align : center;
+            align-items : center;
+
+    /* In legacy web browsers such as Firefox 9
+       we need to specify the width of the flex container */
+    width: 100%;
+
+    /* Also 'margin: 0 auto' doesn't have any effect on flex items in such web browsers
+       hence the bootstrap's container won't be aligned to the center anymore.
+
+       Therefore, we should use the following declarations to get it centered again */
+           -webkit-box-pack : center;
+              -moz-box-pack : center;
+              -ms-flex-pack : center;
+    -webkit-justify-content : center;
+            justify-content : center;
 }
 
 
@@ -1888,11 +1930,20 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
   .header-info {
     top: 64%;
   }
-  .site-branding, .btn-menu {
-    text-align: center;
-    width: 50%;
+
+  #btn-menu-override {
+    width: 25%;
   }
 
+  #site-branding-override {
+    margin-bottom: 0px;
+    width: 75%;
+  }
+
+  .site-header {
+    padding: 0;
+    z-index: 1031;
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -1904,14 +1955,16 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
     display: block;
   }
   .subsection-heading.mobile h1 {
-    font-size: 2.6em;
+    font-size: 2.7em;
+    font-weight: 400;
+    letter-spacing: -0.2px;
   }
   .subsection-heading.mobile h1.gess {
     text-transform: none;
-    letter-spacing:-3px;
+    letter-spacing: -3px;
   }
   .subsection-title-container {
-    height: 256px;
+    height: 320px;
     position: relative;
   }
   .subsection-title-container::after {
@@ -1949,7 +2002,7 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
     display: block;
     width: 100%;
     position: absolute;
-    top: 146px;
+    top: 188px;
     z-index: 1;
   }
 
@@ -2039,7 +2092,8 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
   }
 
   .subsection-bar {
-    height: 64px
+    height: 64px;
+    top: 72px;
   }
   .section-nav .nav-pills > li > a {
     font-size: 16px;
@@ -2070,6 +2124,16 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
   }
 
 }
+
+
+@media only screen and (min-width: 1440px) {
+
+  .fix-subsection-bar .subsection-bar .subsection-heading.non-mobile {
+    text-align: right;
+  }
+}
+
+
 
 
 
@@ -2163,7 +2227,6 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
   }
 
   .nav-pills > li {
-    min-width: 113px;
     text-align: center;
   }
 
@@ -2185,8 +2248,13 @@ RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE STUFF RESPONSIVE S
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
+  #lighting-subsection-bar {
+    margin-left: -64px;
+    margin-right: -64px;
+  }
+
   main .subsection-heading.non-mobile h2 {
-    font-size: 1.4em;
+    font-size: 1.9em;
   }
 }
 
